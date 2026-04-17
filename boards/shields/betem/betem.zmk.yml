@@ -1,0 +1,12 @@
+file_format: "1"
+id: betem
+name: BETEM
+type: shield
+url: https://github.com/bemeier/betem
+requires: [seeed_xiao]
+siblings:
+  - betem_left
+  - betem_right
+features:
+  - keys
+  - studio
