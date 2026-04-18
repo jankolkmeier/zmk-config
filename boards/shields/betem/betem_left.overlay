@@ -24,3 +24,11 @@
 		, <&xiao_d 8 GPIO_ACTIVE_HIGH>
 		;
 };
+
+&spi0 {
+    status = "disabled";
+};
+
+&spi1 {
+    status = "disabled";
+};
