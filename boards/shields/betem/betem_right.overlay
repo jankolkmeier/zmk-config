@@ -25,6 +25,7 @@
 		;
 };
 
+/*
 &xiao_i2c {
     status = "disabled";
 };
@@ -36,3 +37,4 @@
 &spi1 {
     status = "disabled";
 };
+*/
