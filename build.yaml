@@ -19,13 +19,13 @@
 #
 ---
 include:
-  - board: seeeduino_xiao_ble
+  - board: xiao_ble//zmk
     shield: betem_left
-  - board: seeeduino_xiao_ble
+  - board: xiao_ble//zmk
     shield: betem_right
-  - board: seeeduino_xiao_ble
+  - board: xiao_ble//zmk
     shield: settings_reset
-  - board: seeeduino_xiao_ble
+  - board: xiao_ble//zmk
     shield: betem_dongle
 #  - board: xiao_ble
 #    shield: betem_dongle dongle_display
