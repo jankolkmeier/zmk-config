@@ -28,8 +28,9 @@ include:
   - board: xiao_ble//zmk
     shield: settings_reset
     artifact-name: betem_reset
+#  - board: xiao_ble//zmk
+#    shield: betem_dongle
+#    artifact-name: betem_dongle
   - board: xiao_ble//zmk
-    shield: betem_dongle
-    artifact-name: betem_dongle
-  - board: xiao_ble
     shield: betem_dongle dongle_display
+    artifact-name: betem_dongle_display
