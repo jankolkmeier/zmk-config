@@ -27,3 +27,5 @@ include:
     shield: settings_reset
   - board: xiao_ble
     shield: betem_dongle dongle_display
+  - board: xiao_ble
+    shield: betem_dongle
