@@ -3,7 +3,9 @@ id: betem
 name: BETEM
 type: shield
 url: https://github.com/bemeier/betem
-requires: [seeed_xiao]
+requires:
+  - seeed_xiao
+  - i2c_oled
 siblings:
   - betem_left
   - betem_right

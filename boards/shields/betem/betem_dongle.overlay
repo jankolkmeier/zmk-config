@@ -10,6 +10,7 @@
     chosen {
         zmk,kscan = &mock_kscan;
         zmk,physical-layout = &physical_layout0;
+        zephyr,display = &ssd1306;
     };
 
     mock_kscan: mock_kscan_0 {
@@ -20,8 +21,6 @@
     };
 };
 
-/*
-        zephyr,display = &ssd1306;
 &pinctrl {
     i2c0_default: i2c0_default {
         group1 {
@@ -69,4 +68,3 @@
 &spi1 {
     status = "disabled";
 };
-*/
