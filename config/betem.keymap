@@ -59,9 +59,9 @@
             flavor = "tap-preferred";
         };
 
-        mt: mt {
+        mtt: mtt {
             compatible = "zmk,behavior-hold-tap";
-            label = "MT";
+            label = "MTT";
             bindings = <&kp>, <&kp>;
 
             #binding-cells = <2>;
@@ -77,10 +77,10 @@
 
         BAS {
             bindings = <
-&kp TAB    &kp Q  &kp W        &kp E            &kp R         &kp T            &kp Y            &kp U          &kp I            &kp O        &kp P     &kp BACKSPACE
-&kp LSHFT  &kp A  &hml LALT S  &hml LCTRL D     &hsl LSHFT F  &hml LEFT_GUI G  &hmr LEFT_GUI H  &hsr LSHIFT J  &hmr LCTRL K     &hmr LALT L  &kp SEMI  &kp ENTER
-           &kp Z  &kp X        &kp C            &kp V         &kp B            &kp B            &kp N          &kp M            &kp COMMA    &kp DOT
-                               &mt LALT ESCAPE  &lt 2 BSPC    &lt 1 TAB        &lt 1 RET        &lt 2 SPACE    &mt RALT ESCAPE
+&kp TAB    &kp Q  &kp W        &kp E             &kp R         &kp T            &kp Y            &kp U          &kp I             &kp O        &kp P     &kp BACKSPACE
+&kp LSHFT  &kp A  &hml LALT S  &hml LCTRL D      &hsl LSHFT F  &hml LEFT_GUI G  &hmr LEFT_GUI H  &hsr LSHIFT J  &hmr LCTRL K      &hmr LALT L  &kp SEMI  &kp ENTER
+           &kp Z  &kp X        &kp C             &kp V         &kp B            &kp B            &kp N          &kp M             &kp COMMA    &kp DOT
+                               &mtt LALT ESCAPE  &lt 2 BSPC    &lt 1 TAB        &lt 1 RET        &lt 2 SPACE    &mtt RALT ESCAPE
             >;
         };
 
