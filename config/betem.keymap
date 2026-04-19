@@ -55,7 +55,7 @@
 
         MODS {
             bindings = <
-&none  &none  &none  &none     &none      &none     &none     &none      &none     &none  &none  &none
+&none  &none  &none  &none     &none      &to 1     &none     &none      &none     &none  &none  &none
 &none  &none  &none  &kp LALT  &kp LCTRL  &kp LGUI  &kp LGUI  &kp LCTRL  &kp LALT  &none  &none  &none
        &none  &none  &none     &none      &none     &none     &none      &none     &none  &none
                      &none     &none      &none     &none     &none      &none
@@ -108,12 +108,5 @@
         };
     };
 
-    conditional_layers {
-        compatible = "zmk,conditional-layers";
-
-        HOMEROWMODS {
-            if-layers = <0>;
-            then-layer = <1>;
-        };
-    };
+    conditional_layers { compatible = "zmk,conditional-layers"; };
 };
