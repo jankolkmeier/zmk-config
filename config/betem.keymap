@@ -72,6 +72,36 @@
             hold-trigger-on-release;
             flavor = "tap-preferred";
         };
+
+        hold_reset: hold_reset {
+            compatible = "zmk,behavior-hold-tap";
+            label = "HOLD_RESET";
+            bindings = <&sys_reset>, <&none>;
+
+            #binding-cells = <2>;
+            flavor = "tap-preferred";
+            tapping-term-ms = <2000>;
+        };
+
+        hold_unlock: hold_unlock {
+            compatible = "zmk,behavior-hold-tap";
+            label = "HOLD_UNLOCK";
+            bindings = <&studio_unlock>, <&none>;
+
+            #binding-cells = <2>;
+            tapping-term-ms = <2000>;
+            flavor = "tap-preferred";
+        };
+
+        hold_bootloader: hold_bootloader {
+            compatible = "zmk,behavior-hold-tap";
+            label = "HOLD_BOOTLOADER";
+            bindings = <&bootloader>, <&none>;
+
+            #binding-cells = <2>;
+            tapping-term-ms = <2000>;
+            flavor = "tap-preferred";
+        };
     };
 
     keymap {
@@ -79,19 +109,19 @@
 
         BASE {
             bindings = <
-&kp TAB    &kp Q  &kp W  &kp E             &kp R         &kp T            &kp Y            &kp U         &kp I          &kp O      &kp P     &kp BACKSPACE
-&kp LSHFT  &kp A  &kp S  &hml LALT D       &hml LCTRL F  &hml LEFT_GUI G  &hmr LEFT_GUI H  &hmr LCTRL J  &hmr LALT K    &kp L      &kp SEMI  &kp RSHFT
-           &kp Z  &kp X  &kp C             &kp V         &kp B            &kp B            &kp N         &kp M          &kp COMMA  &kp DOT
-                         &mtt LALT ESCAPE  &lt 1 TAB     &lt 3 SPACE      &lt 2 RET        &lt 1 BSPC    &mtt RALT DEL
+&kp TAB    &kp Q  &kp W  &kp E             &kp R         &kp T            &kp Y            &kp U         &kp I          &kp O    &kp P     &kp BACKSPACE
+&kp LSHFT  &kp A  &kp S  &hml LALT D       &hml LCTRL F  &hml LEFT_GUI G  &hmr LEFT_GUI H  &hmr LCTRL J  &hmr LALT K    &kp L    &kp SEMI  &kp RSHFT
+           &kp Z  &kp X  &kp C             &kp V         &kp B            &kp N            &kp M         &kp COMMA      &kp DOT  &kp FSLH
+                         &mtt LALT ESCAPE  &mo 1         &lt 3 SPACE      &lt 2 RET        &mo 1         &mtt RALT DEL
             >;
         };
 
         SYMB {
             bindings = <
-&trans  &kp EXCL     &kp AT      &kp LEFT_BRACE    &kp RIGHT_BRACE    &kp PIPE         &kp BSLH        &kp N7         &kp N8        &kp N9  &kp MINUS  &trans
-&trans  &kp HASH     &kp DOLLAR  &hml LALT LPAR    &hml LCTRL RPAR    &hml LGUI GRAVE  &hmr LGUI STAR  &hmr LCTRL N4  &hmr LALT N5  &kp N6  &kp PLUS   &trans
-        &kp PERCENT  &kp CARET   &kp LEFT_BRACKET  &kp RIGHT_BRACKET  &kp TILDE        &kp N0          &kp N1         &kp N2        &kp N3  &kp FSLH
-                                 &to 4             &trans             &trans           &trans          &trans         &trans
+&trans  &kp EXCL     &kp AT      &kp LEFT_BRACE    &kp RIGHT_BRACE    &kp PIPE         &kp AMPS        &kp N7         &kp N8        &kp N9  &kp MINUS  &trans
+&trans  &kp HASH     &kp DOLLAR  &hml LALT LPAR    &hml LCTRL RPAR    &hml LGUI GRAVE  &hmr LGUI STAR  &hmr LCTRL N4  &hmr LALT N5  &kp N6  &kp EQUAL  &trans
+        &kp PERCENT  &kp CARET   &kp LEFT_BRACKET  &kp RIGHT_BRACKET  &kp TILDE        &kp N0          &kp N1         &kp N2        &kp N3  &kp BSLH
+                                 &trans            &trans             &trans           &trans          &trans         &trans
             >;
         };
 
@@ -100,25 +130,16 @@
 &trans  &trans  &trans  &trans  &trans  &trans  &kp HOME        &kp PG_DN       &kp PG_UP     &kp END          &none  &trans
 &trans  &trans  &trans  &trans  &trans  &trans  &kp LEFT_ARROW  &kp DOWN_ARROW  &kp UP_ARROW  &kp RIGHT_ARROW  &none  &trans
         &trans  &trans  &trans  &trans  &trans  &none           &none           &none         &none            &none
-                        &to 4   &trans  &trans  &trans          &trans          &trans
+                        &trans  &trans  &trans  &trans          &trans          &trans
             >;
         };
 
         NAVL {
             bindings = <
-&trans  &none  &kp F4   &kp F3   &kp F2   &kp F1  &trans  &trans  &trans  &trans  &trans  &trans
-&trans  &none  &kp F8   &kp F7   &kp F6   &kp F5  &trans  &trans  &trans  &trans  &trans  &trans
-        &none  &kp F12  &kp F11  &kp F10  &kp F9  &trans  &trans  &trans  &trans  &trans
-                        &to 4    &trans   &trans  &trans  &trans  &trans
-            >;
-        };
-
-        SYS {
-            bindings = <
-&studio_unlock  &bootloader  &to 0  &to 0  &to 0  &to 0  &to 0  &to 0  &to 0  &to 0  &to 0  &to 0
-&sys_reset      &to 0        &to 0  &to 0  &to 0  &to 0  &to 0  &to 0  &to 0  &to 0  &to 0  &to 0
-                &to 0        &to 0  &to 0  &to 0  &to 0  &to 0  &to 0  &to 0  &to 0  &to 0
-                                    &to 0  &to 0  &to 0  &to 0  &to 0  &to 0
+&trans  &hold_bootloader 0 0  &kp F4   &kp F3   &kp F2   &kp F1  &trans  &trans  &trans  &trans  &trans  &trans
+&trans  &hold_reset 0 0       &kp F8   &kp F7   &kp F6   &kp F5  &trans  &trans  &trans  &trans  &trans  &trans
+        &hold_unlock 0 0      &kp F12  &kp F11  &kp F10  &kp F9  &trans  &trans  &trans  &trans  &trans
+                                       &trans   &trans   &trans  &trans  &trans  &trans
             >;
         };
     };
