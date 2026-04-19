@@ -118,19 +118,19 @@
 
         NAV {
             bindings = <
-&trans  &trans  &kp F1  &kp F2   &kp F3   &kp F4   &kp HOME          &kp PG_DN                &kp PG_UP         &kp END          &none  &kp DEL
-&trans  &trans  &kp F5  &kp F6   &kp F7   &kp F8   &kp LEFT_ARROW    &kp DOWN_ARROW           &kp UP_ARROW      &kp RIGHT_ARROW  &none  &trans
-        &trans  &kp F9  &kp F10  &kp F11  &kp F12  &hmr LGUI C_PREV  &hmr LCTRL C_PLAY_PAUSE  &hmr LALT C_MUTE  &kp C_NEXT       &none
-                        &trans   &trans   &trans   &trans            &trans                   &trans
+&trans  &trans  &kp F1        &kp F2         &kp F3          &kp F4             &kp HOME          &kp PG_DN                &kp PG_UP         &kp END          &none  &kp DEL
+&trans  &trans  &kp F5        &kp F6         &kp F7          &kp F8             &kp LEFT_ARROW    &kp DOWN_ARROW           &kp UP_ARROW      &kp RIGHT_ARROW  &none  &trans
+        &trans  &hml RALT F9  &hml LALT F10  &hml LCTRL F11  &hml LEFT_GUI F12  &hmr LGUI C_PREV  &hmr LCTRL C_PLAY_PAUSE  &hmr LALT C_MUTE  &kp C_NEXT       &none
+                              &trans         &trans          &trans             &trans            &trans                   &trans
             >;
         };
 
         SYM {
             bindings = <
-&trans  &kp EXCL     &kp AT      &kp LEFT_BRACE          &kp RIGHT_BRACE           &kp PIPE         &kp BSLH      &kp N7         &kp N8            &kp N9  &kp MINUS  &trans
-&trans  &kp HASH     &kp DOLLAR  &kp LPAR                &kp RPAR                  &kp GRAVE        &kp STAR      &kp N4         &kp N5            &kp N6  &kp EQUAL  &trans
-        &kp PERCENT  &kp CARET   &hml LALT LEFT_BRACKET  &hml LCTRL RIGHT_BRACKET  &hml LGUI TILDE  &hmr LGUI N0  &hmr LCTRL N1  &hmr N2 LEFT_ALT  &kp N3  &kp SLASH
-                                 &trans                  &trans                    &trans           &trans        &trans         &trans
+&trans  &kp EXCL     &kp AT           &kp LEFT_BRACE          &kp RIGHT_BRACE           &kp PIPE         &kp BSLH      &kp N7         &kp N8        &kp N9        &kp MINUS  &trans
+&trans  &kp HASH     &kp DOLLAR       &kp LPAR                &kp RPAR                  &kp GRAVE        &kp STAR      &kp N4         &kp N5        &kp N6        &kp EQUAL  &trans
+        &kp PERCENT  &hml RALT CARET  &hml LALT LEFT_BRACKET  &hml LCTRL RIGHT_BRACKET  &hml LGUI TILDE  &hmr LGUI N0  &hmr LCTRL N1  &hmr LALT N2  &hmr N3 RALT  &kp SLASH
+                                      &trans                  &trans                    &trans           &trans        &trans         &trans
             >;
         };
 
