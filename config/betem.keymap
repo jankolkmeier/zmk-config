@@ -119,7 +119,7 @@
 
         c_esc {
             bindings = <&kp ESC>;
-            key-positions = <2 3>;
+            key-positions = <3 2>;
         };
 
         c_hash {
@@ -231,6 +231,11 @@
             bindings = <&kp LEFT_BRACE>;
             key-positions = <31 30>;
         };
+
+        c_excl {
+            bindings = <&kp EXCL>;
+            key-positions = <3 4>;
+        };
     };
 
     keymap {
@@ -273,12 +278,5 @@
         };
     };
 
-    conditional_layers {
-        compatible = "zmk,conditional-layers";
-
-        shiftsym {
-            if-layers = <1 2>;
-            then-layer = <3>;
-        };
-    };
+    conditional_layers { compatible = "zmk,conditional-layers"; };
 };
