@@ -104,6 +104,135 @@
         };
     };
 
+    combos {
+        compatible = "zmk,combos";
+
+        c_at {
+            bindings = <&kp AT>;
+            key-positions = <2 14>;
+        };
+
+        c_tick {
+            bindings = <&kp GRAVE>;
+            key-positions = <14 25>;
+        };
+
+        c_esc {
+            bindings = <&kp ESC>;
+            key-positions = <2 3>;
+        };
+
+        c_hash {
+            bindings = <&kp HASH>;
+            key-positions = <3 15>;
+        };
+
+        c_bslh {
+            bindings = <&kp BSLH>;
+            key-positions = <15 26>;
+        };
+
+        c_cpy {
+            bindings = <&kp LC(C)>;
+            key-positions = <26 25>;
+        };
+
+        c_paste {
+            bindings = <&kp LC(V)>;
+            key-positions = <26 27>;
+        };
+
+        c_cut {
+            bindings = <&kp LC(X)>;
+            key-positions = <27 25>;
+        };
+
+        c_equal {
+            bindings = <&kp EQUAL>;
+            key-positions = <27 16>;
+        };
+
+        c_dollar {
+            bindings = <&kp DOLLAR>;
+            key-positions = <16 4>;
+        };
+
+        c_percent {
+            bindings = <&kp PERCENT>;
+            key-positions = <5 17>;
+        };
+
+        c_tilde {
+            bindings = <&kp TILDE>;
+            key-positions = <17 28>;
+        };
+
+        c_grave {
+            bindings = <&kp GRAVE>;
+            key-positions = <6 18>;
+        };
+
+        c_under {
+            bindings = <&kp UNDERSCORE>;
+            key-positions = <18 29>;
+        };
+
+        c_plus {
+            bindings = <&kp PLUS>;
+            key-positions = <7 19>;
+        };
+
+        c_minus {
+            bindings = <&kp MINUS>;
+            key-positions = <19 30>;
+        };
+
+        c_bspc {
+            bindings = <&kp BACKSPACE>;
+            key-positions = <7 8>;
+        };
+
+        c_star {
+            bindings = <&kp STAR>;
+            key-positions = <8 20>;
+        };
+
+        c_fslh {
+            bindings = <&kp FSLH>;
+            key-positions = <20 31>;
+        };
+
+        c_amps {
+            bindings = <&kp AMPS>;
+            key-positions = <9 21>;
+        };
+
+        c_pipe {
+            bindings = <&kp PIPE>;
+            key-positions = <21 32>;
+        };
+
+        c_lpar {
+            bindings = <&kp LEFT_PARENTHESIS>;
+            key-positions = <19 20>;
+        };
+
+        c_rpar {
+            bindings = <&kp RPAR>;
+            key-positions = <20 21>;
+        };
+
+        c_rbrace {
+            bindings = <&kp RIGHT_BRACE>;
+            key-positions = <31 32>;
+        };
+
+        c_lbrace {
+            bindings = <&kp LEFT_BRACE>;
+            key-positions = <31 30>;
+        };
+    };
+
     keymap {
         compatible = "zmk,keymap";
 
@@ -112,7 +241,7 @@
 &kp ESCAPE  &kp Q  &kp W        &kp E        &kp R         &kp T        &kp Y        &kp U         &kp I            &kp O             &kp P             &kp BSPC
 &kp TAB     &kp A  &kp S        &kp D        &kp F         &kp G        &kp H        &kp J         &kp K            &kp L             &kp SEMI          &kp RET
             &kp Z  &hml RALT X  &hml LALT C  &hml LCTRL V  &hml LGUI B  &hmr LGUI N  &hmr LCTRL M  &hmr LALT COMMA  &hmr RALT PERIOD  &kp SINGLE_QUOTE
-                                &mo 3        &kp SPACE     &kp LSHFT    &kp LSHIFT   &lt 2 SPACE   &mo 1
+                                &mo 3        &kp SPACE     &kp LSHFT    &mo 2        &kp LSHFT     &mo 1
             >;
         };
 
