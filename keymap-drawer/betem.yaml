@@ -47,7 +47,7 @@ layers:
   - F9
   - F8
   - F7
-  - Sft+GUI+ S
+  - SH GUI S
   - ','
   - '7'
   - '8'
@@ -59,7 +59,7 @@ layers:
   - F6
   - F5
   - F4
-  - Alt+ PRNT
+  - Alt PRNT
   - .
   - '4'
   - '5'
@@ -85,38 +85,38 @@ layers:
   NAV:
   - {t: '$$phosphor:bold/triangle$$', type: trans}
   - ''
-  - ^+GUI+ $$phosphor:bold/arrow-left$$
-  - ^+GUI+ F4
-  - ^+GUI+ D
-  - GUI+^+ $$phosphor:bold/arrow-right$$
+  - ^ GUI $$phosphor:bold/arrow-left$$
+  - ^ GUI F4
+  - ^ GUI D
+  - GUI ^ $$phosphor:bold/arrow-right$$
   - HOME
   - PG DN
   - PG UP
   - END
-  - VOL UP
+  - $$phosphor:bold/speaker-high$$
   - {t: '$$phosphor:bold/triangle$$', type: trans}
-  - GUI+ $$phosphor:bold/arrow-line-right$$
+  - GUI $$phosphor:bold/arrow-line-right$$
   - ''
-  - GUI+ $$phosphor:bold/arrow-left$$
-  - GUI+ $$phosphor:bold/arrow-up$$
-  - GUI+ $$phosphor:bold/arrow-down$$
-  - GUI+ $$phosphor:bold/arrow-right$$
+  - GUI $$phosphor:bold/arrow-left$$
+  - GUI $$phosphor:bold/arrow-up$$
+  - GUI $$phosphor:bold/arrow-down$$
+  - GUI $$phosphor:bold/arrow-right$$
   - $$phosphor:bold/arrow-left$$
   - $$phosphor:bold/arrow-down$$
   - $$phosphor:bold/arrow-up$$
   - $$phosphor:bold/arrow-right$$
-  - MUTE
+  - $$phosphor:bold/speaker-none$$
   - {t: '$$phosphor:bold/triangle$$', type: trans}
   - ''
   - AltGr
   - Alt
   - $$phosphor:bold/control$$
   - GUI
-  - PREV
+  - $$phosphor:bold/skip-back$
   - PLAY PAUSE
-  - STOP
-  - NEXT
-  - VOL DN
+  - $$phosphor:bold/stop$$
+  - $$phosphor:bold/skip-forward$$
+  - $$phosphor:bold/speaker-low$$
   - {t: '$$phosphor:bold/triangle$$', type: trans}
   - {t: '$$phosphor:bold/triangle$$', type: trans}
   - {t: '$$phosphor:bold/triangle$$', type: trans}
