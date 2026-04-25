@@ -105,15 +105,15 @@ layers:
   - $$phosphor:bold/arrow-down$$
   - $$phosphor:bold/arrow-up$$
   - $$phosphor:bold/arrow-right$$
-  - $$phosphor:bold/speaker-none$$
+  - $$phosphor:bold/speaker-slash$$
   - {t: '$$phosphor:bold/triangle$$', type: trans}
   - ''
   - AltGr
   - Alt
   - $$phosphor:bold/control$$
   - GUI
-  - $$phosphor:bold/skip-back$
-  - PLAY PAUSE
+  - $$phosphor:bold/skip-back$$
+  - $$phosphor:bold/play-pause$$
   - $$phosphor:bold/stop$$
   - $$phosphor:bold/skip-forward$$
   - $$phosphor:bold/speaker-low$$
