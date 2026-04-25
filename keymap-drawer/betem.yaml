@@ -36,9 +36,9 @@ layers:
   - .
   - ''''
   - $$phosphor:bold/arrow-fat-up$$
-  - $$mdi:keyboard-space$$
-  - NUM
-  - NAV
+  - $$phosphor:bold/arrow-fat-up$$
+  - {t: '$$mdi:keyboard-space$$', h: NUM}
+  - {t: '$$mdi:keyboard-space$$', h: NAV}
   - $$phosphor:bold/arrow-fat-up$$
   - $$phosphor:bold/key-return$$
   NUM:
