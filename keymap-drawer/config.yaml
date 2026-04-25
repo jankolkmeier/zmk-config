@@ -171,16 +171,15 @@ parse_config:
 
     # Modifiers
     LCTRL: $$mdi:apple-keyboard-control$$
-    LALT: $$mdi:apple-keyboard-option$$
+    LALT: Alt
     LSHIFT: $$mdi:apple-keyboard-shift$$
     LSHFT: $$mdi:apple-keyboard-shift$$
     LCMD: $$mdi:apple-keyboard-command$$
     RCTRL: $$mdi:apple-keyboard-control$$
-    RALT: $$mdi:apple-keyboard-option$$
+    RALT: AltGr
     RSHIFT: $$mdi:apple-keyboard-shift$$
     RSHFT: $$mdi:apple-keyboard-shift$$
     RCMD: $$mdi:apple-keyboard-command$$
-    LS(LC(LALT)): $$mdi:triangle$$ # Meh
 
     # Arrows
     UP: $$mdi:arrow-up-bold$$
@@ -254,18 +253,7 @@ draw_config:
   key_ry: 6
   combo_w: 26
   combo_h: 26
-  line_spacing: 1
-  small_pad: 4
-  inner_pad_w: 1.5
-  inner_pad_h: 1.5
-  outer_pad_w: 0
-  outer_pad_h: 0
   append_colon_to_layer_header: false
-  # ideal value depends on the font size defined in svg_style and width of the boxes
-  shrink_wide_legends: 5
-  glyph_tap_size: 22
-  glyph_hold_size: 16
-  glyph_shifted_size: 16
   svg_style: |
     :root {
       --color-bg: #8ACB88;
@@ -276,6 +264,11 @@ draw_config:
     rect.key {
       fill: var(--color-primary);
       stroke-width: 0;
+    }
+
+    rect.key text {
+      color: var(--color-secondary);
+      fill: var(--color-secondary);
     }
 
     rect.combo {
