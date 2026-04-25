@@ -94,7 +94,7 @@ parse_config:
   toggle_label: toggle
   tap_toggle_label: tap-toggle
   trans_legend:
-    t: ▽
+    t: $$phosphor:bold/triangle$$
     type: trans
   layer_legend_map: {}
   mark_alternate_layer_activators: false
@@ -107,8 +107,8 @@ parse_config:
     right_alt: AltGr
     left_gui: GUI
     right_gui: GUI
-    keycode_combiner: '{mods} + {key}'
-    mod_combiner: '{mod_1} + {mod_2}'
+    keycode_combiner: '{mods}+ {key}'
+    mod_combiner: '{mod_1}+{mod_2}'
     special_combinations:
       left_ctrl+left_alt+left_gui+left_shift: Hyper
       left_ctrl+left_alt+left_shift: Meh
@@ -116,10 +116,16 @@ parse_config:
   zmk_keycode_map:
     PRINTSCREEN: PRNT
     LSHIFT: $$phosphor:bold/arrow-fat-up$$
+    LSHFT: $$phosphor:bold/arrow-fat-up$$
     RSHIFT: $$phosphor:bold/arrow-fat-up$$
+    RSHFT: $$phosphor:bold/arrow-fat-up$$
     RCTRL: $$phosphor:bold/control$$
     LCTRL: $$phosphor:bold/control$$
     SPACE: $$mdi:keyboard-space$$
+    BACKSPACE: $$phosphor:bold/backspace$$
+    RET: $$phosphor:bold/key-return$$
+    LALT: Alt
+    RALT: AltGr
     RCMD: GUI
     LCMD: GUI
     LGUI: GUI
