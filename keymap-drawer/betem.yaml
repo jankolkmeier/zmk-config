@@ -1,7 +1,7 @@
 layout: {zmk_keyboard: betem}
 layers:
   BAS:
-  - $$mdi:keyboard-esc$$
+  - ESC
   - Q
   - W
   - E
@@ -12,8 +12,8 @@ layers:
   - I
   - O
   - P
-  - {t: '$$mdi:backspace$$', type: backspace}
-  - $$mdi:keyboard-tab$$
+  - BACKSPACE
+  - TAB
   - A
   - S
   - D
@@ -23,23 +23,23 @@ layers:
   - J
   - K
   - L
-  - {t: ;, s: ':'}
+  - ;
   - RET
   - Z
-  - {t: X, h: AltGr}
-  - {t: C, h: Alt}
-  - {t: V, h: '$$mdi:apple-keyboard-control$$'}
-  - {t: B, h: '$$mdi:apple-keyboard-command$$'}
-  - {t: N, h: '$$mdi:apple-keyboard-command$$'}
-  - {t: M, h: '$$mdi:apple-keyboard-control$$'}
-  - {t: ',', h: Alt, s: <}
-  - {t: PERIOD, h: AltGr}
-  - {t: '''', s: '"'}
-  - $$mdi:apple-keyboard-shift$$
-  - $$mdi:keyboard-space$$
+  - {t: X, h: RALT}
+  - {t: C, h: LALT}
+  - {t: V, h: LCTRL}
+  - {t: B, h: LGUI}
+  - {t: N, h: LGUI}
+  - {t: M, h: LCTRL}
+  - {t: ',', h: LALT}
+  - {t: ., h: RALT}
+  - ''''
+  - LSHIFT
+  - SPACE
   - NUM
   - NAV
-  - $$mdi:apple-keyboard-shift$$
+  - RSHFT
   - RET
   NUM:
   - {t: ▽, type: trans}
@@ -48,11 +48,11 @@ layers:
   - F8
   - F7
   - Sft+Gui+S
-  - {t: ',', s: <}
+  - ','
   - '7'
   - '8'
   - '9'
-  - {t: '$$mdi:minus-circle-outline$$', type: none}
+  - ''
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - F11
@@ -60,21 +60,21 @@ layers:
   - F5
   - F4
   - Alt+PRINTSCREEN
-  - PERIOD
+  - .
   - '4'
   - '5'
   - '6'
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - F12
-  - {t: F3, h: AltGr}
-  - {t: F2, h: Alt}
-  - {t: F1, h: '$$mdi:apple-keyboard-control$$'}
+  - {t: F3, h: RALT}
+  - {t: F2, h: LALT}
+  - {t: F1, h: LCTRL}
   - LEFT GUI
-  - {t: '0', h: '$$mdi:apple-keyboard-command$$'}
-  - {t: '1', h: '$$mdi:apple-keyboard-control$$'}
-  - {t: '2', h: Alt}
-  - {t: '3', h: AltGr}
+  - {t: '0', h: LGUI}
+  - {t: '1', h: LCTRL}
+  - {t: '2', h: LALT}
+  - {t: '3', h: RALT}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
@@ -84,39 +84,39 @@ layers:
   - {t: ▽, type: trans}
   NAV:
   - {t: ▽, type: trans}
-  - {t: '$$mdi:minus-circle-outline$$', type: none}
-  - Ctl+Gui+$$mdi:arrow-left-bold$$
+  - ''
+  - Ctl+Gui+LEFT
   - Ctl+Gui+F4
   - Ctl+Gui+D
-  - Gui+Ctl+$$mdi:arrow-right-bold$$
+  - Gui+Ctl+RIGHT
   - HOME
-  - $$mdi:transfer-down$$
-  - $$mdi:transfer-up$$
+  - PG DN
+  - PG UP
   - END
-  - $$mdi:volume-high$$
+  - VOL UP
   - {t: ▽, type: trans}
-  - Gui+$$mdi:keyboard-tab$$
-  - {t: '$$mdi:minus-circle-outline$$', type: none}
-  - Gui+$$mdi:arrow-left-bold$$
-  - Gui+$$mdi:arrow-up-bold$$
-  - Gui+$$mdi:arrow-down-bold$$
-  - Gui+$$mdi:arrow-right-bold$$
-  - $$mdi:arrow-left-bold$$
-  - $$mdi:arrow-down-bold$$
-  - $$mdi:arrow-up-bold$$
-  - $$mdi:arrow-right-bold$$
-  - $$mdi:volume-off$$
+  - Gui+TAB
+  - ''
+  - Gui+LEFT
+  - Gui+UP
+  - Gui+DOWN
+  - Gui+RIGHT
+  - LEFT
+  - DOWN
+  - UP
+  - RIGHT
+  - MUTE
   - {t: ▽, type: trans}
-  - {t: '$$mdi:minus-circle-outline$$', type: none}
-  - AltGr
-  - Alt
-  - $$mdi:apple-keyboard-control$$
-  - $$mdi:apple-keyboard-command$$
-  - $$mdi:skip-previous$$
+  - ''
+  - RALT
+  - LALT
+  - LCTRL
+  - LGUI
+  - PREV
   - PLAY PAUSE
-  - $$mdi:stop$$
-  - $$mdi:skip-next$$
-  - $$mdi:volume-low$$
+  - STOP
+  - NEXT
+  - VOL DN
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
@@ -127,23 +127,21 @@ combos:
 - p: [3, 15]
   k: '@'
 - p: [14, 2]
-  k: {t: '`', s: '~'}
+  k: '`'
 - p: [3, 2]
-  k: $$mdi:keyboard-esc$$
+  k: ESC
 - p: [4, 3]
   k: '#'
 - p: [15, 26]
-  k: {t: \, s: '|'}
+  k: \
 - p: [26, 25]
   k: Ctl+C
 - p: [26, 27]
   k: Ctl+V
 - p: [27, 25]
   k: Ctl+X
-  a: bottom
-  o: 0.1
 - p: [27, 16]
-  k: {t: '=', s: +}
+  k: '='
 - p: [16, 4]
   k: $
 - p: [5, 17]
@@ -157,13 +155,13 @@ combos:
 - p: [7, 19]
   k: +
 - p: [19, 30]
-  k: {t: '-', s: _}
+  k: '-'
 - p: [8, 9]
-  k: {t: '$$mdi:backspace$$', type: backspace}
+  k: BACKSPACE
 - p: [8, 20]
   k: '*'
 - p: [20, 31]
-  k: {t: /, s: '?'}
+  k: /
 - p: [21, 9]
   k: '|'
 - p: [19, 20]
@@ -171,12 +169,12 @@ combos:
 - p: [20, 21]
   k: )
 - p: [31, 32]
-  k: {t: ']', s: '}'}
+  k: ']'
 - p: [31, 30]
-  k: {t: '[', s: '{'}
+  k: '['
 - p: [15, 16]
   k: '!'
 - p: [14, 15]
-  k: $$mdi:keyboard-tab$$
+  k: TAB
 - p: [8, 7]
   k: '&'
