@@ -227,25 +227,25 @@
 &kp ESC  &kp Q  &kp W        &kp E        &kp R         &kp T        &kp Y        &kp U         &kp I            &kp O             &kp P             &kp BACKSPACE
 &kp TAB  &kp A  &kp S        &kp D        &kp F         &kp G        &kp H        &kp J         &kp K            &kp L             &kp SEMI          &kp RET
          &kp Z  &hml RALT X  &hml LALT C  &hml LCTRL V  &hml LGUI B  &hmr LGUI N  &hmr LCTRL M  &hmr LALT COMMA  &hmr RALT PERIOD  &kp SINGLE_QUOTE
-                             &mo 2        &mo 1         &kp SPACE    &kp RET      &kp LSHFT     &mo 2
-            >;
-        };
-
-        NAV {
-            bindings = <
-&trans  &none  &kp F1   &kp F2         &kp F3          &kp F4             &kp HOME        &kp PG_DN       &kp PG_UP     &kp END          &kp C_PREV        &trans
-&trans  &none  &kp F5   &kp F6         &kp F7          &kp F8             &kp LEFT_ARROW  &kp DOWN_ARROW  &kp UP_ARROW  &kp RIGHT_ARROW  &kp C_PLAY_PAUSE  &trans
-        &none  &kp F11  &hml LALT F10  &hml LCTRL F11  &hml LEFT_GUI F12  &kp LGUI        &kp LCTRL       &kp LALT      &kp C_MUTE       &kp C_NEXT
-                        &trans         &trans          &trans             &trans          &trans          &trans
+                             &kp LSHIFT   &kp SPACE     &mo 1        &mo 2        &kp RSHFT     &kp RET
             >;
         };
 
         NUM {
             bindings = <
-&trans  &none  &none           &kp UP_ARROW    &none            &none     &none   &kp N7  &kp N8  &kp N9  &none  &trans
-&trans  &none  &kp LEFT_ARROW  &kp DOWN_ARROW  &kp RIGHT_ARROW  &none     &none   &kp N4  &kp N5  &kp N6  &none  &trans
-        &none  &kp RALT        &kp LALT        &kp LCTRL        &kp LGUI  &kp N0  &kp N1  &kp N2  &kp N3  &none
-                               &trans          &trans           &trans    &trans  &trans  &trans
+&trans  &kp F10  &kp F9        &kp F8        &kp F7         &kp LS(LG(S))        &kp COMMA     &kp N7         &kp N8        &kp N9        &none   &trans
+&trans  &kp F11  &kp F6        &kp F5        &kp F4         &kp LA(PRINTSCREEN)  &kp PERIOD    &kp N4         &kp N5        &kp N6        &trans  &trans
+        &kp F12  &hml RALT F3  &hml LALT F2  &hml LCTRL F1  &kp LEFT_GUI         &hmr LGUI N0  &hmr LCTRL N1  &hmr LALT N2  &hmr RALT N3  &trans
+                               &trans        &trans         &trans               &trans        &trans         &trans
+            >;
+        };
+
+        NAV {
+            bindings = <
+&trans       &none  &kp LC(LG(LEFT))  &kp LC(LG(F4))  &kp LC(LG(D))  &kp LG(LC(RIGHT))  &kp HOME    &kp PG_DN         &kp PG_UP   &kp END     &kp C_VOL_UP  &trans
+&kp LG(TAB)  &none  &kp LG(LEFT)      &kp LG(UP)      &kp LG(DOWN)   &kp LG(RIGHT)      &kp LEFT    &kp DOWN          &kp UP      &kp RIGHT   &kp C_MUTE    &trans
+             &none  &kp RALT          &kp LALT        &kp LCTRL      &kp LGUI           &kp C_PREV  &kp C_PLAY_PAUSE  &kp C_STOP  &kp C_NEXT  &kp C_VOL_DN
+                                      &trans          &trans         &trans             &trans      &trans            &trans
             >;
         };
     };
