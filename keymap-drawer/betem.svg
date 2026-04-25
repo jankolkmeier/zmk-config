@@ -182,13 +182,13 @@ text.label {
     font-size: 36px;
     text-anchor: start;
     paint-order: stroke;
-    fill: var(--color--secondary);
-    translate: 581px 146px;
+    fill: var(--color-secondary);
+    translate: 394px 105px;
     stroke-width: 0;
     font-size: 24px;
 }
 .layer-Fn text.label {
-    translate: 581px 164px;
+    translate: 394px 105px;
 }
 
 rect.key {
@@ -198,6 +198,11 @@ rect.key {
 
 rect.key.held {
   fill: var(--color-accent);
+}
+
+text.key, .key.glyph {
+  fill: var(--color-secondary);
+  color: var(--color-secondary);
 }
 
 rect.combo {
@@ -212,7 +217,7 @@ rect.combo {
   stroke-dasharray: 4 3;
 }
 
-.combo text, .combo {
+.combo text, .combo.glyph {
   color: var(--color-primary);
   fill: var(--color-primary);
 }
