@@ -34,13 +34,14 @@ draw_config:
       --color-primary: #E4FDE1;
       --color-secondary: #575761;
       --color-accent: #e9ea04;
+      --color-gray: #333;
     }
 
     text.label {
         font-size: 36px;
         text-anchor: start;
         paint-order: stroke;
-        fill: var(--color-secondary);
+        fill: var(--color-gray);
         translate: 394px 105px;
         stroke-width: 0;
         font-size: 24px;
@@ -93,7 +94,7 @@ draw_config:
       display: none;
     }
   footer_text: ""
-  shrink_wide_legends: 7
+  shrink_wide_legends: 5
   style_layer_activators: true
   glyph_tap_size: 14
   glyph_hold_size: 12
@@ -114,14 +115,14 @@ parse_config:
   modifier_fn_map:
     left_ctrl: ^
     right_ctrl: ^
-    left_shift: Sft
-    right_shift: Sft
+    left_shift: SH 
+    right_shift: SH 
     left_alt: Alt
     right_alt: AltGr
     left_gui: GUI
     right_gui: GUI
-    keycode_combiner: '{mods}+ {key}'
-    mod_combiner: '{mod_1}+{mod_2}'
+    keycode_combiner: '{mods} {key}'
+    mod_combiner: '{mod_1} {mod_2}'
     special_combinations:
       left_ctrl+left_alt+left_gui+left_shift: Hyper
       left_ctrl+left_alt+left_shift: Meh
@@ -143,6 +144,13 @@ parse_config:
     DOWN: $$phosphor:bold/arrow-down$$
     BACKSPACE: $$phosphor:bold/backspace$$
     RET: $$phosphor:bold/key-return$$
+    C_MUTE: $$phosphor:bold/speaker-none$$
+    C_VOL_UP: $$phosphor:bold/speaker-high$$
+    C_VOL_DN: $$phosphor:bold/speaker-low$$
+    C_NEXT: $$phosphor:bold/skip-forward$$
+    C_PREV: $$phosphor:bold/skip-back$
+    C_PP: $$phosphor:bold/play-pause$$
+    C_STOP: $$phosphor:bold/stop$$
     LALT: Alt
     RALT: AltGr
     RCMD: GUI
