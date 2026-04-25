@@ -26,14 +26,14 @@ layers:
   - {t: ;, s: ':'}
   - RET
   - Z
-  - {t: X, h: '$$mdi:apple-keyboard-option$$'}
-  - {t: C, h: '$$mdi:apple-keyboard-option$$'}
+  - {t: X, h: AltGr}
+  - {t: C, h: Alt}
   - {t: V, h: '$$mdi:apple-keyboard-control$$'}
   - {t: B, h: LGUI}
   - {t: N, h: LGUI}
   - {t: M, h: '$$mdi:apple-keyboard-control$$'}
-  - {t: ',', h: '$$mdi:apple-keyboard-option$$', s: <}
-  - {t: PERIOD, h: '$$mdi:apple-keyboard-option$$'}
+  - {t: ',', h: Alt, s: <}
+  - {t: PERIOD, h: AltGr}
   - {t: '''', s: '"'}
   - $$mdi:apple-keyboard-shift$$
   - $$mdi:keyboard-space$$
@@ -67,14 +67,14 @@ layers:
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
   - F12
-  - {t: F3, h: '$$mdi:apple-keyboard-option$$'}
-  - {t: F2, h: '$$mdi:apple-keyboard-option$$'}
+  - {t: F3, h: AltGr}
+  - {t: F2, h: Alt}
   - {t: F1, h: '$$mdi:apple-keyboard-control$$'}
   - LEFT GUI
   - {t: '0', h: LGUI}
   - {t: '1', h: '$$mdi:apple-keyboard-control$$'}
-  - {t: '2', h: '$$mdi:apple-keyboard-option$$'}
-  - {t: '3', h: '$$mdi:apple-keyboard-option$$'}
+  - {t: '2', h: Alt}
+  - {t: '3', h: AltGr}
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
@@ -108,8 +108,8 @@ layers:
   - $$mdi:volume-off$$
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:minus-circle-outline$$', type: none}
-  - $$mdi:apple-keyboard-option$$
-  - $$mdi:apple-keyboard-option$$
+  - AltGr
+  - Alt
   - $$mdi:apple-keyboard-control$$
   - LGUI
   - $$mdi:skip-previous$$
