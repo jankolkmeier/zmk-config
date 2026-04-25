@@ -144,12 +144,13 @@ parse_config:
     DOWN: $$phosphor:bold/arrow-down$$
     BACKSPACE: $$phosphor:bold/backspace$$
     RET: $$phosphor:bold/key-return$$
-    C_MUTE: $$phosphor:bold/speaker-none$$
+    C_MUTE: $$phosphor:bold/speaker-slash$$
     C_VOL_UP: $$phosphor:bold/speaker-high$$
     C_VOL_DN: $$phosphor:bold/speaker-low$$
     C_NEXT: $$phosphor:bold/skip-forward$$
-    C_PREV: $$phosphor:bold/skip-back$
+    C_PREV: $$phosphor:bold/skip-back$$
     C_PP: $$phosphor:bold/play-pause$$
+    C_PLAY_PAUSE: $$phosphor:bold/play-pause$$
     C_STOP: $$phosphor:bold/stop$$
     LALT: Alt
     RALT: AltGr
