@@ -33,11 +33,16 @@ draw_config:
       --color-bg: #8ACB88;
       --color-primary: #E4FDE1;
       --color-secondary: #575761;
+      --color-accent: #e9ea04;
     }
 
     rect.key {
       fill: var(--color-primary);
       stroke-width: 0;
+    }
+
+    rect.key.held {
+      fill: var(--color-accent);
     }
 
     rect.combo {
@@ -102,13 +107,14 @@ parse_config:
     right_alt: AltGr
     left_gui: GUI
     right_gui: GUI
-    keycode_combiner: '{mods}+{key}'
-    mod_combiner: '{mod_1}+{mod_2}'
+    keycode_combiner: '{mods} + {key}'
+    mod_combiner: '{mod_1} + {mod_2}'
     special_combinations:
       left_ctrl+left_alt+left_gui+left_shift: Hyper
       left_ctrl+left_alt+left_shift: Meh
   zmk_remove_keycode_prefix: []
   zmk_keycode_map:
+    PRINTSCREEN: 
     LSHIFT: $$phosphor:bold/arrow-fat-up$$
     RSHIFT: $$phosphor:bold/arrow-fat-up$$
     RCTRL: $$phosphor:bold/control$$
