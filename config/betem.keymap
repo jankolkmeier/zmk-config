@@ -199,12 +199,12 @@
         };
 
         c_rbrace {
-            bindings = <&kp RIGHT_BRACE>;
+            bindings = <&kp RIGHT_BRACKET>;
             key-positions = <31 32>;
         };
 
         c_lbrace {
-            bindings = <&kp LEFT_BRACE>;
+            bindings = <&kp LEFT_BRACKET>;
             key-positions = <31 30>;
         };
 
