@@ -94,14 +94,14 @@ parse_config:
   layer_legend_map: {}
   mark_alternate_layer_activators: false
   modifier_fn_map:
-    left_ctrl: Ctl
-    right_ctrl: Ctl
+    left_ctrl: ^
+    right_ctrl: ^
     left_shift: Sft
     right_shift: Sft
     left_alt: Alt
     right_alt: AltGr
-    left_gui: Gui
-    right_gui: Gui
+    left_gui: GUI
+    right_gui: GUI
     keycode_combiner: '{mods}+{key}'
     mod_combiner: '{mod_1}+{mod_2}'
     special_combinations:
@@ -109,6 +109,15 @@ parse_config:
       left_ctrl+left_alt+left_shift: Meh
   zmk_remove_keycode_prefix: []
   zmk_keycode_map:
+    LSHIFT: $$phosphor:bold/arrow-fat-up$$
+    RSHIFT: $$phosphor:bold/arrow-fat-up$$
+    RCTRL: $$phosphor:bold/control$$
+    LCTRL: $$phosphor:bold/control$$
+    SPACE: $$mdi:keyboard-space$$
+    RCMD: GUI
+    LCMD: GUI
+    LGUI: GUI
+    RGUI: GUI
     EXCLAMATION: '!'
     EXCL: '!'
     AT_SIGN: '@'
@@ -173,6 +182,20 @@ parse_config:
     NON_US_HASH: '#'
     NUHS: '#'
     TILDE2: '~'
-  zmk_combos: {}
+  zmk_combos:
+    c_bspc:
+      k: $$phosphor:bold/backspace$$
+    c_esc:
+      k: $$phosphor:bold/x-circle$$
+    c_cut:
+      k: $$phosphor:bold/file-x$$
+      a: bottom
+      o: 0.1
+    c_paste:
+      k: $$phosphor:bold/file-plus$$
+    c_cpy:
+      k: $$phosphor:bold/files$$
+    c_tab:
+      k: $$phosphor:bold/arrow-line-right$$
   zmk_preamble: '#define KEYMAP_DRAWER'
   zmk_additional_includes: []
