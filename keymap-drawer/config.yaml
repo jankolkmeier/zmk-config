@@ -124,6 +124,8 @@ parse_config:
     keycode_combiner: '{mods} {key}'
     mod_combiner: '{mod_1} {mod_2}'
     special_combinations:
+      left_gui+left_ctrl+left_arrow: XYZ
+      left_ctrl+left_gui+left_arrow: YZZ
       left_ctrl+left_alt+left_gui+left_shift: Hyper
       left_ctrl+left_alt+left_shift: Meh
   zmk_remove_keycode_prefix: []
