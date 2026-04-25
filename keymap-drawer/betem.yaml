@@ -29,8 +29,8 @@ layers:
   - {t: X, h: AltGr}
   - {t: C, h: Alt}
   - {t: V, h: '$$mdi:apple-keyboard-control$$'}
-  - {t: B, h: LGUI}
-  - {t: N, h: LGUI}
+  - {t: B, h: '$$mdi:apple-keyboard-command$$'}
+  - {t: N, h: '$$mdi:apple-keyboard-command$$'}
   - {t: M, h: '$$mdi:apple-keyboard-control$$'}
   - {t: ',', h: Alt, s: <}
   - {t: PERIOD, h: AltGr}
@@ -42,7 +42,7 @@ layers:
   - $$mdi:apple-keyboard-shift$$
   - RET
   NUM:
-  - {t: '$$mdi:transfer$$', type: trans}
+  - {t: ▽, type: trans}
   - F10
   - F9
   - F8
@@ -53,8 +53,8 @@ layers:
   - '8'
   - '9'
   - {t: '$$mdi:minus-circle-outline$$', type: none}
-  - {t: '$$mdi:transfer$$', type: trans}
-  - {t: '$$mdi:transfer$$', type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
   - F11
   - F6
   - F5
@@ -64,26 +64,26 @@ layers:
   - '4'
   - '5'
   - '6'
-  - {t: '$$mdi:transfer$$', type: trans}
-  - {t: '$$mdi:transfer$$', type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
   - F12
   - {t: F3, h: AltGr}
   - {t: F2, h: Alt}
   - {t: F1, h: '$$mdi:apple-keyboard-control$$'}
   - LEFT GUI
-  - {t: '0', h: LGUI}
+  - {t: '0', h: '$$mdi:apple-keyboard-command$$'}
   - {t: '1', h: '$$mdi:apple-keyboard-control$$'}
   - {t: '2', h: Alt}
   - {t: '3', h: AltGr}
-  - {t: '$$mdi:transfer$$', type: trans}
-  - {t: '$$mdi:transfer$$', type: trans}
-  - {t: '$$mdi:transfer$$', type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
   - {type: held}
-  - {t: '$$mdi:transfer$$', type: trans}
-  - {t: '$$mdi:transfer$$', type: trans}
-  - {t: '$$mdi:transfer$$', type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
   NAV:
-  - {t: '$$mdi:transfer$$', type: trans}
+  - {t: ▽, type: trans}
   - {t: '$$mdi:minus-circle-outline$$', type: none}
   - Ctl+Gui+$$mdi:arrow-left-bold$$
   - Ctl+Gui+F4
@@ -94,7 +94,7 @@ layers:
   - $$mdi:transfer-up$$
   - END
   - $$mdi:volume-high$$
-  - {t: '$$mdi:transfer$$', type: trans}
+  - {t: ▽, type: trans}
   - Gui+$$mdi:keyboard-tab$$
   - {t: '$$mdi:minus-circle-outline$$', type: none}
   - Gui+$$mdi:arrow-left-bold$$
@@ -106,23 +106,23 @@ layers:
   - $$mdi:arrow-up-bold$$
   - $$mdi:arrow-right-bold$$
   - $$mdi:volume-off$$
-  - {t: '$$mdi:transfer$$', type: trans}
+  - {t: ▽, type: trans}
   - {t: '$$mdi:minus-circle-outline$$', type: none}
   - AltGr
   - Alt
   - $$mdi:apple-keyboard-control$$
-  - LGUI
+  - $$mdi:apple-keyboard-command$$
   - $$mdi:skip-previous$$
   - PLAY PAUSE
-  - STOP
+  - $$mdi:stop$$
   - $$mdi:skip-next$$
   - $$mdi:volume-low$$
-  - {t: '$$mdi:transfer$$', type: trans}
-  - {t: '$$mdi:transfer$$', type: trans}
-  - {t: '$$mdi:transfer$$', type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
   - {type: held}
-  - {t: '$$mdi:transfer$$', type: trans}
-  - {t: '$$mdi:transfer$$', type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
 combos:
 - p: [3, 15]
   k: '@'
