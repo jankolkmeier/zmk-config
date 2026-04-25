@@ -322,34 +322,42 @@ svg.keymap {
 <g transform="translate(146, 100) rotate(-3.0)" class="key keypos-14">
 <rect rx="6" ry="6" x="-26" y="-26" width="52" height="52" class="key"/>
 <text x="0" y="0" class="key tap">S</text>
+<text x="0" y="24" class="key hold">AltGr</text>
 </g>
 <g transform="translate(208, 84)" class="key keypos-15">
 <rect rx="6" ry="6" x="-26" y="-26" width="52" height="52" class="key"/>
 <text x="0" y="0" class="key tap">D</text>
+<text x="0" y="24" class="key hold">Alt</text>
 </g>
 <g transform="translate(264, 98)" class="key keypos-16">
 <rect rx="6" ry="6" x="-26" y="-26" width="52" height="52" class="key"/>
 <text x="0" y="0" class="key tap">F</text>
+<use href="#phosphor:bold/control" xlink:href="#phosphor:bold/control" x="-6" y="12" height="12" width="12.0" class="key hold glyph phosphor:bold/control"/>
 </g>
 <g transform="translate(320, 104)" class="key keypos-17">
 <rect rx="6" ry="6" x="-26" y="-26" width="52" height="52" class="key"/>
 <text x="0" y="0" class="key tap">G</text>
+<text x="0" y="24" class="key hold">GUI</text>
 </g>
 <g transform="translate(516, 104)" class="key keypos-18">
 <rect rx="6" ry="6" x="-26" y="-26" width="52" height="52" class="key"/>
 <text x="0" y="0" class="key tap">H</text>
+<text x="0" y="24" class="key hold">GUI</text>
 </g>
 <g transform="translate(572, 98)" class="key keypos-19">
 <rect rx="6" ry="6" x="-26" y="-26" width="52" height="52" class="key"/>
 <text x="0" y="0" class="key tap">J</text>
+<use href="#phosphor:bold/control" xlink:href="#phosphor:bold/control" x="-6" y="12" height="12" width="12.0" class="key hold glyph phosphor:bold/control"/>
 </g>
 <g transform="translate(628, 84)" class="key keypos-20">
 <rect rx="6" ry="6" x="-26" y="-26" width="52" height="52" class="key"/>
 <text x="0" y="0" class="key tap">K</text>
+<text x="0" y="24" class="key hold">Alt</text>
 </g>
 <g transform="translate(690, 100) rotate(3.0)" class="key keypos-21">
 <rect rx="6" ry="6" x="-26" y="-26" width="52" height="52" class="key"/>
 <text x="0" y="0" class="key tap">L</text>
+<text x="0" y="24" class="key hold">AltGr</text>
 </g>
 <g transform="translate(747, 142) rotate(5.0)" class="key keypos-22">
 <rect rx="6" ry="6" x="-26" y="-26" width="52" height="52" class="key"/>
@@ -366,42 +374,34 @@ svg.keymap {
 <g transform="translate(149, 156) rotate(-3.0)" class="key keypos-25">
 <rect rx="6" ry="6" x="-26" y="-26" width="52" height="52" class="key"/>
 <text x="0" y="0" class="key tap">X</text>
-<text x="0" y="24" class="key hold">AltGr</text>
 </g>
 <g transform="translate(208, 140)" class="key keypos-26">
 <rect rx="6" ry="6" x="-26" y="-26" width="52" height="52" class="key"/>
 <text x="0" y="0" class="key tap">C</text>
-<text x="0" y="24" class="key hold">Alt</text>
 </g>
 <g transform="translate(264, 154)" class="key keypos-27">
 <rect rx="6" ry="6" x="-26" y="-26" width="52" height="52" class="key"/>
 <text x="0" y="0" class="key tap">V</text>
-<use href="#phosphor:bold/control" xlink:href="#phosphor:bold/control" x="-6" y="12" height="12" width="12.0" class="key hold glyph phosphor:bold/control"/>
 </g>
 <g transform="translate(320, 160)" class="key keypos-28">
 <rect rx="6" ry="6" x="-26" y="-26" width="52" height="52" class="key"/>
 <text x="0" y="0" class="key tap">B</text>
-<text x="0" y="24" class="key hold">GUI</text>
 </g>
 <g transform="translate(516, 160)" class="key keypos-29">
 <rect rx="6" ry="6" x="-26" y="-26" width="52" height="52" class="key"/>
 <text x="0" y="0" class="key tap">N</text>
-<text x="0" y="24" class="key hold">GUI</text>
 </g>
 <g transform="translate(572, 154)" class="key keypos-30">
 <rect rx="6" ry="6" x="-26" y="-26" width="52" height="52" class="key"/>
 <text x="0" y="0" class="key tap">M</text>
-<use href="#phosphor:bold/control" xlink:href="#phosphor:bold/control" x="-6" y="12" height="12" width="12.0" class="key hold glyph phosphor:bold/control"/>
 </g>
 <g transform="translate(628, 140)" class="key keypos-31">
 <rect rx="6" ry="6" x="-26" y="-26" width="52" height="52" class="key"/>
 <text x="0" y="0" class="key tap">,</text>
-<text x="0" y="24" class="key hold">Alt</text>
 </g>
 <g transform="translate(687, 156) rotate(3.0)" class="key keypos-32">
 <rect rx="6" ry="6" x="-26" y="-26" width="52" height="52" class="key"/>
 <text x="0" y="0" class="key tap">.</text>
-<text x="0" y="24" class="key hold">AltGr</text>
 </g>
 <g transform="translate(742, 197) rotate(5.0)" class="key keypos-33">
 <rect rx="6" ry="6" x="-26" y="-26" width="52" height="52" class="key"/>
@@ -608,36 +608,44 @@ svg.keymap {
 <g transform="translate(146, 100) rotate(-3.0)" class="key keypos-14">
 <rect rx="6" ry="6" x="-26" y="-26" width="52" height="52" class="key"/>
 <text x="0" y="0" class="key tap">F6</text>
+<text x="0" y="24" class="key hold">AltGr</text>
 </g>
 <g transform="translate(208, 84)" class="key keypos-15">
 <rect rx="6" ry="6" x="-26" y="-26" width="52" height="52" class="key"/>
 <text x="0" y="0" class="key tap">F5</text>
+<text x="0" y="24" class="key hold">Alt</text>
 </g>
 <g transform="translate(264, 98)" class="key keypos-16">
 <rect rx="6" ry="6" x="-26" y="-26" width="52" height="52" class="key"/>
 <text x="0" y="0" class="key tap">F4</text>
+<use href="#phosphor:bold/control" xlink:href="#phosphor:bold/control" x="-6" y="12" height="12" width="12.0" class="key hold glyph phosphor:bold/control"/>
 </g>
 <g transform="translate(320, 104)" class="key keypos-17">
 <rect rx="6" ry="6" x="-26" y="-26" width="52" height="52" class="key"/>
 <text x="0" y="0" class="key tap">
-<tspan x="0" dy="-0.6em">Alt</tspan><tspan x="0" dy="1.2em">PRNT</tspan>
+<tspan x="0" dy="-0.9em">Alt</tspan><tspan x="0" dy="1.2em">PRNT</tspan>
 </text>
+<text x="0" y="24" class="key hold"><tspan style="font-size: 62%">LEFT CO…</tspan></text>
 </g>
 <g transform="translate(516, 104)" class="key keypos-18">
 <rect rx="6" ry="6" x="-26" y="-26" width="52" height="52" class="key"/>
 <text x="0" y="0" class="key tap">.</text>
+<text x="0" y="24" class="key hold">GUI</text>
 </g>
 <g transform="translate(572, 98)" class="key keypos-19">
 <rect rx="6" ry="6" x="-26" y="-26" width="52" height="52" class="key"/>
 <text x="0" y="0" class="key tap">4</text>
+<use href="#phosphor:bold/control" xlink:href="#phosphor:bold/control" x="-6" y="12" height="12" width="12.0" class="key hold glyph phosphor:bold/control"/>
 </g>
 <g transform="translate(628, 84)" class="key keypos-20">
 <rect rx="6" ry="6" x="-26" y="-26" width="52" height="52" class="key"/>
 <text x="0" y="0" class="key tap">5</text>
+<text x="0" y="24" class="key hold">Alt</text>
 </g>
 <g transform="translate(690, 100) rotate(3.0)" class="key keypos-21">
 <rect rx="6" ry="6" x="-26" y="-26" width="52" height="52" class="key"/>
 <text x="0" y="0" class="key tap">6</text>
+<text x="0" y="24" class="key hold">AltGr</text>
 </g>
 <g transform="translate(747, 142) rotate(5.0)" class="key trans keypos-22">
 <rect rx="6" ry="6" x="-26" y="-26" width="52" height="52" class="key trans"/>
@@ -654,17 +662,14 @@ svg.keymap {
 <g transform="translate(149, 156) rotate(-3.0)" class="key keypos-25">
 <rect rx="6" ry="6" x="-26" y="-26" width="52" height="52" class="key"/>
 <text x="0" y="0" class="key tap">F3</text>
-<text x="0" y="24" class="key hold">AltGr</text>
 </g>
 <g transform="translate(208, 140)" class="key keypos-26">
 <rect rx="6" ry="6" x="-26" y="-26" width="52" height="52" class="key"/>
 <text x="0" y="0" class="key tap">F2</text>
-<text x="0" y="24" class="key hold">Alt</text>
 </g>
 <g transform="translate(264, 154)" class="key keypos-27">
 <rect rx="6" ry="6" x="-26" y="-26" width="52" height="52" class="key"/>
 <text x="0" y="0" class="key tap">F1</text>
-<use href="#phosphor:bold/control" xlink:href="#phosphor:bold/control" x="-6" y="12" height="12" width="12.0" class="key hold glyph phosphor:bold/control"/>
 </g>
 <g transform="translate(320, 160)" class="key keypos-28">
 <rect rx="6" ry="6" x="-26" y="-26" width="52" height="52" class="key"/>
@@ -675,22 +680,18 @@ svg.keymap {
 <g transform="translate(516, 160)" class="key keypos-29">
 <rect rx="6" ry="6" x="-26" y="-26" width="52" height="52" class="key"/>
 <text x="0" y="0" class="key tap">0</text>
-<text x="0" y="24" class="key hold">GUI</text>
 </g>
 <g transform="translate(572, 154)" class="key keypos-30">
 <rect rx="6" ry="6" x="-26" y="-26" width="52" height="52" class="key"/>
 <text x="0" y="0" class="key tap">1</text>
-<use href="#phosphor:bold/control" xlink:href="#phosphor:bold/control" x="-6" y="12" height="12" width="12.0" class="key hold glyph phosphor:bold/control"/>
 </g>
 <g transform="translate(628, 140)" class="key keypos-31">
 <rect rx="6" ry="6" x="-26" y="-26" width="52" height="52" class="key"/>
 <text x="0" y="0" class="key tap">2</text>
-<text x="0" y="24" class="key hold">Alt</text>
 </g>
 <g transform="translate(687, 156) rotate(3.0)" class="key keypos-32">
 <rect rx="6" ry="6" x="-26" y="-26" width="52" height="52" class="key"/>
 <text x="0" y="0" class="key tap">3</text>
-<text x="0" y="24" class="key hold">AltGr</text>
 </g>
 <g transform="translate(742, 197) rotate(5.0)" class="key trans keypos-33">
 <rect rx="6" ry="6" x="-26" y="-26" width="52" height="52" class="key trans"/>

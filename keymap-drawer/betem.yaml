@@ -15,25 +15,25 @@ layers:
   - $$phosphor:bold/backspace$$
   - $$phosphor:bold/arrow-line-right$$
   - A
-  - S
-  - D
-  - F
-  - G
-  - H
-  - J
-  - K
-  - L
+  - {t: S, h: AltGr}
+  - {t: D, h: Alt}
+  - {t: F, h: '$$phosphor:bold/control$$'}
+  - {t: G, h: GUI}
+  - {t: H, h: GUI}
+  - {t: J, h: '$$phosphor:bold/control$$'}
+  - {t: K, h: Alt}
+  - {t: L, h: AltGr}
   - ;
   - $$phosphor:bold/key-return$$
   - Z
-  - {t: X, h: AltGr}
-  - {t: C, h: Alt}
-  - {t: V, h: '$$phosphor:bold/control$$'}
-  - {t: B, h: GUI}
-  - {t: N, h: GUI}
-  - {t: M, h: '$$phosphor:bold/control$$'}
-  - {t: ',', h: Alt}
-  - {t: ., h: AltGr}
+  - X
+  - C
+  - V
+  - B
+  - N
+  - M
+  - ','
+  - .
   - ''''
   - $$phosphor:bold/arrow-fat-up$$
   - $$mdi:keyboard-space$$
@@ -56,25 +56,25 @@ layers:
   - {t: '$$phosphor:bold/triangle$$', type: trans}
   - {t: '$$phosphor:bold/triangle$$', type: trans}
   - F11
-  - F6
-  - F5
-  - F4
-  - Alt PRNT
-  - .
-  - '4'
-  - '5'
-  - '6'
+  - {t: F6, h: AltGr}
+  - {t: F5, h: Alt}
+  - {t: F4, h: '$$phosphor:bold/control$$'}
+  - {t: Alt PRNT, h: LEFT COMMAND}
+  - {t: ., h: GUI}
+  - {t: '4', h: '$$phosphor:bold/control$$'}
+  - {t: '5', h: Alt}
+  - {t: '6', h: AltGr}
   - {t: '$$phosphor:bold/triangle$$', type: trans}
   - {t: '$$phosphor:bold/triangle$$', type: trans}
   - F12
-  - {t: F3, h: AltGr}
-  - {t: F2, h: Alt}
-  - {t: F1, h: '$$phosphor:bold/control$$'}
+  - F3
+  - F2
+  - F1
   - LEFT GUI
-  - {t: '0', h: GUI}
-  - {t: '1', h: '$$phosphor:bold/control$$'}
-  - {t: '2', h: Alt}
-  - {t: '3', h: AltGr}
+  - '0'
+  - '1'
+  - '2'
+  - '3'
   - {t: '$$phosphor:bold/triangle$$', type: trans}
   - {t: '$$phosphor:bold/triangle$$', type: trans}
   - {t: '$$phosphor:bold/triangle$$', type: trans}
