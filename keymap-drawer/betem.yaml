@@ -1,7 +1,7 @@
 layout: {zmk_keyboard: betem}
 layers:
   BAS:
-  - ESC
+  - $$phosphor:bold/x-circle$$
   - Q
   - W
   - E
@@ -13,7 +13,7 @@ layers:
   - O
   - P
   - $$phosphor:bold/backspace$$
-  - TAB
+  - $$phosphor:bold/arrow-line-right$$
   - A
   - S
   - D
@@ -85,26 +85,26 @@ layers:
   NAV:
   - {t: '$$phosphor:bold/triangle$$', type: trans}
   - ''
-  - ^+GUI+ LEFT
+  - ^+GUI+ $$phosphor:bold/arrow-left$$
   - ^+GUI+ F4
   - ^+GUI+ D
-  - GUI+^+ RIGHT
+  - GUI+^+ $$phosphor:bold/arrow-right$$
   - HOME
   - PG DN
   - PG UP
   - END
   - VOL UP
   - {t: '$$phosphor:bold/triangle$$', type: trans}
-  - GUI+ TAB
+  - GUI+ $$phosphor:bold/arrow-line-right$$
   - ''
-  - GUI+ LEFT
-  - GUI+ UP
-  - GUI+ DOWN
-  - GUI+ RIGHT
-  - LEFT
-  - DOWN
-  - UP
-  - RIGHT
+  - GUI+ $$phosphor:bold/arrow-left$$
+  - GUI+ $$phosphor:bold/arrow-up$$
+  - GUI+ $$phosphor:bold/arrow-down$$
+  - GUI+ $$phosphor:bold/arrow-right$$
+  - $$phosphor:bold/arrow-left$$
+  - $$phosphor:bold/arrow-down$$
+  - $$phosphor:bold/arrow-up$$
+  - $$phosphor:bold/arrow-right$$
   - MUTE
   - {t: '$$phosphor:bold/triangle$$', type: trans}
   - ''
