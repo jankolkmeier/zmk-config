@@ -1,9 +1,6 @@
 parse_config:
   mark_alternate_layer_activators: true
   sticky_label: $$mdi:gesture-tap-hold$$
-  trans_legend:
-    tap: $$mdi:transfer$$
-    type: trans
 
   raw_binding_map:
     "&smart_num L2 0":
@@ -170,13 +167,15 @@ parse_config:
     TILDE2: "~"
 
     # Modifiers
-    LCTRL: $$mdi:apple-keyboard-control$$
     LALT: Alt
+    RALT: AltGr
+    LCTRL: $$mdi:apple-keyboard-control$$
     LSHIFT: $$mdi:apple-keyboard-shift$$
     LSHFT: $$mdi:apple-keyboard-shift$$
-    LCMD: $$mdi:apple-keyboard-command$$
+    RSHFT: $$mdi:apple-keyboard-shift$$
+    LGUI: $$mdi:apple-keyboard-command$$
+    RGUI: $$mdi:apple-keyboard-command$$
     RCTRL: $$mdi:apple-keyboard-control$$
-    RALT: AltGr
     RSHIFT: $$mdi:apple-keyboard-shift$$
     RSHFT: $$mdi:apple-keyboard-shift$$
     RCMD: $$mdi:apple-keyboard-command$$
@@ -206,40 +205,15 @@ parse_config:
     DELETE: $$mdi:backspace-reverse-outline$$
     DEL: $$mdi:backspace-reverse-outline$$
 
-    # Locks
-    CAPSLOCK: $$mdi:apple-keyboard-caps$$
-    CAPS: $$mdi:apple-keyboard-caps$$
-
     # Sound
     C_MUTE: $$mdi:volume-off$$
     C_VOL_UP: $$mdi:volume-high$$
     C_VOL_DN: $$mdi:volume-low$$
-
     # Media
     C_NEXT: $$mdi:skip-next$$
     C_PREV: $$mdi:skip-previous$$
     C_PP: $$mdi:play-pause$$
-
-    # Bluetooth
-    BT_CLR: $$mdi:bluetooth-off$$
-    BT_SEL: $$mdi:bluetooth-connect$$
-
-    # Settings
-    C_BRI_UP: $$mdi:brightness-5$$
-    C_BRI_DN: $$mdi:brightness-7$$
-
-    # System
-    C_POWER: $$mdi:power-standby$$
-    C_AL_LOCK: $$mdi:lock$$
-    K_CANCEL: $$mdi:close-box$$
-
-    # Zoom
-    RG(RS(A)):
-      tap: $$mdi:microphone$$
-      hold: zoom
-    RG(RS(V)):
-      tap: $$mdi:video$$
-      hold: zoom
+    C_STOP: $$mdi:stop$$
 
   zmk_combos:
     c_cut:
@@ -266,7 +240,7 @@ draw_config:
       stroke-width: 0;
     }
 
-    rect.key text {
+    text.key {
       color: var(--color-secondary);
       fill: var(--color-secondary);
     }
@@ -278,12 +252,13 @@ draw_config:
       fill: var(--color-secondary);
     }
 
-    .combo path {
+    path.combo {
+      fill: none;
       stroke: var(--color-secondary);
       stroke-dasharray: 4 3;
     }
 
-    .combo text, .combo {
+    text.combo {
       color: var(--color-primary);
       fill: var(--color-primary);
     }
