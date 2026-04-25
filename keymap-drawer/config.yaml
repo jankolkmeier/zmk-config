@@ -59,6 +59,10 @@ draw_config:
       fill: var(--color-accent);
     }
 
+    .key .key.tap {
+      transform: translate(0, 2px);
+    }
+
     text.key, .key.glyph {
       fill: var(--color-secondary);
       color: var(--color-secondary);
@@ -138,10 +142,10 @@ parse_config:
     RCTRL: $$phosphor:bold/control$$
     LCTRL: $$phosphor:bold/control$$
     SPACE: $$mdi:keyboard-space$$
-    ARROW_LEFT: $$phosphor:bold/arrow-left$$
-    ARROW_RIGHT: $$phosphor:bold/arrow-right$$
-    ARROW_UP: $$phosphor:bold/arrow-up$$
-    ARROW_DOWN: $$phosphor:bold/arrow-down$$
+    LEFT_ARROW: $$phosphor:bold/arrow-left$$
+    RIGHT_ARROW: $$phosphor:bold/arrow-right$$
+    UP_ARROW: $$phosphor:bold/arrow-up$$
+    DOWN_ARROW: $$phosphor:bold/arrow-down$$
     TAB: $$phosphor:bold/arrow-line-right$$
     ESC: $$phosphor:bold/x-circle$$
     BACKSPACE: $$phosphor:bold/backspace$$
