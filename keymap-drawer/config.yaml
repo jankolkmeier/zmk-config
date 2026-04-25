@@ -114,7 +114,7 @@ parse_config:
       left_ctrl+left_alt+left_shift: Meh
   zmk_remove_keycode_prefix: []
   zmk_keycode_map:
-    PRINTSCREEN: 
+    PRINTSCREEN: PRNT
     LSHIFT: $$phosphor:bold/arrow-fat-up$$
     RSHIFT: $$phosphor:bold/arrow-fat-up$$
     RCTRL: $$phosphor:bold/control$$
