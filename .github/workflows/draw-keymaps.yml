@@ -1,11 +1,12 @@
 # Example for using the keymap-drawer ZMK user config workflow
 name: Draw ZMK Keymaps
 on:
-  workflow_dispatch:  # can be triggered manually
-  push:               # automatically run on changes to following paths
+  workflow_dispatch:
+  push:
     paths:
       - "config/*"
       - "boards/shields/betem/*"
+      - "keymap-drawer/config.yaml"
 
 jobs:
   draw:
