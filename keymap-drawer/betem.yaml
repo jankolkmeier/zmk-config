@@ -101,10 +101,10 @@ layers:
   - GUI UP
   - GUI DOWN
   - GUI RIGHT
-  - LEFT ARROW
-  - DOWN ARROW
-  - UP ARROW
-  - RIGHT ARROW
+  - $$phosphor:bold/arrow-left$$
+  - $$phosphor:bold/arrow-down$$
+  - $$phosphor:bold/arrow-up$$
+  - $$phosphor:bold/arrow-right$$
   - $$phosphor:bold/speaker-slash$$
   - {t: '$$phosphor:bold/triangle$$', type: trans}
   - ''
