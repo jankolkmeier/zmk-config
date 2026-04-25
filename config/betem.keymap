@@ -232,7 +232,7 @@
 &none  &kp Q  &kp W        &kp E        &kp R         &kp T        &kp Y        &kp U         &kp I            &kp O             &kp P             &none
 &none  &kp A  &kp S        &kp D        &kp F         &kp G        &kp H        &kp J         &kp K            &kp L             &kp SEMI          &none
        &kp Z  &hml RALT X  &hml LALT C  &hml LCTRL V  &hml LGUI B  &hmr LGUI N  &hmr LCTRL M  &hmr LALT COMMA  &hmr RALT PERIOD  &kp SINGLE_QUOTE
-                           &mo 2        &kp SPACE     &kp RET      &mo 1        &kp LSHFT     &mo 2
+                           &mo 2        &mo 1         &kp SPACE    &kp RET      &kp LSHFT     &mo 2
             >;
         };
 
