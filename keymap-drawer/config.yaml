@@ -138,12 +138,12 @@ parse_config:
     RCTRL: $$phosphor:bold/control$$
     LCTRL: $$phosphor:bold/control$$
     SPACE: $$mdi:keyboard-space$$
-    LEFT: $$phosphor:bold/arrow-left$$
-    RIGHT: $$phosphor:bold/arrow-right$$
+    ARROW_LEFT: $$phosphor:bold/arrow-left$$
+    ARROW_RIGHT: $$phosphor:bold/arrow-right$$
+    ARROW_UP: $$phosphor:bold/arrow-up$$
+    ARROW_DOWN: $$phosphor:bold/arrow-down$$
     TAB: $$phosphor:bold/arrow-line-right$$
     ESC: $$phosphor:bold/x-circle$$
-    UP: $$phosphor:bold/arrow-up$$
-    DOWN: $$phosphor:bold/arrow-down$$
     BACKSPACE: $$phosphor:bold/backspace$$
     RET: $$phosphor:bold/key-return$$
     C_MUTE: $$phosphor:bold/speaker-slash$$
