@@ -24,6 +24,12 @@
 <svg id="phosphor:bold/files">
 <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 256 256" fill="currentColor"><path d="M220.49,59.51l-40-40A12,12,0,0,0,172,16H92A20,20,0,0,0,72,36V56H56A20,20,0,0,0,36,76V216a20,20,0,0,0,20,20H164a20,20,0,0,0,20-20V196h20a20,20,0,0,0,20-20V68A12,12,0,0,0,220.49,59.51ZM160,212H60V80h67l33,33Zm40-40H184V108a12,12,0,0,0-3.51-8.49l-40-40A12,12,0,0,0,132,56H96V40h71l33,33Zm-56-28a12,12,0,0,1-12,12H88a12,12,0,0,1,0-24h44A12,12,0,0,1,144,144Zm0,40a12,12,0,0,1-12,12H88a12,12,0,0,1,0-24h44A12,12,0,0,1,144,184Z"/></svg>
 </svg>
+<svg id="phosphor:bold/key-return">
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 256 256" fill="currentColor"><path d="M71.51,144.49a12,12,0,0,1,0-17l24-24a12,12,0,0,1,17,17L109,124h55V104a12,12,0,0,1,24,0v32a12,12,0,0,1-12,12H109l3.52,3.51a12,12,0,0,1-17,17ZM236,56V200a20,20,0,0,1-20,20H40a20,20,0,0,1-20-20V56A20,20,0,0,1,40,36H216A20,20,0,0,1,236,56Zm-24,4H44V196H212Z"/></svg>
+</svg>
+<svg id="phosphor:bold/triangle">
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 256 256" fill="currentColor"><path d="M240.26,186.1,152.81,34.23h0a28.74,28.74,0,0,0-49.62,0L15.74,186.1a27.45,27.45,0,0,0,0,27.71A28.31,28.31,0,0,0,40.55,228h174.9a28.31,28.31,0,0,0,24.79-14.19A27.45,27.45,0,0,0,240.26,186.1Zm-20.8,15.7a4.46,4.46,0,0,1-4,2.2H40.55a4.46,4.46,0,0,1-4-2.2,3.56,3.56,0,0,1,0-3.73L124,46.2a4.75,4.75,0,0,1,8,0l87.45,151.87A3.56,3.56,0,0,1,219.46,201.8Z"/></svg>
+</svg>
 <svg id="phosphor:bold/x-circle">
 <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 256 256" fill="currentColor"><path d="M168.49,104.49,145,128l23.52,23.51a12,12,0,0,1-17,17L128,145l-23.51,23.52a12,12,0,0,1-17-17L111,128,87.51,104.49a12,12,0,0,1,17-17L128,111l23.51-23.52a12,12,0,0,1,17,17ZM236,128A108,108,0,1,1,128,20,108.12,108.12,0,0,1,236,128Zm-24,0a84,84,0,1,0-84,84A84.09,84.09,0,0,0,212,128Z"/></svg>
 </svg>
@@ -252,7 +258,7 @@ text.label {
 </g>
 <g transform="translate(805, 119) rotate(5.0)" class="key keypos-11">
 <rect rx="6" ry="6" x="-26" y="-26" width="52" height="52" class="key"/>
-<text x="0" y="0" class="key tap"><tspan style="font-size: 78%">BACKSPACE</tspan></text>
+<use href="#phosphor:bold/backspace" xlink:href="#phosphor:bold/backspace" x="-7" y="-7" height="14" width="14.0" class="key tap glyph phosphor:bold/backspace"/>
 </g>
 <g transform="translate(35, 176) rotate(-5.0)" class="key keypos-12">
 <rect rx="6" ry="6" x="-26" y="-26" width="52" height="52" class="key"/>
@@ -300,7 +306,7 @@ text.label {
 </g>
 <g transform="translate(800, 174) rotate(5.0)" class="key keypos-23">
 <rect rx="6" ry="6" x="-26" y="-26" width="52" height="52" class="key"/>
-<text x="0" y="0" class="key tap">RET</text>
+<use href="#phosphor:bold/key-return" xlink:href="#phosphor:bold/key-return" x="-7" y="-7" height="14" width="14.0" class="key tap glyph phosphor:bold/key-return"/>
 </g>
 <g transform="translate(93, 199) rotate(-5.0)" class="key keypos-24">
 <rect rx="6" ry="6" x="-26" y="-26" width="52" height="52" class="key"/>
@@ -309,12 +315,12 @@ text.label {
 <g transform="translate(149, 156) rotate(-3.0)" class="key keypos-25">
 <rect rx="6" ry="6" x="-26" y="-26" width="52" height="52" class="key"/>
 <text x="0" y="0" class="key tap">X</text>
-<text x="0" y="24" class="key hold">RALT</text>
+<text x="0" y="24" class="key hold">AltGr</text>
 </g>
 <g transform="translate(208, 140)" class="key keypos-26">
 <rect rx="6" ry="6" x="-26" y="-26" width="52" height="52" class="key"/>
 <text x="0" y="0" class="key tap">C</text>
-<text x="0" y="24" class="key hold">LALT</text>
+<text x="0" y="24" class="key hold">Alt</text>
 </g>
 <g transform="translate(264, 154)" class="key keypos-27">
 <rect rx="6" ry="6" x="-26" y="-26" width="52" height="52" class="key"/>
@@ -339,12 +345,12 @@ text.label {
 <g transform="translate(628, 140)" class="key keypos-31">
 <rect rx="6" ry="6" x="-26" y="-26" width="52" height="52" class="key"/>
 <text x="0" y="0" class="key tap">,</text>
-<text x="0" y="24" class="key hold">LALT</text>
+<text x="0" y="24" class="key hold">Alt</text>
 </g>
 <g transform="translate(687, 156) rotate(3.0)" class="key keypos-32">
 <rect rx="6" ry="6" x="-26" y="-26" width="52" height="52" class="key"/>
 <text x="0" y="0" class="key tap">.</text>
-<text x="0" y="24" class="key hold">RALT</text>
+<text x="0" y="24" class="key hold">AltGr</text>
 </g>
 <g transform="translate(742, 197) rotate(5.0)" class="key keypos-33">
 <rect rx="6" ry="6" x="-26" y="-26" width="52" height="52" class="key"/>
@@ -370,11 +376,11 @@ text.label {
 </a></g>
 <g transform="translate(525, 228) rotate(-6.0)" class="key keypos-38">
 <rect rx="6" ry="6" x="-26" y="-26" width="52" height="52" class="key"/>
-<text x="0" y="0" class="key tap">RSHFT</text>
+<use href="#phosphor:bold/arrow-fat-up" xlink:href="#phosphor:bold/arrow-fat-up" x="-7" y="-7" height="14" width="14.0" class="key tap glyph phosphor:bold/arrow-fat-up"/>
 </g>
 <g transform="translate(586, 224)" class="key keypos-39">
 <rect rx="6" ry="6" x="-26" y="-26" width="52" height="52" class="key"/>
-<text x="0" y="0" class="key tap">RET</text>
+<use href="#phosphor:bold/key-return" xlink:href="#phosphor:bold/key-return" x="-7" y="-7" height="14" width="14.0" class="key tap glyph phosphor:bold/key-return"/>
 </g>
 <g class="combo combopos-0">
 <rect rx="6" ry="6" x="195" y="43" width="26" height="26" class="combo"/>
@@ -493,7 +499,7 @@ text.label {
 <g transform="translate(0, 56)">
 <g transform="translate(30, 120) rotate(-5.0)" class="key trans keypos-0">
 <rect rx="6" ry="6" x="-26" y="-26" width="52" height="52" class="key trans"/>
-<text x="0" y="0" class="key trans tap">▽</text>
+<use href="#phosphor:bold/triangle" xlink:href="#phosphor:bold/triangle" x="-7" y="-7" height="14" width="14.0" class="key trans tap glyph phosphor:bold/triangle"/>
 </g>
 <g transform="translate(84, 87) rotate(-5.0)" class="key keypos-1">
 <rect rx="6" ry="6" x="-26" y="-26" width="52" height="52" class="key"/>
@@ -514,7 +520,7 @@ text.label {
 <g transform="translate(320, 48)" class="key keypos-5">
 <rect rx="6" ry="6" x="-26" y="-26" width="52" height="52" class="key"/>
 <text x="0" y="0" class="key tap">
-<tspan x="0" dy="-1.2em">Sft</tspan><tspan x="0" dy="1.2em">+</tspan><tspan x="0" dy="1.2em">…</tspan>
+<tspan x="0" dy="-1.2em">Sft+GUI</tspan><tspan x="0" dy="1.2em">+</tspan><tspan x="0" dy="1.2em">S</tspan>
 </text>
 </g>
 <g transform="translate(516, 48)" class="key keypos-6">
@@ -538,11 +544,11 @@ text.label {
 </g>
 <g transform="translate(805, 119) rotate(5.0)" class="key trans keypos-11">
 <rect rx="6" ry="6" x="-26" y="-26" width="52" height="52" class="key trans"/>
-<text x="0" y="0" class="key trans tap">▽</text>
+<use href="#phosphor:bold/triangle" xlink:href="#phosphor:bold/triangle" x="-7" y="-7" height="14" width="14.0" class="key trans tap glyph phosphor:bold/triangle"/>
 </g>
 <g transform="translate(35, 176) rotate(-5.0)" class="key trans keypos-12">
 <rect rx="6" ry="6" x="-26" y="-26" width="52" height="52" class="key trans"/>
-<text x="0" y="0" class="key trans tap">▽</text>
+<use href="#phosphor:bold/triangle" xlink:href="#phosphor:bold/triangle" x="-7" y="-7" height="14" width="14.0" class="key trans tap glyph phosphor:bold/triangle"/>
 </g>
 <g transform="translate(89, 143) rotate(-5.0)" class="key keypos-13">
 <rect rx="6" ry="6" x="-26" y="-26" width="52" height="52" class="key"/>
@@ -563,7 +569,7 @@ text.label {
 <g transform="translate(320, 104)" class="key keypos-17">
 <rect rx="6" ry="6" x="-26" y="-26" width="52" height="52" class="key"/>
 <text x="0" y="0" class="key tap">
-<tspan x="0" dy="-1.2em">Alt</tspan><tspan x="0" dy="1.2em">+</tspan><tspan x="0" dy="1.2em">PRNT</tspan>
+<tspan x="0" dy="-0.6em">Alt+</tspan><tspan x="0" dy="1.2em">PRNT</tspan>
 </text>
 </g>
 <g transform="translate(516, 104)" class="key keypos-18">
@@ -584,11 +590,11 @@ text.label {
 </g>
 <g transform="translate(747, 142) rotate(5.0)" class="key trans keypos-22">
 <rect rx="6" ry="6" x="-26" y="-26" width="52" height="52" class="key trans"/>
-<text x="0" y="0" class="key trans tap">▽</text>
+<use href="#phosphor:bold/triangle" xlink:href="#phosphor:bold/triangle" x="-7" y="-7" height="14" width="14.0" class="key trans tap glyph phosphor:bold/triangle"/>
 </g>
 <g transform="translate(800, 174) rotate(5.0)" class="key trans keypos-23">
 <rect rx="6" ry="6" x="-26" y="-26" width="52" height="52" class="key trans"/>
-<text x="0" y="0" class="key trans tap">▽</text>
+<use href="#phosphor:bold/triangle" xlink:href="#phosphor:bold/triangle" x="-7" y="-7" height="14" width="14.0" class="key trans tap glyph phosphor:bold/triangle"/>
 </g>
 <g transform="translate(93, 199) rotate(-5.0)" class="key keypos-24">
 <rect rx="6" ry="6" x="-26" y="-26" width="52" height="52" class="key"/>
@@ -597,12 +603,12 @@ text.label {
 <g transform="translate(149, 156) rotate(-3.0)" class="key keypos-25">
 <rect rx="6" ry="6" x="-26" y="-26" width="52" height="52" class="key"/>
 <text x="0" y="0" class="key tap">F3</text>
-<text x="0" y="24" class="key hold">RALT</text>
+<text x="0" y="24" class="key hold">AltGr</text>
 </g>
 <g transform="translate(208, 140)" class="key keypos-26">
 <rect rx="6" ry="6" x="-26" y="-26" width="52" height="52" class="key"/>
 <text x="0" y="0" class="key tap">F2</text>
-<text x="0" y="24" class="key hold">LALT</text>
+<text x="0" y="24" class="key hold">Alt</text>
 </g>
 <g transform="translate(264, 154)" class="key keypos-27">
 <rect rx="6" ry="6" x="-26" y="-26" width="52" height="52" class="key"/>
@@ -628,39 +634,39 @@ text.label {
 <g transform="translate(628, 140)" class="key keypos-31">
 <rect rx="6" ry="6" x="-26" y="-26" width="52" height="52" class="key"/>
 <text x="0" y="0" class="key tap">2</text>
-<text x="0" y="24" class="key hold">LALT</text>
+<text x="0" y="24" class="key hold">Alt</text>
 </g>
 <g transform="translate(687, 156) rotate(3.0)" class="key keypos-32">
 <rect rx="6" ry="6" x="-26" y="-26" width="52" height="52" class="key"/>
 <text x="0" y="0" class="key tap">3</text>
-<text x="0" y="24" class="key hold">RALT</text>
+<text x="0" y="24" class="key hold">AltGr</text>
 </g>
 <g transform="translate(742, 197) rotate(5.0)" class="key trans keypos-33">
 <rect rx="6" ry="6" x="-26" y="-26" width="52" height="52" class="key trans"/>
-<text x="0" y="0" class="key trans tap">▽</text>
+<use href="#phosphor:bold/triangle" xlink:href="#phosphor:bold/triangle" x="-7" y="-7" height="14" width="14.0" class="key trans tap glyph phosphor:bold/triangle"/>
 </g>
 <g transform="translate(250, 224)" class="key trans keypos-34">
 <rect rx="6" ry="6" x="-26" y="-26" width="52" height="52" class="key trans"/>
-<text x="0" y="0" class="key trans tap">▽</text>
+<use href="#phosphor:bold/triangle" xlink:href="#phosphor:bold/triangle" x="-7" y="-7" height="14" width="14.0" class="key trans tap glyph phosphor:bold/triangle"/>
 </g>
 <g transform="translate(311, 228) rotate(6.0)" class="key trans keypos-35">
 <rect rx="6" ry="6" x="-26" y="-26" width="52" height="52" class="key trans"/>
-<text x="0" y="0" class="key trans tap">▽</text>
+<use href="#phosphor:bold/triangle" xlink:href="#phosphor:bold/triangle" x="-7" y="-7" height="14" width="14.0" class="key trans tap glyph phosphor:bold/triangle"/>
 </g>
 <g transform="translate(371, 238) rotate(12.0)" class="key held keypos-36">
 <rect rx="6" ry="6" x="-26" y="-26" width="52" height="52" class="key held"/>
 </g>
 <g transform="translate(464, 238) rotate(-12.0)" class="key trans keypos-37">
 <rect rx="6" ry="6" x="-26" y="-26" width="52" height="52" class="key trans"/>
-<text x="0" y="0" class="key trans tap">▽</text>
+<use href="#phosphor:bold/triangle" xlink:href="#phosphor:bold/triangle" x="-7" y="-7" height="14" width="14.0" class="key trans tap glyph phosphor:bold/triangle"/>
 </g>
 <g transform="translate(525, 228) rotate(-6.0)" class="key trans keypos-38">
 <rect rx="6" ry="6" x="-26" y="-26" width="52" height="52" class="key trans"/>
-<text x="0" y="0" class="key trans tap">▽</text>
+<use href="#phosphor:bold/triangle" xlink:href="#phosphor:bold/triangle" x="-7" y="-7" height="14" width="14.0" class="key trans tap glyph phosphor:bold/triangle"/>
 </g>
 <g transform="translate(586, 224)" class="key trans keypos-39">
 <rect rx="6" ry="6" x="-26" y="-26" width="52" height="52" class="key trans"/>
-<text x="0" y="0" class="key trans tap">▽</text>
+<use href="#phosphor:bold/triangle" xlink:href="#phosphor:bold/triangle" x="-7" y="-7" height="14" width="14.0" class="key trans tap glyph phosphor:bold/triangle"/>
 </g>
 <g class="combo combopos-0">
 <rect rx="6" ry="6" x="195" y="43" width="26" height="26" class="combo"/>
@@ -779,7 +785,7 @@ text.label {
 <g transform="translate(0, 56)">
 <g transform="translate(30, 120) rotate(-5.0)" class="key trans keypos-0">
 <rect rx="6" ry="6" x="-26" y="-26" width="52" height="52" class="key trans"/>
-<text x="0" y="0" class="key trans tap">▽</text>
+<use href="#phosphor:bold/triangle" xlink:href="#phosphor:bold/triangle" x="-7" y="-7" height="14" width="14.0" class="key trans tap glyph phosphor:bold/triangle"/>
 </g>
 <g transform="translate(84, 87) rotate(-5.0)" class="key keypos-1">
 <rect rx="6" ry="6" x="-26" y="-26" width="52" height="52" class="key"/>
@@ -787,25 +793,25 @@ text.label {
 <g transform="translate(143, 44) rotate(-3.0)" class="key keypos-2">
 <rect rx="6" ry="6" x="-26" y="-26" width="52" height="52" class="key"/>
 <text x="0" y="0" class="key tap">
-<tspan x="0" dy="-1.2em">^</tspan><tspan x="0" dy="1.2em">+</tspan><tspan x="0" dy="1.2em">…</tspan>
+<tspan x="0" dy="-0.6em">^+GUI+</tspan><tspan x="0" dy="1.2em">LEFT</tspan>
 </text>
 </g>
 <g transform="translate(208, 28)" class="key keypos-3">
 <rect rx="6" ry="6" x="-26" y="-26" width="52" height="52" class="key"/>
 <text x="0" y="0" class="key tap">
-<tspan x="0" dy="-1.2em">^</tspan><tspan x="0" dy="1.2em">+</tspan><tspan x="0" dy="1.2em">…</tspan>
+<tspan x="0" dy="-0.6em">^+GUI+</tspan><tspan x="0" dy="1.2em">F4</tspan>
 </text>
 </g>
 <g transform="translate(264, 42)" class="key keypos-4">
 <rect rx="6" ry="6" x="-26" y="-26" width="52" height="52" class="key"/>
 <text x="0" y="0" class="key tap">
-<tspan x="0" dy="-1.2em">^</tspan><tspan x="0" dy="1.2em">+</tspan><tspan x="0" dy="1.2em">…</tspan>
+<tspan x="0" dy="-0.6em">^+GUI+</tspan><tspan x="0" dy="1.2em">D</tspan>
 </text>
 </g>
 <g transform="translate(320, 48)" class="key keypos-5">
 <rect rx="6" ry="6" x="-26" y="-26" width="52" height="52" class="key"/>
 <text x="0" y="0" class="key tap">
-<tspan x="0" dy="-1.2em">GUI</tspan><tspan x="0" dy="1.2em">+</tspan><tspan x="0" dy="1.2em">…</tspan>
+<tspan x="0" dy="-0.6em">GUI+^+</tspan><tspan x="0" dy="1.2em">RIGHT</tspan>
 </text>
 </g>
 <g transform="translate(516, 48)" class="key keypos-6">
@@ -836,12 +842,12 @@ text.label {
 </g>
 <g transform="translate(805, 119) rotate(5.0)" class="key trans keypos-11">
 <rect rx="6" ry="6" x="-26" y="-26" width="52" height="52" class="key trans"/>
-<text x="0" y="0" class="key trans tap">▽</text>
+<use href="#phosphor:bold/triangle" xlink:href="#phosphor:bold/triangle" x="-7" y="-7" height="14" width="14.0" class="key trans tap glyph phosphor:bold/triangle"/>
 </g>
 <g transform="translate(35, 176) rotate(-5.0)" class="key keypos-12">
 <rect rx="6" ry="6" x="-26" y="-26" width="52" height="52" class="key"/>
 <text x="0" y="0" class="key tap">
-<tspan x="0" dy="-1.2em">GUI</tspan><tspan x="0" dy="1.2em">+</tspan><tspan x="0" dy="1.2em">TAB</tspan>
+<tspan x="0" dy="-0.6em">GUI+</tspan><tspan x="0" dy="1.2em">TAB</tspan>
 </text>
 </g>
 <g transform="translate(89, 143) rotate(-5.0)" class="key keypos-13">
@@ -850,25 +856,25 @@ text.label {
 <g transform="translate(146, 100) rotate(-3.0)" class="key keypos-14">
 <rect rx="6" ry="6" x="-26" y="-26" width="52" height="52" class="key"/>
 <text x="0" y="0" class="key tap">
-<tspan x="0" dy="-1.2em">GUI</tspan><tspan x="0" dy="1.2em">+</tspan><tspan x="0" dy="1.2em">LEFT</tspan>
+<tspan x="0" dy="-0.6em">GUI+</tspan><tspan x="0" dy="1.2em">LEFT</tspan>
 </text>
 </g>
 <g transform="translate(208, 84)" class="key keypos-15">
 <rect rx="6" ry="6" x="-26" y="-26" width="52" height="52" class="key"/>
 <text x="0" y="0" class="key tap">
-<tspan x="0" dy="-1.2em">GUI</tspan><tspan x="0" dy="1.2em">+</tspan><tspan x="0" dy="1.2em">UP</tspan>
+<tspan x="0" dy="-0.6em">GUI+</tspan><tspan x="0" dy="1.2em">UP</tspan>
 </text>
 </g>
 <g transform="translate(264, 98)" class="key keypos-16">
 <rect rx="6" ry="6" x="-26" y="-26" width="52" height="52" class="key"/>
 <text x="0" y="0" class="key tap">
-<tspan x="0" dy="-1.2em">GUI</tspan><tspan x="0" dy="1.2em">+</tspan><tspan x="0" dy="1.2em">DOWN</tspan>
+<tspan x="0" dy="-0.6em">GUI+</tspan><tspan x="0" dy="1.2em">DOWN</tspan>
 </text>
 </g>
 <g transform="translate(320, 104)" class="key keypos-17">
 <rect rx="6" ry="6" x="-26" y="-26" width="52" height="52" class="key"/>
 <text x="0" y="0" class="key tap">
-<tspan x="0" dy="-1.2em">GUI</tspan><tspan x="0" dy="1.2em">+</tspan><tspan x="0" dy="1.2em">RIGHT</tspan>
+<tspan x="0" dy="-0.6em">GUI+</tspan><tspan x="0" dy="1.2em">RIGHT</tspan>
 </text>
 </g>
 <g transform="translate(516, 104)" class="key keypos-18">
@@ -893,18 +899,18 @@ text.label {
 </g>
 <g transform="translate(800, 174) rotate(5.0)" class="key trans keypos-23">
 <rect rx="6" ry="6" x="-26" y="-26" width="52" height="52" class="key trans"/>
-<text x="0" y="0" class="key trans tap">▽</text>
+<use href="#phosphor:bold/triangle" xlink:href="#phosphor:bold/triangle" x="-7" y="-7" height="14" width="14.0" class="key trans tap glyph phosphor:bold/triangle"/>
 </g>
 <g transform="translate(93, 199) rotate(-5.0)" class="key keypos-24">
 <rect rx="6" ry="6" x="-26" y="-26" width="52" height="52" class="key"/>
 </g>
 <g transform="translate(149, 156) rotate(-3.0)" class="key keypos-25">
 <rect rx="6" ry="6" x="-26" y="-26" width="52" height="52" class="key"/>
-<text x="0" y="0" class="key tap">RALT</text>
+<text x="0" y="0" class="key tap">AltGr</text>
 </g>
 <g transform="translate(208, 140)" class="key keypos-26">
 <rect rx="6" ry="6" x="-26" y="-26" width="52" height="52" class="key"/>
-<text x="0" y="0" class="key tap">LALT</text>
+<text x="0" y="0" class="key tap">Alt</text>
 </g>
 <g transform="translate(264, 154)" class="key keypos-27">
 <rect rx="6" ry="6" x="-26" y="-26" width="52" height="52" class="key"/>
@@ -940,26 +946,26 @@ text.label {
 </g>
 <g transform="translate(250, 224)" class="key trans keypos-34">
 <rect rx="6" ry="6" x="-26" y="-26" width="52" height="52" class="key trans"/>
-<text x="0" y="0" class="key trans tap">▽</text>
+<use href="#phosphor:bold/triangle" xlink:href="#phosphor:bold/triangle" x="-7" y="-7" height="14" width="14.0" class="key trans tap glyph phosphor:bold/triangle"/>
 </g>
 <g transform="translate(311, 228) rotate(6.0)" class="key trans keypos-35">
 <rect rx="6" ry="6" x="-26" y="-26" width="52" height="52" class="key trans"/>
-<text x="0" y="0" class="key trans tap">▽</text>
+<use href="#phosphor:bold/triangle" xlink:href="#phosphor:bold/triangle" x="-7" y="-7" height="14" width="14.0" class="key trans tap glyph phosphor:bold/triangle"/>
 </g>
 <g transform="translate(371, 238) rotate(12.0)" class="key trans keypos-36">
 <rect rx="6" ry="6" x="-26" y="-26" width="52" height="52" class="key trans"/>
-<text x="0" y="0" class="key trans tap">▽</text>
+<use href="#phosphor:bold/triangle" xlink:href="#phosphor:bold/triangle" x="-7" y="-7" height="14" width="14.0" class="key trans tap glyph phosphor:bold/triangle"/>
 </g>
 <g transform="translate(464, 238) rotate(-12.0)" class="key held keypos-37">
 <rect rx="6" ry="6" x="-26" y="-26" width="52" height="52" class="key held"/>
 </g>
 <g transform="translate(525, 228) rotate(-6.0)" class="key trans keypos-38">
 <rect rx="6" ry="6" x="-26" y="-26" width="52" height="52" class="key trans"/>
-<text x="0" y="0" class="key trans tap">▽</text>
+<use href="#phosphor:bold/triangle" xlink:href="#phosphor:bold/triangle" x="-7" y="-7" height="14" width="14.0" class="key trans tap glyph phosphor:bold/triangle"/>
 </g>
 <g transform="translate(586, 224)" class="key trans keypos-39">
 <rect rx="6" ry="6" x="-26" y="-26" width="52" height="52" class="key trans"/>
-<text x="0" y="0" class="key trans tap">▽</text>
+<use href="#phosphor:bold/triangle" xlink:href="#phosphor:bold/triangle" x="-7" y="-7" height="14" width="14.0" class="key trans tap glyph phosphor:bold/triangle"/>
 </g>
 <g class="combo combopos-0">
 <rect rx="6" ry="6" x="195" y="43" width="26" height="26" class="combo"/>

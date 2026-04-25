@@ -12,7 +12,7 @@ layers:
   - I
   - O
   - P
-  - BACKSPACE
+  - $$phosphor:bold/backspace$$
   - TAB
   - A
   - S
@@ -24,92 +24,92 @@ layers:
   - K
   - L
   - ;
-  - RET
+  - $$phosphor:bold/key-return$$
   - Z
-  - {t: X, h: RALT}
-  - {t: C, h: LALT}
+  - {t: X, h: AltGr}
+  - {t: C, h: Alt}
   - {t: V, h: '$$phosphor:bold/control$$'}
   - {t: B, h: GUI}
   - {t: N, h: GUI}
   - {t: M, h: '$$phosphor:bold/control$$'}
-  - {t: ',', h: LALT}
-  - {t: ., h: RALT}
+  - {t: ',', h: Alt}
+  - {t: ., h: AltGr}
   - ''''
   - $$phosphor:bold/arrow-fat-up$$
   - $$mdi:keyboard-space$$
   - NUM
   - NAV
-  - RSHFT
-  - RET
+  - $$phosphor:bold/arrow-fat-up$$
+  - $$phosphor:bold/key-return$$
   NUM:
-  - {t: ▽, type: trans}
+  - {t: '$$phosphor:bold/triangle$$', type: trans}
   - F10
   - F9
   - F8
   - F7
-  - Sft + GUI + S
+  - Sft+GUI+ S
   - ','
   - '7'
   - '8'
   - '9'
   - ''
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
+  - {t: '$$phosphor:bold/triangle$$', type: trans}
+  - {t: '$$phosphor:bold/triangle$$', type: trans}
   - F11
   - F6
   - F5
   - F4
-  - Alt + PRNT
+  - Alt+ PRNT
   - .
   - '4'
   - '5'
   - '6'
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
+  - {t: '$$phosphor:bold/triangle$$', type: trans}
+  - {t: '$$phosphor:bold/triangle$$', type: trans}
   - F12
-  - {t: F3, h: RALT}
-  - {t: F2, h: LALT}
+  - {t: F3, h: AltGr}
+  - {t: F2, h: Alt}
   - {t: F1, h: '$$phosphor:bold/control$$'}
   - LEFT GUI
   - {t: '0', h: GUI}
   - {t: '1', h: '$$phosphor:bold/control$$'}
-  - {t: '2', h: LALT}
-  - {t: '3', h: RALT}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
+  - {t: '2', h: Alt}
+  - {t: '3', h: AltGr}
+  - {t: '$$phosphor:bold/triangle$$', type: trans}
+  - {t: '$$phosphor:bold/triangle$$', type: trans}
+  - {t: '$$phosphor:bold/triangle$$', type: trans}
   - {type: held}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
+  - {t: '$$phosphor:bold/triangle$$', type: trans}
+  - {t: '$$phosphor:bold/triangle$$', type: trans}
+  - {t: '$$phosphor:bold/triangle$$', type: trans}
   NAV:
-  - {t: ▽, type: trans}
+  - {t: '$$phosphor:bold/triangle$$', type: trans}
   - ''
-  - ^ + GUI + LEFT
-  - ^ + GUI + F4
-  - ^ + GUI + D
-  - GUI + ^ + RIGHT
+  - ^+GUI+ LEFT
+  - ^+GUI+ F4
+  - ^+GUI+ D
+  - GUI+^+ RIGHT
   - HOME
   - PG DN
   - PG UP
   - END
   - VOL UP
-  - {t: ▽, type: trans}
-  - GUI + TAB
+  - {t: '$$phosphor:bold/triangle$$', type: trans}
+  - GUI+ TAB
   - ''
-  - GUI + LEFT
-  - GUI + UP
-  - GUI + DOWN
-  - GUI + RIGHT
+  - GUI+ LEFT
+  - GUI+ UP
+  - GUI+ DOWN
+  - GUI+ RIGHT
   - LEFT
   - DOWN
   - UP
   - RIGHT
   - MUTE
-  - {t: ▽, type: trans}
+  - {t: '$$phosphor:bold/triangle$$', type: trans}
   - ''
-  - RALT
-  - LALT
+  - AltGr
+  - Alt
   - $$phosphor:bold/control$$
   - GUI
   - PREV
@@ -117,12 +117,12 @@ layers:
   - STOP
   - NEXT
   - VOL DN
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
+  - {t: '$$phosphor:bold/triangle$$', type: trans}
+  - {t: '$$phosphor:bold/triangle$$', type: trans}
+  - {t: '$$phosphor:bold/triangle$$', type: trans}
   - {type: held}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
+  - {t: '$$phosphor:bold/triangle$$', type: trans}
+  - {t: '$$phosphor:bold/triangle$$', type: trans}
 combos:
 - p: [3, 15]
   k: '@'
