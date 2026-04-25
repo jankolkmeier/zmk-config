@@ -157,11 +157,16 @@ path.combo {
   --color-bg: #8ACB88;
   --color-primary: #E4FDE1;
   --color-secondary: #575761;
+  --color-accent: #e9ea04;
 }
 
 rect.key {
   fill: var(--color-primary);
   stroke-width: 0;
+}
+
+rect.key.held {
+  fill: var(--color-accent);
 }
 
 rect.combo {
@@ -509,7 +514,7 @@ text.label {
 <g transform="translate(320, 48)" class="key keypos-5">
 <rect rx="6" ry="6" x="-26" y="-26" width="52" height="52" class="key"/>
 <text x="0" y="0" class="key tap">
-<tspan x="0" dy="-0.6em">Sft+GUI</tspan><tspan x="0" dy="1.2em">+S</tspan>
+<tspan x="0" dy="-1.2em">Sft</tspan><tspan x="0" dy="1.2em">+</tspan><tspan x="0" dy="1.2em">…</tspan>
 </text>
 </g>
 <g transform="translate(516, 48)" class="key keypos-6">
@@ -558,7 +563,7 @@ text.label {
 <g transform="translate(320, 104)" class="key keypos-17">
 <rect rx="6" ry="6" x="-26" y="-26" width="52" height="52" class="key"/>
 <text x="0" y="0" class="key tap">
-<tspan x="0" dy="-0.6em" style="font-size: 64%">Alt+</tspan><tspan x="0" dy="1.2em" style="font-size: 64%">PRINTSCREEN</tspan>
+<tspan x="0" dy="-1.2em">Alt</tspan><tspan x="0" dy="1.2em">+</tspan><tspan x="0" dy="1.2em">PRNT</tspan>
 </text>
 </g>
 <g transform="translate(516, 104)" class="key keypos-18">
@@ -782,23 +787,25 @@ text.label {
 <g transform="translate(143, 44) rotate(-3.0)" class="key keypos-2">
 <rect rx="6" ry="6" x="-26" y="-26" width="52" height="52" class="key"/>
 <text x="0" y="0" class="key tap">
-<tspan x="0" dy="-0.6em">^+GUI+</tspan><tspan x="0" dy="1.2em">LEFT</tspan>
+<tspan x="0" dy="-1.2em">^</tspan><tspan x="0" dy="1.2em">+</tspan><tspan x="0" dy="1.2em">…</tspan>
 </text>
 </g>
 <g transform="translate(208, 28)" class="key keypos-3">
 <rect rx="6" ry="6" x="-26" y="-26" width="52" height="52" class="key"/>
 <text x="0" y="0" class="key tap">
-<tspan x="0" dy="-0.6em">^+GUI+</tspan><tspan x="0" dy="1.2em">F4</tspan>
+<tspan x="0" dy="-1.2em">^</tspan><tspan x="0" dy="1.2em">+</tspan><tspan x="0" dy="1.2em">…</tspan>
 </text>
 </g>
 <g transform="translate(264, 42)" class="key keypos-4">
 <rect rx="6" ry="6" x="-26" y="-26" width="52" height="52" class="key"/>
-<text x="0" y="0" class="key tap">^+GUI+D</text>
+<text x="0" y="0" class="key tap">
+<tspan x="0" dy="-1.2em">^</tspan><tspan x="0" dy="1.2em">+</tspan><tspan x="0" dy="1.2em">…</tspan>
+</text>
 </g>
 <g transform="translate(320, 48)" class="key keypos-5">
 <rect rx="6" ry="6" x="-26" y="-26" width="52" height="52" class="key"/>
 <text x="0" y="0" class="key tap">
-<tspan x="0" dy="-0.6em">GUI+^+</tspan><tspan x="0" dy="1.2em">RIGHT</tspan>
+<tspan x="0" dy="-1.2em">GUI</tspan><tspan x="0" dy="1.2em">+</tspan><tspan x="0" dy="1.2em">…</tspan>
 </text>
 </g>
 <g transform="translate(516, 48)" class="key keypos-6">
@@ -833,7 +840,9 @@ text.label {
 </g>
 <g transform="translate(35, 176) rotate(-5.0)" class="key keypos-12">
 <rect rx="6" ry="6" x="-26" y="-26" width="52" height="52" class="key"/>
-<text x="0" y="0" class="key tap">GUI+TAB</text>
+<text x="0" y="0" class="key tap">
+<tspan x="0" dy="-1.2em">GUI</tspan><tspan x="0" dy="1.2em">+</tspan><tspan x="0" dy="1.2em">TAB</tspan>
+</text>
 </g>
 <g transform="translate(89, 143) rotate(-5.0)" class="key keypos-13">
 <rect rx="6" ry="6" x="-26" y="-26" width="52" height="52" class="key"/>
@@ -841,23 +850,25 @@ text.label {
 <g transform="translate(146, 100) rotate(-3.0)" class="key keypos-14">
 <rect rx="6" ry="6" x="-26" y="-26" width="52" height="52" class="key"/>
 <text x="0" y="0" class="key tap">
-<tspan x="0" dy="-0.6em">GUI+</tspan><tspan x="0" dy="1.2em">LEFT</tspan>
+<tspan x="0" dy="-1.2em">GUI</tspan><tspan x="0" dy="1.2em">+</tspan><tspan x="0" dy="1.2em">LEFT</tspan>
 </text>
 </g>
 <g transform="translate(208, 84)" class="key keypos-15">
 <rect rx="6" ry="6" x="-26" y="-26" width="52" height="52" class="key"/>
-<text x="0" y="0" class="key tap">GUI+UP</text>
+<text x="0" y="0" class="key tap">
+<tspan x="0" dy="-1.2em">GUI</tspan><tspan x="0" dy="1.2em">+</tspan><tspan x="0" dy="1.2em">UP</tspan>
+</text>
 </g>
 <g transform="translate(264, 98)" class="key keypos-16">
 <rect rx="6" ry="6" x="-26" y="-26" width="52" height="52" class="key"/>
 <text x="0" y="0" class="key tap">
-<tspan x="0" dy="-0.6em">GUI+</tspan><tspan x="0" dy="1.2em">DOWN</tspan>
+<tspan x="0" dy="-1.2em">GUI</tspan><tspan x="0" dy="1.2em">+</tspan><tspan x="0" dy="1.2em">DOWN</tspan>
 </text>
 </g>
 <g transform="translate(320, 104)" class="key keypos-17">
 <rect rx="6" ry="6" x="-26" y="-26" width="52" height="52" class="key"/>
 <text x="0" y="0" class="key tap">
-<tspan x="0" dy="-0.6em">GUI+</tspan><tspan x="0" dy="1.2em">RIGHT</tspan>
+<tspan x="0" dy="-1.2em">GUI</tspan><tspan x="0" dy="1.2em">+</tspan><tspan x="0" dy="1.2em">RIGHT</tspan>
 </text>
 </g>
 <g transform="translate(516, 104)" class="key keypos-18">
