@@ -1,4 +1,33 @@
 <svg width="896" height="1038" viewBox="0 0 896 1038" class="keymap" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+<defs>/* start glyphs */
+<svg id="mdi:keyboard-space">
+<svg xmlns="http://www.w3.org/2000/svg" id="mdi-keyboard-space" viewBox="0 0 24 24"><path d="M3 15H5V19H19V15H21V19C21 20.1 20.1 21 19 21H5C3.9 21 3 20.1 3 19V15Z" /></svg>
+</svg>
+<svg id="phosphor:bold/arrow-fat-up">
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 256 256" fill="currentColor"><path d="M232.48,111.51l-96-96a12,12,0,0,0-17,0l-96,96A12,12,0,0,0,32,132H68v76a20,20,0,0,0,20,20h80a20,20,0,0,0,20-20V132h36a12,12,0,0,0,8.48-20.49ZM176,108a12,12,0,0,0-12,12v84H92V120a12,12,0,0,0-12-12H61l67-67,67,67Z"/></svg>
+</svg>
+<svg id="phosphor:bold/arrow-line-right">
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 256 256" fill="currentColor"><path d="M184.49,119.51a12,12,0,0,1,0,17l-72,72a12,12,0,0,1-17-17L147,140H32a12,12,0,0,1,0-24H147L95.51,64.49a12,12,0,0,1,17-17ZM216,28a12,12,0,0,0-12,12V216a12,12,0,0,0,24,0V40A12,12,0,0,0,216,28Z"/></svg>
+</svg>
+<svg id="phosphor:bold/backspace">
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 256 256" fill="currentColor"><path d="M216,36H68.53a20.09,20.09,0,0,0-17.15,9.71L5.71,121.83a12,12,0,0,0,0,12.34l45.67,76.12A20.09,20.09,0,0,0,68.53,220H216a20,20,0,0,0,20-20V56A20,20,0,0,0,216,36Zm-4,160H70.8L30,128,70.8,60H212ZM103.51,143.51,119,128l-15.52-15.51a12,12,0,0,1,17-17L136,111l15.51-15.52a12,12,0,0,1,17,17L153,128l15.52,15.51a12,12,0,0,1-17,17L136,145l-15.51,15.52a12,12,0,0,1-17-17Z"/></svg>
+</svg>
+<svg id="phosphor:bold/control">
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 256 256" fill="currentColor"><path d="M208.49,128.49a12,12,0,0,1-17,0L128,65,64.49,128.49a12,12,0,0,1-17-17l72-72a12,12,0,0,1,17,0l72,72A12,12,0,0,1,208.49,128.49Z"/></svg>
+</svg>
+<svg id="phosphor:bold/file-plus">
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 256 256" fill="currentColor"><path d="M216.49,79.51l-56-56A12,12,0,0,0,152,20H56A20,20,0,0,0,36,40V216a20,20,0,0,0,20,20H200a20,20,0,0,0,20-20V88A12,12,0,0,0,216.49,79.51ZM160,57l23,23H160ZM60,212V44h76V92a12,12,0,0,0,12,12h48V212Zm104-60a12,12,0,0,1-12,12H140v12a12,12,0,0,1-24,0V164H104a12,12,0,0,1,0-24h12V128a12,12,0,0,1,24,0v12h12A12,12,0,0,1,164,152Z"/></svg>
+</svg>
+<svg id="phosphor:bold/file-x">
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 256 256" fill="currentColor"><path d="M216.49,79.52l-56-56A12,12,0,0,0,152,20H56A20,20,0,0,0,36,40V216a20,20,0,0,0,20,20H200a20,20,0,0,0,20-20V88A12,12,0,0,0,216.49,79.52ZM183,80H160V57ZM60,212V44h76V92a12,12,0,0,0,12,12h48V212Zm100.49-75.51L145,152l15.52,15.51a12,12,0,0,1-17,17L128,169l-15.51,15.52a12,12,0,0,1-17-17L111,152,95.51,136.49a12,12,0,1,1,17-17L128,135l15.51-15.52a12,12,0,1,1,17,17Z"/></svg>
+</svg>
+<svg id="phosphor:bold/files">
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 256 256" fill="currentColor"><path d="M220.49,59.51l-40-40A12,12,0,0,0,172,16H92A20,20,0,0,0,72,36V56H56A20,20,0,0,0,36,76V216a20,20,0,0,0,20,20H164a20,20,0,0,0,20-20V196h20a20,20,0,0,0,20-20V68A12,12,0,0,0,220.49,59.51ZM160,212H60V80h67l33,33Zm40-40H184V108a12,12,0,0,0-3.51-8.49l-40-40A12,12,0,0,0,132,56H96V40h71l33,33Zm-56-28a12,12,0,0,1-12,12H88a12,12,0,0,1,0-24h44A12,12,0,0,1,144,144Zm0,40a12,12,0,0,1-12,12H88a12,12,0,0,1,0-24h44A12,12,0,0,1,144,184Z"/></svg>
+</svg>
+<svg id="phosphor:bold/x-circle">
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 256 256" fill="currentColor"><path d="M168.49,104.49,145,128l23.52,23.51a12,12,0,0,1-17,17L128,145l-23.51,23.52a12,12,0,0,1-17-17L111,128,87.51,104.49a12,12,0,0,1,17-17L128,111l23.51-23.52a12,12,0,0,1,17,17ZM236,128A108,108,0,1,1,128,20,108.12,108.12,0,0,1,236,128Zm-24,0a84,84,0,1,0-84,84A84.09,84.09,0,0,0,212,128Z"/></svg>
+</svg>
+</defs>/* end glyphs */
 <style>/* inherit to force styles through use tags */
 svg path {
     fill: inherit;
@@ -285,22 +314,22 @@ text.label {
 <g transform="translate(264, 154)" class="key keypos-27">
 <rect rx="6" ry="6" x="-26" y="-26" width="52" height="52" class="key"/>
 <text x="0" y="0" class="key tap">V</text>
-<text x="0" y="24" class="key hold">LCTRL</text>
+<use href="#phosphor:bold/control" xlink:href="#phosphor:bold/control" x="-6" y="12" height="12" width="12.0" class="key hold glyph phosphor:bold/control"/>
 </g>
 <g transform="translate(320, 160)" class="key keypos-28">
 <rect rx="6" ry="6" x="-26" y="-26" width="52" height="52" class="key"/>
 <text x="0" y="0" class="key tap">B</text>
-<text x="0" y="24" class="key hold">LGUI</text>
+<text x="0" y="24" class="key hold">GUI</text>
 </g>
 <g transform="translate(516, 160)" class="key keypos-29">
 <rect rx="6" ry="6" x="-26" y="-26" width="52" height="52" class="key"/>
 <text x="0" y="0" class="key tap">N</text>
-<text x="0" y="24" class="key hold">LGUI</text>
+<text x="0" y="24" class="key hold">GUI</text>
 </g>
 <g transform="translate(572, 154)" class="key keypos-30">
 <rect rx="6" ry="6" x="-26" y="-26" width="52" height="52" class="key"/>
 <text x="0" y="0" class="key tap">M</text>
-<text x="0" y="24" class="key hold">LCTRL</text>
+<use href="#phosphor:bold/control" xlink:href="#phosphor:bold/control" x="-6" y="12" height="12" width="12.0" class="key hold glyph phosphor:bold/control"/>
 </g>
 <g transform="translate(628, 140)" class="key keypos-31">
 <rect rx="6" ry="6" x="-26" y="-26" width="52" height="52" class="key"/>
@@ -318,11 +347,11 @@ text.label {
 </g>
 <g transform="translate(250, 224)" class="key keypos-34">
 <rect rx="6" ry="6" x="-26" y="-26" width="52" height="52" class="key"/>
-<text x="0" y="0" class="key tap">LSHIFT</text>
+<use href="#phosphor:bold/arrow-fat-up" xlink:href="#phosphor:bold/arrow-fat-up" x="-7" y="-7" height="14" width="14.0" class="key tap glyph phosphor:bold/arrow-fat-up"/>
 </g>
 <g transform="translate(311, 228) rotate(6.0)" class="key keypos-35">
 <rect rx="6" ry="6" x="-26" y="-26" width="52" height="52" class="key"/>
-<text x="0" y="0" class="key tap">SPACE</text>
+<use href="#mdi:keyboard-space" xlink:href="#mdi:keyboard-space" x="-7" y="-7" height="14" width="14.0" class="key tap glyph mdi:keyboard-space"/>
 </g>
 <g transform="translate(371, 238) rotate(12.0)" class="key keypos-36">
 <rect rx="6" ry="6" x="-26" y="-26" width="52" height="52" class="key"/>
@@ -352,7 +381,7 @@ text.label {
 </g>
 <g class="combo combopos-2">
 <rect rx="6" ry="6" x="162" y="23" width="26" height="26" class="combo"/>
-<text x="175" y="36" class="combo tap">ESC</text>
+<use href="#phosphor:bold/x-circle" xlink:href="#phosphor:bold/x-circle" x="168" y="29" height="14" width="14.0" class="combo tap glyph phosphor:bold/x-circle"/>
 </g>
 <g class="combo combopos-3">
 <rect rx="6" ry="6" x="223" y="22" width="26" height="26" class="combo"/>
@@ -364,17 +393,17 @@ text.label {
 </g>
 <g class="combo combopos-5">
 <rect rx="6" ry="6" x="165" y="135" width="26" height="26" class="combo"/>
-<text x="178" y="148" class="combo tap">Ctl+C</text>
+<use href="#phosphor:bold/files" xlink:href="#phosphor:bold/files" x="171" y="141" height="14" width="14.0" class="combo tap glyph phosphor:bold/files"/>
 </g>
 <g class="combo combopos-6">
 <rect rx="6" ry="6" x="223" y="134" width="26" height="26" class="combo"/>
-<text x="236" y="147" class="combo tap">Ctl+V</text>
+<use href="#phosphor:bold/file-plus" xlink:href="#phosphor:bold/file-plus" x="229" y="140" height="14" width="14.0" class="combo tap glyph phosphor:bold/file-plus"/>
 </g>
 <g class="combo combopos-7">
-<path d="M206,155 l39,-1" class="combo"/>
-<path d="M206,155 l-39,1" class="combo"/>
-<rect rx="6" ry="6" x="193" y="142" width="26" height="26" class="combo"/>
-<text x="206" y="155" class="combo tap">Ctl+X</text>
+<path d="M206,190 h51 a6.0,6.0 0 0 0 6.0,-6.0 v-11" class="combo"/>
+<path d="M206,190 h-51 a6.0,6.0 0 0 1 -6.0,-6.0 v-10" class="combo"/>
+<rect rx="6" ry="6" x="193" y="177" width="26" height="26" class="combo"/>
+<use href="#phosphor:bold/file-x" xlink:href="#phosphor:bold/file-x" x="199" y="183" height="14" width="14.0" class="combo tap glyph phosphor:bold/file-x"/>
 </g>
 <g class="combo combopos-8">
 <rect rx="6" ry="6" x="251" y="113" width="26" height="26" class="combo"/>
@@ -410,7 +439,7 @@ text.label {
 </g>
 <g class="combo combopos-16">
 <rect rx="6" ry="6" x="647" y="23" width="26" height="26" class="combo"/>
-<text x="660" y="36" class="combo tap"><tspan style="font-size: 78%">BACKSPACE</tspan></text>
+<use href="#phosphor:bold/backspace" xlink:href="#phosphor:bold/backspace" x="653" y="29" height="14" width="14.0" class="combo tap glyph phosphor:bold/backspace"/>
 </g>
 <g class="combo combopos-17">
 <rect rx="6" ry="6" x="615" y="43" width="26" height="26" class="combo"/>
@@ -446,7 +475,7 @@ text.label {
 </g>
 <g class="combo combopos-25">
 <rect rx="6" ry="6" x="164" y="79" width="26" height="26" class="combo"/>
-<text x="177" y="92" class="combo tap">TAB</text>
+<use href="#phosphor:bold/arrow-line-right" xlink:href="#phosphor:bold/arrow-line-right" x="170" y="85" height="14" width="14.0" class="combo tap glyph phosphor:bold/arrow-line-right"/>
 </g>
 <g class="combo combopos-26">
 <rect rx="6" ry="6" x="587" y="22" width="26" height="26" class="combo"/>
@@ -480,7 +509,7 @@ text.label {
 <g transform="translate(320, 48)" class="key keypos-5">
 <rect rx="6" ry="6" x="-26" y="-26" width="52" height="52" class="key"/>
 <text x="0" y="0" class="key tap">
-<tspan x="0" dy="-0.6em">Sft+Gui</tspan><tspan x="0" dy="1.2em">+S</tspan>
+<tspan x="0" dy="-0.6em">Sft+GUI</tspan><tspan x="0" dy="1.2em">+S</tspan>
 </text>
 </g>
 <g transform="translate(516, 48)" class="key keypos-6">
@@ -573,7 +602,7 @@ text.label {
 <g transform="translate(264, 154)" class="key keypos-27">
 <rect rx="6" ry="6" x="-26" y="-26" width="52" height="52" class="key"/>
 <text x="0" y="0" class="key tap">F1</text>
-<text x="0" y="24" class="key hold">LCTRL</text>
+<use href="#phosphor:bold/control" xlink:href="#phosphor:bold/control" x="-6" y="12" height="12" width="12.0" class="key hold glyph phosphor:bold/control"/>
 </g>
 <g transform="translate(320, 160)" class="key keypos-28">
 <rect rx="6" ry="6" x="-26" y="-26" width="52" height="52" class="key"/>
@@ -584,12 +613,12 @@ text.label {
 <g transform="translate(516, 160)" class="key keypos-29">
 <rect rx="6" ry="6" x="-26" y="-26" width="52" height="52" class="key"/>
 <text x="0" y="0" class="key tap">0</text>
-<text x="0" y="24" class="key hold">LGUI</text>
+<text x="0" y="24" class="key hold">GUI</text>
 </g>
 <g transform="translate(572, 154)" class="key keypos-30">
 <rect rx="6" ry="6" x="-26" y="-26" width="52" height="52" class="key"/>
 <text x="0" y="0" class="key tap">1</text>
-<text x="0" y="24" class="key hold">LCTRL</text>
+<use href="#phosphor:bold/control" xlink:href="#phosphor:bold/control" x="-6" y="12" height="12" width="12.0" class="key hold glyph phosphor:bold/control"/>
 </g>
 <g transform="translate(628, 140)" class="key keypos-31">
 <rect rx="6" ry="6" x="-26" y="-26" width="52" height="52" class="key"/>
@@ -638,7 +667,7 @@ text.label {
 </g>
 <g class="combo combopos-2">
 <rect rx="6" ry="6" x="162" y="23" width="26" height="26" class="combo"/>
-<text x="175" y="36" class="combo tap">ESC</text>
+<use href="#phosphor:bold/x-circle" xlink:href="#phosphor:bold/x-circle" x="168" y="29" height="14" width="14.0" class="combo tap glyph phosphor:bold/x-circle"/>
 </g>
 <g class="combo combopos-3">
 <rect rx="6" ry="6" x="223" y="22" width="26" height="26" class="combo"/>
@@ -650,17 +679,17 @@ text.label {
 </g>
 <g class="combo combopos-5">
 <rect rx="6" ry="6" x="165" y="135" width="26" height="26" class="combo"/>
-<text x="178" y="148" class="combo tap">Ctl+C</text>
+<use href="#phosphor:bold/files" xlink:href="#phosphor:bold/files" x="171" y="141" height="14" width="14.0" class="combo tap glyph phosphor:bold/files"/>
 </g>
 <g class="combo combopos-6">
 <rect rx="6" ry="6" x="223" y="134" width="26" height="26" class="combo"/>
-<text x="236" y="147" class="combo tap">Ctl+V</text>
+<use href="#phosphor:bold/file-plus" xlink:href="#phosphor:bold/file-plus" x="229" y="140" height="14" width="14.0" class="combo tap glyph phosphor:bold/file-plus"/>
 </g>
 <g class="combo combopos-7">
-<path d="M206,155 l39,-1" class="combo"/>
-<path d="M206,155 l-39,1" class="combo"/>
-<rect rx="6" ry="6" x="193" y="142" width="26" height="26" class="combo"/>
-<text x="206" y="155" class="combo tap">Ctl+X</text>
+<path d="M206,190 h51 a6.0,6.0 0 0 0 6.0,-6.0 v-11" class="combo"/>
+<path d="M206,190 h-51 a6.0,6.0 0 0 1 -6.0,-6.0 v-10" class="combo"/>
+<rect rx="6" ry="6" x="193" y="177" width="26" height="26" class="combo"/>
+<use href="#phosphor:bold/file-x" xlink:href="#phosphor:bold/file-x" x="199" y="183" height="14" width="14.0" class="combo tap glyph phosphor:bold/file-x"/>
 </g>
 <g class="combo combopos-8">
 <rect rx="6" ry="6" x="251" y="113" width="26" height="26" class="combo"/>
@@ -696,7 +725,7 @@ text.label {
 </g>
 <g class="combo combopos-16">
 <rect rx="6" ry="6" x="647" y="23" width="26" height="26" class="combo"/>
-<text x="660" y="36" class="combo tap"><tspan style="font-size: 78%">BACKSPACE</tspan></text>
+<use href="#phosphor:bold/backspace" xlink:href="#phosphor:bold/backspace" x="653" y="29" height="14" width="14.0" class="combo tap glyph phosphor:bold/backspace"/>
 </g>
 <g class="combo combopos-17">
 <rect rx="6" ry="6" x="615" y="43" width="26" height="26" class="combo"/>
@@ -732,7 +761,7 @@ text.label {
 </g>
 <g class="combo combopos-25">
 <rect rx="6" ry="6" x="164" y="79" width="26" height="26" class="combo"/>
-<text x="177" y="92" class="combo tap">TAB</text>
+<use href="#phosphor:bold/arrow-line-right" xlink:href="#phosphor:bold/arrow-line-right" x="170" y="85" height="14" width="14.0" class="combo tap glyph phosphor:bold/arrow-line-right"/>
 </g>
 <g class="combo combopos-26">
 <rect rx="6" ry="6" x="587" y="22" width="26" height="26" class="combo"/>
@@ -753,25 +782,23 @@ text.label {
 <g transform="translate(143, 44) rotate(-3.0)" class="key keypos-2">
 <rect rx="6" ry="6" x="-26" y="-26" width="52" height="52" class="key"/>
 <text x="0" y="0" class="key tap">
-<tspan x="0" dy="-0.6em">Ctl+Gui</tspan><tspan x="0" dy="1.2em">+LEFT</tspan>
+<tspan x="0" dy="-0.6em">^+GUI+</tspan><tspan x="0" dy="1.2em">LEFT</tspan>
 </text>
 </g>
 <g transform="translate(208, 28)" class="key keypos-3">
 <rect rx="6" ry="6" x="-26" y="-26" width="52" height="52" class="key"/>
 <text x="0" y="0" class="key tap">
-<tspan x="0" dy="-0.6em">Ctl+Gui</tspan><tspan x="0" dy="1.2em">+F4</tspan>
+<tspan x="0" dy="-0.6em">^+GUI+</tspan><tspan x="0" dy="1.2em">F4</tspan>
 </text>
 </g>
 <g transform="translate(264, 42)" class="key keypos-4">
 <rect rx="6" ry="6" x="-26" y="-26" width="52" height="52" class="key"/>
-<text x="0" y="0" class="key tap">
-<tspan x="0" dy="-0.6em">Ctl+Gui</tspan><tspan x="0" dy="1.2em">+D</tspan>
-</text>
+<text x="0" y="0" class="key tap">^+GUI+D</text>
 </g>
 <g transform="translate(320, 48)" class="key keypos-5">
 <rect rx="6" ry="6" x="-26" y="-26" width="52" height="52" class="key"/>
 <text x="0" y="0" class="key tap">
-<tspan x="0" dy="-0.6em">Gui+Ctl</tspan><tspan x="0" dy="1.2em">+RIGHT</tspan>
+<tspan x="0" dy="-0.6em">GUI+^+</tspan><tspan x="0" dy="1.2em">RIGHT</tspan>
 </text>
 </g>
 <g transform="translate(516, 48)" class="key keypos-6">
@@ -806,7 +833,7 @@ text.label {
 </g>
 <g transform="translate(35, 176) rotate(-5.0)" class="key keypos-12">
 <rect rx="6" ry="6" x="-26" y="-26" width="52" height="52" class="key"/>
-<text x="0" y="0" class="key tap">Gui+TAB</text>
+<text x="0" y="0" class="key tap">GUI+TAB</text>
 </g>
 <g transform="translate(89, 143) rotate(-5.0)" class="key keypos-13">
 <rect rx="6" ry="6" x="-26" y="-26" width="52" height="52" class="key"/>
@@ -814,23 +841,23 @@ text.label {
 <g transform="translate(146, 100) rotate(-3.0)" class="key keypos-14">
 <rect rx="6" ry="6" x="-26" y="-26" width="52" height="52" class="key"/>
 <text x="0" y="0" class="key tap">
-<tspan x="0" dy="-0.6em">Gui+</tspan><tspan x="0" dy="1.2em">LEFT</tspan>
+<tspan x="0" dy="-0.6em">GUI+</tspan><tspan x="0" dy="1.2em">LEFT</tspan>
 </text>
 </g>
 <g transform="translate(208, 84)" class="key keypos-15">
 <rect rx="6" ry="6" x="-26" y="-26" width="52" height="52" class="key"/>
-<text x="0" y="0" class="key tap">Gui+UP</text>
+<text x="0" y="0" class="key tap">GUI+UP</text>
 </g>
 <g transform="translate(264, 98)" class="key keypos-16">
 <rect rx="6" ry="6" x="-26" y="-26" width="52" height="52" class="key"/>
 <text x="0" y="0" class="key tap">
-<tspan x="0" dy="-0.6em">Gui+</tspan><tspan x="0" dy="1.2em">DOWN</tspan>
+<tspan x="0" dy="-0.6em">GUI+</tspan><tspan x="0" dy="1.2em">DOWN</tspan>
 </text>
 </g>
 <g transform="translate(320, 104)" class="key keypos-17">
 <rect rx="6" ry="6" x="-26" y="-26" width="52" height="52" class="key"/>
 <text x="0" y="0" class="key tap">
-<tspan x="0" dy="-0.6em">Gui+</tspan><tspan x="0" dy="1.2em">RIGHT</tspan>
+<tspan x="0" dy="-0.6em">GUI+</tspan><tspan x="0" dy="1.2em">RIGHT</tspan>
 </text>
 </g>
 <g transform="translate(516, 104)" class="key keypos-18">
@@ -870,11 +897,11 @@ text.label {
 </g>
 <g transform="translate(264, 154)" class="key keypos-27">
 <rect rx="6" ry="6" x="-26" y="-26" width="52" height="52" class="key"/>
-<text x="0" y="0" class="key tap">LCTRL</text>
+<use href="#phosphor:bold/control" xlink:href="#phosphor:bold/control" x="-7" y="-7" height="14" width="14.0" class="key tap glyph phosphor:bold/control"/>
 </g>
 <g transform="translate(320, 160)" class="key keypos-28">
 <rect rx="6" ry="6" x="-26" y="-26" width="52" height="52" class="key"/>
-<text x="0" y="0" class="key tap">LGUI</text>
+<text x="0" y="0" class="key tap">GUI</text>
 </g>
 <g transform="translate(516, 160)" class="key keypos-29">
 <rect rx="6" ry="6" x="-26" y="-26" width="52" height="52" class="key"/>
@@ -933,7 +960,7 @@ text.label {
 </g>
 <g class="combo combopos-2">
 <rect rx="6" ry="6" x="162" y="23" width="26" height="26" class="combo"/>
-<text x="175" y="36" class="combo tap">ESC</text>
+<use href="#phosphor:bold/x-circle" xlink:href="#phosphor:bold/x-circle" x="168" y="29" height="14" width="14.0" class="combo tap glyph phosphor:bold/x-circle"/>
 </g>
 <g class="combo combopos-3">
 <rect rx="6" ry="6" x="223" y="22" width="26" height="26" class="combo"/>
@@ -945,17 +972,17 @@ text.label {
 </g>
 <g class="combo combopos-5">
 <rect rx="6" ry="6" x="165" y="135" width="26" height="26" class="combo"/>
-<text x="178" y="148" class="combo tap">Ctl+C</text>
+<use href="#phosphor:bold/files" xlink:href="#phosphor:bold/files" x="171" y="141" height="14" width="14.0" class="combo tap glyph phosphor:bold/files"/>
 </g>
 <g class="combo combopos-6">
 <rect rx="6" ry="6" x="223" y="134" width="26" height="26" class="combo"/>
-<text x="236" y="147" class="combo tap">Ctl+V</text>
+<use href="#phosphor:bold/file-plus" xlink:href="#phosphor:bold/file-plus" x="229" y="140" height="14" width="14.0" class="combo tap glyph phosphor:bold/file-plus"/>
 </g>
 <g class="combo combopos-7">
-<path d="M206,155 l39,-1" class="combo"/>
-<path d="M206,155 l-39,1" class="combo"/>
-<rect rx="6" ry="6" x="193" y="142" width="26" height="26" class="combo"/>
-<text x="206" y="155" class="combo tap">Ctl+X</text>
+<path d="M206,190 h51 a6.0,6.0 0 0 0 6.0,-6.0 v-11" class="combo"/>
+<path d="M206,190 h-51 a6.0,6.0 0 0 1 -6.0,-6.0 v-10" class="combo"/>
+<rect rx="6" ry="6" x="193" y="177" width="26" height="26" class="combo"/>
+<use href="#phosphor:bold/file-x" xlink:href="#phosphor:bold/file-x" x="199" y="183" height="14" width="14.0" class="combo tap glyph phosphor:bold/file-x"/>
 </g>
 <g class="combo combopos-8">
 <rect rx="6" ry="6" x="251" y="113" width="26" height="26" class="combo"/>
@@ -991,7 +1018,7 @@ text.label {
 </g>
 <g class="combo combopos-16">
 <rect rx="6" ry="6" x="647" y="23" width="26" height="26" class="combo"/>
-<text x="660" y="36" class="combo tap"><tspan style="font-size: 78%">BACKSPACE</tspan></text>
+<use href="#phosphor:bold/backspace" xlink:href="#phosphor:bold/backspace" x="653" y="29" height="14" width="14.0" class="combo tap glyph phosphor:bold/backspace"/>
 </g>
 <g class="combo combopos-17">
 <rect rx="6" ry="6" x="615" y="43" width="26" height="26" class="combo"/>
@@ -1027,7 +1054,7 @@ text.label {
 </g>
 <g class="combo combopos-25">
 <rect rx="6" ry="6" x="164" y="79" width="26" height="26" class="combo"/>
-<text x="177" y="92" class="combo tap">TAB</text>
+<use href="#phosphor:bold/arrow-line-right" xlink:href="#phosphor:bold/arrow-line-right" x="170" y="85" height="14" width="14.0" class="combo tap glyph phosphor:bold/arrow-line-right"/>
 </g>
 <g class="combo combopos-26">
 <rect rx="6" ry="6" x="587" y="22" width="26" height="26" class="combo"/>

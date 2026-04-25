@@ -28,15 +28,15 @@ layers:
   - Z
   - {t: X, h: RALT}
   - {t: C, h: LALT}
-  - {t: V, h: LCTRL}
-  - {t: B, h: LGUI}
-  - {t: N, h: LGUI}
-  - {t: M, h: LCTRL}
+  - {t: V, h: '$$phosphor:bold/control$$'}
+  - {t: B, h: GUI}
+  - {t: N, h: GUI}
+  - {t: M, h: '$$phosphor:bold/control$$'}
   - {t: ',', h: LALT}
   - {t: ., h: RALT}
   - ''''
-  - LSHIFT
-  - SPACE
+  - $$phosphor:bold/arrow-fat-up$$
+  - $$mdi:keyboard-space$$
   - NUM
   - NAV
   - RSHFT
@@ -47,7 +47,7 @@ layers:
   - F9
   - F8
   - F7
-  - Sft+Gui+S
+  - Sft+GUI+S
   - ','
   - '7'
   - '8'
@@ -69,10 +69,10 @@ layers:
   - F12
   - {t: F3, h: RALT}
   - {t: F2, h: LALT}
-  - {t: F1, h: LCTRL}
+  - {t: F1, h: '$$phosphor:bold/control$$'}
   - LEFT GUI
-  - {t: '0', h: LGUI}
-  - {t: '1', h: LCTRL}
+  - {t: '0', h: GUI}
+  - {t: '1', h: '$$phosphor:bold/control$$'}
   - {t: '2', h: LALT}
   - {t: '3', h: RALT}
   - {t: ▽, type: trans}
@@ -85,22 +85,22 @@ layers:
   NAV:
   - {t: ▽, type: trans}
   - ''
-  - Ctl+Gui+LEFT
-  - Ctl+Gui+F4
-  - Ctl+Gui+D
-  - Gui+Ctl+RIGHT
+  - ^+GUI+LEFT
+  - ^+GUI+F4
+  - ^+GUI+D
+  - GUI+^+RIGHT
   - HOME
   - PG DN
   - PG UP
   - END
   - VOL UP
   - {t: ▽, type: trans}
-  - Gui+TAB
+  - GUI+TAB
   - ''
-  - Gui+LEFT
-  - Gui+UP
-  - Gui+DOWN
-  - Gui+RIGHT
+  - GUI+LEFT
+  - GUI+UP
+  - GUI+DOWN
+  - GUI+RIGHT
   - LEFT
   - DOWN
   - UP
@@ -110,8 +110,8 @@ layers:
   - ''
   - RALT
   - LALT
-  - LCTRL
-  - LGUI
+  - $$phosphor:bold/control$$
+  - GUI
   - PREV
   - PLAY PAUSE
   - STOP
@@ -129,17 +129,19 @@ combos:
 - p: [14, 2]
   k: '`'
 - p: [3, 2]
-  k: ESC
+  k: $$phosphor:bold/x-circle$$
 - p: [4, 3]
   k: '#'
 - p: [15, 26]
   k: \
 - p: [26, 25]
-  k: Ctl+C
+  k: $$phosphor:bold/files$$
 - p: [26, 27]
-  k: Ctl+V
+  k: $$phosphor:bold/file-plus$$
 - p: [27, 25]
-  k: Ctl+X
+  k: $$phosphor:bold/file-x$$
+  a: bottom
+  o: 0.1
 - p: [27, 16]
   k: '='
 - p: [16, 4]
@@ -157,7 +159,7 @@ combos:
 - p: [19, 30]
   k: '-'
 - p: [8, 9]
-  k: BACKSPACE
+  k: $$phosphor:bold/backspace$$
 - p: [8, 20]
   k: '*'
 - p: [20, 31]
@@ -175,6 +177,6 @@ combos:
 - p: [15, 16]
   k: '!'
 - p: [14, 15]
-  k: TAB
+  k: $$phosphor:bold/arrow-line-right$$
 - p: [8, 7]
   k: '&'
