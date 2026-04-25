@@ -97,10 +97,10 @@ layers:
   - {t: '$$phosphor:bold/triangle$$', type: trans}
   - GUI $$phosphor:bold/arrow-line-right$$
   - ''
-  - GUI LEFT
-  - GUI UP
-  - GUI DOWN
-  - GUI RIGHT
+  - AltGr
+  - Alt
+  - $$phosphor:bold/control$$
+  - GUI
   - $$phosphor:bold/arrow-left$$
   - $$phosphor:bold/arrow-down$$
   - $$phosphor:bold/arrow-up$$
@@ -108,10 +108,10 @@ layers:
   - $$phosphor:bold/speaker-slash$$
   - {t: '$$phosphor:bold/triangle$$', type: trans}
   - ''
-  - AltGr
-  - Alt
-  - $$phosphor:bold/control$$
-  - GUI
+  - GUI LEFT
+  - GUI UP
+  - GUI DOWN
+  - GUI RIGHT
   - $$phosphor:bold/skip-back$$
   - $$phosphor:bold/play-pause$$
   - $$phosphor:bold/stop$$
