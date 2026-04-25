@@ -85,10 +85,10 @@ layers:
   NAV:
   - {t: '$$phosphor:bold/triangle$$', type: trans}
   - ''
-  - ^ GUI $$phosphor:bold/arrow-left$$
+  - ^ GUI LEFT
   - ^ GUI F4
   - ^ GUI D
-  - GUI ^ $$phosphor:bold/arrow-right$$
+  - GUI ^ RIGHT
   - HOME
   - PG DN
   - PG UP
@@ -97,10 +97,10 @@ layers:
   - {t: '$$phosphor:bold/triangle$$', type: trans}
   - GUI $$phosphor:bold/arrow-line-right$$
   - ''
-  - GUI $$phosphor:bold/arrow-left$$
-  - GUI $$phosphor:bold/arrow-up$$
-  - GUI $$phosphor:bold/arrow-down$$
-  - GUI $$phosphor:bold/arrow-right$$
+  - GUI LEFT
+  - GUI UP
+  - GUI DOWN
+  - GUI RIGHT
   - LEFT ARROW
   - DOWN ARROW
   - UP ARROW
