@@ -31,6 +31,25 @@ LOG_MODULE_DECLARE(zmk, CONFIG_ZMK_LOG_LEVEL);
 
 static struct k_timer demo_timer;
 static uint8_t demo_level = 0;
+
+//#define BUFFER_SIZE LV_CANVAS_BUF_SIZE(5, 8, LV_COLOR_FORMAT_GET_BPP(LV_COLOR_FORMAT_L8), LV_DRAW_BUF_STRIDE_ALIGN)
+#define BUFFER_SIZE LV_CANVAS_BUF_SIZE(BAR_WIDTH, BAR_HEIGHT, LV_COLOR_FORMAT_GET_BPP(LV_COLOR_FORMAT_L8), LV_DRAW_BUF_STRIDE_ALIGN)
+
+static sys_slist_t widgets = SYS_SLIST_STATIC_INIT(&widgets);
+
+struct battery_state {
+    uint8_t source;
+    uint8_t level;
+    bool usb_present;
+};
+
+struct battery_object {
+    lv_obj_t *symbol;
+    //lv_obj_t *label;
+} battery_objects[ZMK_SPLIT_BLE_PERIPHERAL_COUNT + SOURCE_OFFSET];
+    
+static lv_color_t battery_image_buffer[ZMK_SPLIT_BLE_PERIPHERAL_COUNT + SOURCE_OFFSET][BUFFER_SIZE];
+
 static void demo_timer_handler(struct k_timer *timer) {
     demo_level += 5;
     if (demo_level > 100) {
@@ -55,24 +74,6 @@ static void demo_timer_handler(struct k_timer *timer) {
 #endif
 }
 
-
-//#define BUFFER_SIZE LV_CANVAS_BUF_SIZE(5, 8, LV_COLOR_FORMAT_GET_BPP(LV_COLOR_FORMAT_L8), LV_DRAW_BUF_STRIDE_ALIGN)
-#define BUFFER_SIZE LV_CANVAS_BUF_SIZE(BAR_WIDTH, BAR_HEIGHT, LV_COLOR_FORMAT_GET_BPP(LV_COLOR_FORMAT_L8), LV_DRAW_BUF_STRIDE_ALIGN)
-
-static sys_slist_t widgets = SYS_SLIST_STATIC_INIT(&widgets);
-
-struct battery_state {
-    uint8_t source;
-    uint8_t level;
-    bool usb_present;
-};
-
-struct battery_object {
-    lv_obj_t *symbol;
-    //lv_obj_t *label;
-} battery_objects[ZMK_SPLIT_BLE_PERIPHERAL_COUNT + SOURCE_OFFSET];
-    
-static lv_color_t battery_image_buffer[ZMK_SPLIT_BLE_PERIPHERAL_COUNT + SOURCE_OFFSET][BUFFER_SIZE];
 
 static void draw_battery(lv_obj_t *canvas, uint8_t level, bool usb_present) {
     lv_canvas_fill_bg(canvas, lv_color_black(), LV_OPA_COVER);
