@@ -1,7 +1,7 @@
 layout: {zmk_keyboard: betem}
 layers:
   BAS:
-  - $$phosphor:bold/x-circle$$
+  - F13
   - Q
   - W
   - E
@@ -12,8 +12,8 @@ layers:
   - I
   - O
   - P
-  - $$phosphor:bold/backspace$$
-  - $$phosphor:bold/arrow-line-right$$
+  - F15
+  - F14
   - A
   - {t: S, h: AltGr}
   - {t: D, h: Alt}
@@ -24,7 +24,7 @@ layers:
   - {t: K, h: Alt}
   - {t: L, h: AltGr}
   - ;
-  - $$phosphor:bold/key-return$$
+  - F16
   - Z
   - X
   - C
@@ -35,12 +35,12 @@ layers:
   - ','
   - .
   - ''''
-  - $$phosphor:bold/arrow-fat-up$$
+  - F17
   - $$phosphor:bold/arrow-fat-up$$
   - {t: '$$mdi:keyboard-space$$', h: NUM}
   - {t: '$$mdi:keyboard-space$$', h: NAV}
   - $$phosphor:bold/arrow-fat-up$$
-  - $$phosphor:bold/key-return$$
+  - F18
   NUM:
   - {t: '$$phosphor:bold/triangle$$', type: trans}
   - F10
@@ -53,7 +53,7 @@ layers:
   - '8'
   - '9'
   - ''
-  - {t: '$$phosphor:bold/triangle$$', type: trans}
+  - ''
   - {t: '$$phosphor:bold/triangle$$', type: trans}
   - F11
   - {t: F6, h: AltGr}
@@ -65,7 +65,7 @@ layers:
   - {t: '5', h: Alt}
   - {t: '6', h: AltGr}
   - {t: '$$phosphor:bold/triangle$$', type: trans}
-  - {t: '$$phosphor:bold/triangle$$', type: trans}
+  - ''
   - F12
   - F3
   - F2
@@ -83,7 +83,7 @@ layers:
   - {t: '$$phosphor:bold/triangle$$', type: trans}
   - {t: '$$phosphor:bold/triangle$$', type: trans}
   NAV:
-  - {t: '$$phosphor:bold/triangle$$', type: trans}
+  - ''
   - ''
   - ^ GUI LEFT
   - ^ GUI F4
@@ -94,8 +94,8 @@ layers:
   - PG UP
   - END
   - $$phosphor:bold/speaker-high$$
-  - {t: '$$phosphor:bold/triangle$$', type: trans}
-  - GUI $$phosphor:bold/arrow-line-right$$
+  - ''
+  - ''
   - ''
   - AltGr
   - Alt
@@ -106,7 +106,7 @@ layers:
   - $$phosphor:bold/arrow-up$$
   - $$phosphor:bold/arrow-right$$
   - $$phosphor:bold/speaker-slash$$
-  - {t: '$$phosphor:bold/triangle$$', type: trans}
+  - ''
   - ''
   - GUI LEFT
   - GUI UP
@@ -128,9 +128,9 @@ combos:
   k: '@'
 - p: [14, 2]
   k: '`'
-- p: [3, 2]
+- p: [13, 14]
   k: $$phosphor:bold/x-circle$$
-- p: [4, 3]
+- p: [14, 15]
   k: '#'
 - p: [15, 26]
   k: \
@@ -142,7 +142,7 @@ combos:
   k: $$phosphor:bold/file-x$$
   a: bottom
   o: 0.1
-- p: [27, 16]
+- p: [6, 18]
   k: '='
 - p: [16, 4]
   k: $
@@ -150,7 +150,7 @@ combos:
   k: '%'
 - p: [17, 28]
   k: '~'
-- p: [6, 18]
+- p: [4, 5]
   k: ^
 - p: [18, 29]
   k: _
@@ -158,7 +158,7 @@ combos:
   k: +
 - p: [19, 30]
   k: '-'
-- p: [8, 9]
+- p: [8, 7]
   k: $$phosphor:bold/backspace$$
 - p: [8, 20]
   k: '*'
@@ -176,7 +176,9 @@ combos:
   k: '['
 - p: [15, 16]
   k: '!'
-- p: [14, 15]
+- p: [3, 4]
   k: $$phosphor:bold/arrow-line-right$$
-- p: [8, 7]
+- p: [7, 6]
   k: '&'
+- p: [8, 9]
+  k: $$phosphor:bold/key-return$$

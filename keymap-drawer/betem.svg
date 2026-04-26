@@ -265,7 +265,7 @@ svg.keymap {
 <g transform="translate(0, 56)">
 <g transform="translate(30, 120) rotate(-5.0)" class="key keypos-0">
 <rect rx="6" ry="6" x="-26" y="-26" width="52" height="52" class="key"/>
-<use href="#phosphor:bold/x-circle" xlink:href="#phosphor:bold/x-circle" x="-7" y="-7" height="14" width="14.0" class="key tap glyph phosphor:bold/x-circle"/>
+<text x="0" y="0" class="key tap">F13</text>
 </g>
 <g transform="translate(84, 87) rotate(-5.0)" class="key keypos-1">
 <rect rx="6" ry="6" x="-26" y="-26" width="52" height="52" class="key"/>
@@ -309,11 +309,11 @@ svg.keymap {
 </g>
 <g transform="translate(805, 119) rotate(5.0)" class="key keypos-11">
 <rect rx="6" ry="6" x="-26" y="-26" width="52" height="52" class="key"/>
-<use href="#phosphor:bold/backspace" xlink:href="#phosphor:bold/backspace" x="-7" y="-7" height="14" width="14.0" class="key tap glyph phosphor:bold/backspace"/>
+<text x="0" y="0" class="key tap">F15</text>
 </g>
 <g transform="translate(35, 176) rotate(-5.0)" class="key keypos-12">
 <rect rx="6" ry="6" x="-26" y="-26" width="52" height="52" class="key"/>
-<use href="#phosphor:bold/arrow-line-right" xlink:href="#phosphor:bold/arrow-line-right" x="-7" y="-7" height="14" width="14.0" class="key tap glyph phosphor:bold/arrow-line-right"/>
+<text x="0" y="0" class="key tap">F14</text>
 </g>
 <g transform="translate(89, 143) rotate(-5.0)" class="key keypos-13">
 <rect rx="6" ry="6" x="-26" y="-26" width="52" height="52" class="key"/>
@@ -365,7 +365,7 @@ svg.keymap {
 </g>
 <g transform="translate(800, 174) rotate(5.0)" class="key keypos-23">
 <rect rx="6" ry="6" x="-26" y="-26" width="52" height="52" class="key"/>
-<use href="#phosphor:bold/key-return" xlink:href="#phosphor:bold/key-return" x="-7" y="-7" height="14" width="14.0" class="key tap glyph phosphor:bold/key-return"/>
+<text x="0" y="0" class="key tap">F16</text>
 </g>
 <g transform="translate(93, 199) rotate(-5.0)" class="key keypos-24">
 <rect rx="6" ry="6" x="-26" y="-26" width="52" height="52" class="key"/>
@@ -409,7 +409,7 @@ svg.keymap {
 </g>
 <g transform="translate(250, 224)" class="key keypos-34">
 <rect rx="6" ry="6" x="-26" y="-26" width="52" height="52" class="key"/>
-<use href="#phosphor:bold/arrow-fat-up" xlink:href="#phosphor:bold/arrow-fat-up" x="-7" y="-7" height="14" width="14.0" class="key tap glyph phosphor:bold/arrow-fat-up"/>
+<text x="0" y="0" class="key tap">F17</text>
 </g>
 <g transform="translate(311, 228) rotate(6.0)" class="key keypos-35">
 <rect rx="6" ry="6" x="-26" y="-26" width="52" height="52" class="key"/>
@@ -433,7 +433,7 @@ svg.keymap {
 </g>
 <g transform="translate(586, 224)" class="key keypos-39">
 <rect rx="6" ry="6" x="-26" y="-26" width="52" height="52" class="key"/>
-<use href="#phosphor:bold/key-return" xlink:href="#phosphor:bold/key-return" x="-7" y="-7" height="14" width="14.0" class="key tap glyph phosphor:bold/key-return"/>
+<text x="0" y="0" class="key tap">F18</text>
 </g>
 <g class="combo combopos-0">
 <rect rx="6" ry="6" x="195" y="43" width="26" height="26" class="combo"/>
@@ -444,12 +444,12 @@ svg.keymap {
 <text x="144" y="72" class="combo tap">`</text>
 </g>
 <g class="combo combopos-2">
-<rect rx="6" ry="6" x="162" y="23" width="26" height="26" class="combo"/>
-<use href="#phosphor:bold/x-circle" xlink:href="#phosphor:bold/x-circle" x="168" y="29" height="14" width="14.0" class="combo tap glyph phosphor:bold/x-circle"/>
+<rect rx="6" ry="6" x="104" y="108" width="26" height="26" class="combo"/>
+<use href="#phosphor:bold/x-circle" xlink:href="#phosphor:bold/x-circle" x="110" y="114" height="14" width="14.0" class="combo tap glyph phosphor:bold/x-circle"/>
 </g>
 <g class="combo combopos-3">
-<rect rx="6" ry="6" x="223" y="22" width="26" height="26" class="combo"/>
-<text x="236" y="35" class="combo tap">#</text>
+<rect rx="6" ry="6" x="164" y="79" width="26" height="26" class="combo"/>
+<text x="177" y="92" class="combo tap">#</text>
 </g>
 <g class="combo combopos-4">
 <rect rx="6" ry="6" x="195" y="99" width="26" height="26" class="combo"/>
@@ -470,8 +470,8 @@ svg.keymap {
 <use href="#phosphor:bold/file-x" xlink:href="#phosphor:bold/file-x" x="199" y="183" height="14" width="14.0" class="combo tap glyph phosphor:bold/file-x"/>
 </g>
 <g class="combo combopos-8">
-<rect rx="6" ry="6" x="251" y="113" width="26" height="26" class="combo"/>
-<text x="264" y="126" class="combo tap">=</text>
+<rect rx="6" ry="6" x="503" y="63" width="26" height="26" class="combo"/>
+<text x="516" y="76" class="combo tap">=</text>
 </g>
 <g class="combo combopos-9">
 <rect rx="6" ry="6" x="251" y="57" width="26" height="26" class="combo"/>
@@ -486,8 +486,8 @@ svg.keymap {
 <text x="320" y="132" class="combo tap">~</text>
 </g>
 <g class="combo combopos-12">
-<rect rx="6" ry="6" x="503" y="63" width="26" height="26" class="combo"/>
-<text x="516" y="76" class="combo tap">^</text>
+<rect rx="6" ry="6" x="279" y="32" width="26" height="26" class="combo"/>
+<text x="292" y="45" class="combo tap">^</text>
 </g>
 <g class="combo combopos-13">
 <rect rx="6" ry="6" x="503" y="119" width="26" height="26" class="combo"/>
@@ -502,8 +502,8 @@ svg.keymap {
 <text x="572" y="126" class="combo tap">-</text>
 </g>
 <g class="combo combopos-16">
-<rect rx="6" ry="6" x="647" y="23" width="26" height="26" class="combo"/>
-<use href="#phosphor:bold/backspace" xlink:href="#phosphor:bold/backspace" x="653" y="29" height="14" width="14.0" class="combo tap glyph phosphor:bold/backspace"/>
+<rect rx="6" ry="6" x="587" y="22" width="26" height="26" class="combo"/>
+<use href="#phosphor:bold/backspace" xlink:href="#phosphor:bold/backspace" x="593" y="28" height="14" width="14.0" class="combo tap glyph phosphor:bold/backspace"/>
 </g>
 <g class="combo combopos-17">
 <rect rx="6" ry="6" x="615" y="43" width="26" height="26" class="combo"/>
@@ -538,12 +538,16 @@ svg.keymap {
 <text x="236" y="91" class="combo tap">!</text>
 </g>
 <g class="combo combopos-25">
-<rect rx="6" ry="6" x="164" y="79" width="26" height="26" class="combo"/>
-<use href="#phosphor:bold/arrow-line-right" xlink:href="#phosphor:bold/arrow-line-right" x="170" y="85" height="14" width="14.0" class="combo tap glyph phosphor:bold/arrow-line-right"/>
+<rect rx="6" ry="6" x="223" y="22" width="26" height="26" class="combo"/>
+<use href="#phosphor:bold/arrow-line-right" xlink:href="#phosphor:bold/arrow-line-right" x="229" y="28" height="14" width="14.0" class="combo tap glyph phosphor:bold/arrow-line-right"/>
 </g>
 <g class="combo combopos-26">
-<rect rx="6" ry="6" x="587" y="22" width="26" height="26" class="combo"/>
-<text x="600" y="35" class="combo tap">&amp;</text>
+<rect rx="6" ry="6" x="531" y="32" width="26" height="26" class="combo"/>
+<text x="544" y="45" class="combo tap">&amp;</text>
+</g>
+<g class="combo combopos-27">
+<rect rx="6" ry="6" x="647" y="23" width="26" height="26" class="combo"/>
+<use href="#phosphor:bold/key-return" xlink:href="#phosphor:bold/key-return" x="653" y="29" height="14" width="14.0" class="combo tap glyph phosphor:bold/key-return"/>
 </g>
 </g>
 </g>
@@ -595,9 +599,8 @@ svg.keymap {
 <g transform="translate(752, 86) rotate(5.0)" class="key keypos-10">
 <rect rx="6" ry="6" x="-26" y="-26" width="52" height="52" class="key"/>
 </g>
-<g transform="translate(805, 119) rotate(5.0)" class="key trans keypos-11">
-<rect rx="6" ry="6" x="-26" y="-26" width="52" height="52" class="key trans"/>
-<use href="#phosphor:bold/triangle" xlink:href="#phosphor:bold/triangle" x="-7" y="-7" height="14" width="14.0" class="key trans tap glyph phosphor:bold/triangle"/>
+<g transform="translate(805, 119) rotate(5.0)" class="key keypos-11">
+<rect rx="6" ry="6" x="-26" y="-26" width="52" height="52" class="key"/>
 </g>
 <g transform="translate(35, 176) rotate(-5.0)" class="key trans keypos-12">
 <rect rx="6" ry="6" x="-26" y="-26" width="52" height="52" class="key trans"/>
@@ -653,9 +656,8 @@ svg.keymap {
 <rect rx="6" ry="6" x="-26" y="-26" width="52" height="52" class="key trans"/>
 <use href="#phosphor:bold/triangle" xlink:href="#phosphor:bold/triangle" x="-7" y="-7" height="14" width="14.0" class="key trans tap glyph phosphor:bold/triangle"/>
 </g>
-<g transform="translate(800, 174) rotate(5.0)" class="key trans keypos-23">
-<rect rx="6" ry="6" x="-26" y="-26" width="52" height="52" class="key trans"/>
-<use href="#phosphor:bold/triangle" xlink:href="#phosphor:bold/triangle" x="-7" y="-7" height="14" width="14.0" class="key trans tap glyph phosphor:bold/triangle"/>
+<g transform="translate(800, 174) rotate(5.0)" class="key keypos-23">
+<rect rx="6" ry="6" x="-26" y="-26" width="52" height="52" class="key"/>
 </g>
 <g transform="translate(93, 199) rotate(-5.0)" class="key keypos-24">
 <rect rx="6" ry="6" x="-26" y="-26" width="52" height="52" class="key"/>
@@ -731,12 +733,12 @@ svg.keymap {
 <text x="144" y="72" class="combo tap">`</text>
 </g>
 <g class="combo combopos-2">
-<rect rx="6" ry="6" x="162" y="23" width="26" height="26" class="combo"/>
-<use href="#phosphor:bold/x-circle" xlink:href="#phosphor:bold/x-circle" x="168" y="29" height="14" width="14.0" class="combo tap glyph phosphor:bold/x-circle"/>
+<rect rx="6" ry="6" x="104" y="108" width="26" height="26" class="combo"/>
+<use href="#phosphor:bold/x-circle" xlink:href="#phosphor:bold/x-circle" x="110" y="114" height="14" width="14.0" class="combo tap glyph phosphor:bold/x-circle"/>
 </g>
 <g class="combo combopos-3">
-<rect rx="6" ry="6" x="223" y="22" width="26" height="26" class="combo"/>
-<text x="236" y="35" class="combo tap">#</text>
+<rect rx="6" ry="6" x="164" y="79" width="26" height="26" class="combo"/>
+<text x="177" y="92" class="combo tap">#</text>
 </g>
 <g class="combo combopos-4">
 <rect rx="6" ry="6" x="195" y="99" width="26" height="26" class="combo"/>
@@ -757,8 +759,8 @@ svg.keymap {
 <use href="#phosphor:bold/file-x" xlink:href="#phosphor:bold/file-x" x="199" y="183" height="14" width="14.0" class="combo tap glyph phosphor:bold/file-x"/>
 </g>
 <g class="combo combopos-8">
-<rect rx="6" ry="6" x="251" y="113" width="26" height="26" class="combo"/>
-<text x="264" y="126" class="combo tap">=</text>
+<rect rx="6" ry="6" x="503" y="63" width="26" height="26" class="combo"/>
+<text x="516" y="76" class="combo tap">=</text>
 </g>
 <g class="combo combopos-9">
 <rect rx="6" ry="6" x="251" y="57" width="26" height="26" class="combo"/>
@@ -773,8 +775,8 @@ svg.keymap {
 <text x="320" y="132" class="combo tap">~</text>
 </g>
 <g class="combo combopos-12">
-<rect rx="6" ry="6" x="503" y="63" width="26" height="26" class="combo"/>
-<text x="516" y="76" class="combo tap">^</text>
+<rect rx="6" ry="6" x="279" y="32" width="26" height="26" class="combo"/>
+<text x="292" y="45" class="combo tap">^</text>
 </g>
 <g class="combo combopos-13">
 <rect rx="6" ry="6" x="503" y="119" width="26" height="26" class="combo"/>
@@ -789,8 +791,8 @@ svg.keymap {
 <text x="572" y="126" class="combo tap">-</text>
 </g>
 <g class="combo combopos-16">
-<rect rx="6" ry="6" x="647" y="23" width="26" height="26" class="combo"/>
-<use href="#phosphor:bold/backspace" xlink:href="#phosphor:bold/backspace" x="653" y="29" height="14" width="14.0" class="combo tap glyph phosphor:bold/backspace"/>
+<rect rx="6" ry="6" x="587" y="22" width="26" height="26" class="combo"/>
+<use href="#phosphor:bold/backspace" xlink:href="#phosphor:bold/backspace" x="593" y="28" height="14" width="14.0" class="combo tap glyph phosphor:bold/backspace"/>
 </g>
 <g class="combo combopos-17">
 <rect rx="6" ry="6" x="615" y="43" width="26" height="26" class="combo"/>
@@ -825,21 +827,24 @@ svg.keymap {
 <text x="236" y="91" class="combo tap">!</text>
 </g>
 <g class="combo combopos-25">
-<rect rx="6" ry="6" x="164" y="79" width="26" height="26" class="combo"/>
-<use href="#phosphor:bold/arrow-line-right" xlink:href="#phosphor:bold/arrow-line-right" x="170" y="85" height="14" width="14.0" class="combo tap glyph phosphor:bold/arrow-line-right"/>
+<rect rx="6" ry="6" x="223" y="22" width="26" height="26" class="combo"/>
+<use href="#phosphor:bold/arrow-line-right" xlink:href="#phosphor:bold/arrow-line-right" x="229" y="28" height="14" width="14.0" class="combo tap glyph phosphor:bold/arrow-line-right"/>
 </g>
 <g class="combo combopos-26">
-<rect rx="6" ry="6" x="587" y="22" width="26" height="26" class="combo"/>
-<text x="600" y="35" class="combo tap">&amp;</text>
+<rect rx="6" ry="6" x="531" y="32" width="26" height="26" class="combo"/>
+<text x="544" y="45" class="combo tap">&amp;</text>
+</g>
+<g class="combo combopos-27">
+<rect rx="6" ry="6" x="647" y="23" width="26" height="26" class="combo"/>
+<use href="#phosphor:bold/key-return" xlink:href="#phosphor:bold/key-return" x="653" y="29" height="14" width="14.0" class="combo tap glyph phosphor:bold/key-return"/>
 </g>
 </g>
 </g>
 <g transform="translate(30, 655)" class="layer-NAV">
 <text x="0" y="28" class="label" id="NAV">NAV</text>
 <g transform="translate(0, 56)">
-<g transform="translate(30, 120) rotate(-5.0)" class="key trans keypos-0">
-<rect rx="6" ry="6" x="-26" y="-26" width="52" height="52" class="key trans"/>
-<use href="#phosphor:bold/triangle" xlink:href="#phosphor:bold/triangle" x="-7" y="-7" height="14" width="14.0" class="key trans tap glyph phosphor:bold/triangle"/>
+<g transform="translate(30, 120) rotate(-5.0)" class="key keypos-0">
+<rect rx="6" ry="6" x="-26" y="-26" width="52" height="52" class="key"/>
 </g>
 <g transform="translate(84, 87) rotate(-5.0)" class="key keypos-1">
 <rect rx="6" ry="6" x="-26" y="-26" width="52" height="52" class="key"/>
@@ -892,13 +897,11 @@ svg.keymap {
 <rect rx="6" ry="6" x="-26" y="-26" width="52" height="52" class="key"/>
 <use href="#phosphor:bold/speaker-high" xlink:href="#phosphor:bold/speaker-high" x="-7" y="-7" height="14" width="14.0" class="key tap glyph phosphor:bold/speaker-high"/>
 </g>
-<g transform="translate(805, 119) rotate(5.0)" class="key trans keypos-11">
-<rect rx="6" ry="6" x="-26" y="-26" width="52" height="52" class="key trans"/>
-<use href="#phosphor:bold/triangle" xlink:href="#phosphor:bold/triangle" x="-7" y="-7" height="14" width="14.0" class="key trans tap glyph phosphor:bold/triangle"/>
+<g transform="translate(805, 119) rotate(5.0)" class="key keypos-11">
+<rect rx="6" ry="6" x="-26" y="-26" width="52" height="52" class="key"/>
 </g>
 <g transform="translate(35, 176) rotate(-5.0)" class="key keypos-12">
 <rect rx="6" ry="6" x="-26" y="-26" width="52" height="52" class="key"/>
-<use href="#phosphor:bold/arrow-line-right" xlink:href="#phosphor:bold/arrow-line-right" x="-7" y="-7" height="14" width="14.0" class="key tap glyph phosphor:bold/arrow-line-right"/>
 </g>
 <g transform="translate(89, 143) rotate(-5.0)" class="key keypos-13">
 <rect rx="6" ry="6" x="-26" y="-26" width="52" height="52" class="key"/>
@@ -939,9 +942,8 @@ svg.keymap {
 <rect rx="6" ry="6" x="-26" y="-26" width="52" height="52" class="key"/>
 <use href="#phosphor:bold/speaker-slash" xlink:href="#phosphor:bold/speaker-slash" x="-7" y="-7" height="14" width="14.0" class="key tap glyph phosphor:bold/speaker-slash"/>
 </g>
-<g transform="translate(800, 174) rotate(5.0)" class="key trans keypos-23">
-<rect rx="6" ry="6" x="-26" y="-26" width="52" height="52" class="key trans"/>
-<use href="#phosphor:bold/triangle" xlink:href="#phosphor:bold/triangle" x="-7" y="-7" height="14" width="14.0" class="key trans tap glyph phosphor:bold/triangle"/>
+<g transform="translate(800, 174) rotate(5.0)" class="key keypos-23">
+<rect rx="6" ry="6" x="-26" y="-26" width="52" height="52" class="key"/>
 </g>
 <g transform="translate(93, 199) rotate(-5.0)" class="key keypos-24">
 <rect rx="6" ry="6" x="-26" y="-26" width="52" height="52" class="key"/>
@@ -1022,12 +1024,12 @@ svg.keymap {
 <text x="144" y="72" class="combo tap">`</text>
 </g>
 <g class="combo combopos-2">
-<rect rx="6" ry="6" x="162" y="23" width="26" height="26" class="combo"/>
-<use href="#phosphor:bold/x-circle" xlink:href="#phosphor:bold/x-circle" x="168" y="29" height="14" width="14.0" class="combo tap glyph phosphor:bold/x-circle"/>
+<rect rx="6" ry="6" x="104" y="108" width="26" height="26" class="combo"/>
+<use href="#phosphor:bold/x-circle" xlink:href="#phosphor:bold/x-circle" x="110" y="114" height="14" width="14.0" class="combo tap glyph phosphor:bold/x-circle"/>
 </g>
 <g class="combo combopos-3">
-<rect rx="6" ry="6" x="223" y="22" width="26" height="26" class="combo"/>
-<text x="236" y="35" class="combo tap">#</text>
+<rect rx="6" ry="6" x="164" y="79" width="26" height="26" class="combo"/>
+<text x="177" y="92" class="combo tap">#</text>
 </g>
 <g class="combo combopos-4">
 <rect rx="6" ry="6" x="195" y="99" width="26" height="26" class="combo"/>
@@ -1048,8 +1050,8 @@ svg.keymap {
 <use href="#phosphor:bold/file-x" xlink:href="#phosphor:bold/file-x" x="199" y="183" height="14" width="14.0" class="combo tap glyph phosphor:bold/file-x"/>
 </g>
 <g class="combo combopos-8">
-<rect rx="6" ry="6" x="251" y="113" width="26" height="26" class="combo"/>
-<text x="264" y="126" class="combo tap">=</text>
+<rect rx="6" ry="6" x="503" y="63" width="26" height="26" class="combo"/>
+<text x="516" y="76" class="combo tap">=</text>
 </g>
 <g class="combo combopos-9">
 <rect rx="6" ry="6" x="251" y="57" width="26" height="26" class="combo"/>
@@ -1064,8 +1066,8 @@ svg.keymap {
 <text x="320" y="132" class="combo tap">~</text>
 </g>
 <g class="combo combopos-12">
-<rect rx="6" ry="6" x="503" y="63" width="26" height="26" class="combo"/>
-<text x="516" y="76" class="combo tap">^</text>
+<rect rx="6" ry="6" x="279" y="32" width="26" height="26" class="combo"/>
+<text x="292" y="45" class="combo tap">^</text>
 </g>
 <g class="combo combopos-13">
 <rect rx="6" ry="6" x="503" y="119" width="26" height="26" class="combo"/>
@@ -1080,8 +1082,8 @@ svg.keymap {
 <text x="572" y="126" class="combo tap">-</text>
 </g>
 <g class="combo combopos-16">
-<rect rx="6" ry="6" x="647" y="23" width="26" height="26" class="combo"/>
-<use href="#phosphor:bold/backspace" xlink:href="#phosphor:bold/backspace" x="653" y="29" height="14" width="14.0" class="combo tap glyph phosphor:bold/backspace"/>
+<rect rx="6" ry="6" x="587" y="22" width="26" height="26" class="combo"/>
+<use href="#phosphor:bold/backspace" xlink:href="#phosphor:bold/backspace" x="593" y="28" height="14" width="14.0" class="combo tap glyph phosphor:bold/backspace"/>
 </g>
 <g class="combo combopos-17">
 <rect rx="6" ry="6" x="615" y="43" width="26" height="26" class="combo"/>
@@ -1116,12 +1118,16 @@ svg.keymap {
 <text x="236" y="91" class="combo tap">!</text>
 </g>
 <g class="combo combopos-25">
-<rect rx="6" ry="6" x="164" y="79" width="26" height="26" class="combo"/>
-<use href="#phosphor:bold/arrow-line-right" xlink:href="#phosphor:bold/arrow-line-right" x="170" y="85" height="14" width="14.0" class="combo tap glyph phosphor:bold/arrow-line-right"/>
+<rect rx="6" ry="6" x="223" y="22" width="26" height="26" class="combo"/>
+<use href="#phosphor:bold/arrow-line-right" xlink:href="#phosphor:bold/arrow-line-right" x="229" y="28" height="14" width="14.0" class="combo tap glyph phosphor:bold/arrow-line-right"/>
 </g>
 <g class="combo combopos-26">
-<rect rx="6" ry="6" x="587" y="22" width="26" height="26" class="combo"/>
-<text x="600" y="35" class="combo tap">&amp;</text>
+<rect rx="6" ry="6" x="531" y="32" width="26" height="26" class="combo"/>
+<text x="544" y="45" class="combo tap">&amp;</text>
+</g>
+<g class="combo combopos-27">
+<rect rx="6" ry="6" x="647" y="23" width="26" height="26" class="combo"/>
+<use href="#phosphor:bold/key-return" xlink:href="#phosphor:bold/key-return" x="653" y="29" height="14" width="14.0" class="combo tap glyph phosphor:bold/key-return"/>
 </g>
 </g>
 </g>
