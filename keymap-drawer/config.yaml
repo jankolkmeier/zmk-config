@@ -123,10 +123,10 @@ parse_config:
     right_shift: SH 
     left_alt: Alt
     right_alt: AltGr
-    left_gui: GUI
-    right_gui: GUI
-    keycode_combiner: '{mods} {key}'
-    mod_combiner: '{mod_1} {mod_2}'
+    left_gui: ▧
+    right_gui: ▧
+    keycode_combiner: '{mods}+{key}'
+    mod_combiner: '{mod_1}+{mod_2}'
     special_combinations:
       left_gui+left_ctrl+left_arrow: XYZ
       left_ctrl+left_gui+left_arrow: YZZ
@@ -135,23 +135,30 @@ parse_config:
   zmk_remove_keycode_prefix: []
   zmk_keycode_map:
     PRINTSCREEN: PRNT
-    LSHIFT: $$phosphor:bold/arrow-fat-up$$
-    LSHFT: $$phosphor:bold/arrow-fat-up$$
-    RSHIFT: $$phosphor:bold/arrow-fat-up$$
-    RSHFT: $$phosphor:bold/arrow-fat-up$$
-    RCTRL: $$phosphor:bold/control$$
-    LCTRL: $$phosphor:bold/control$$
+    LSHIFT: ⇧
+    LSHFT: ⇧
+    RSHIFT: ⇧
+    RSHFT: ⇧
+    RCTRL: ^
+    LCTRL: ^
     SPACE: $$mdi:keyboard-space$$
-    LEFT_ARROW: $$phosphor:bold/arrow-left$$
-    RIGHT_ARROW: $$phosphor:bold/arrow-right$$
-    UP_ARROW: $$phosphor:bold/arrow-up$$
-    DOWN_ARROW: $$phosphor:bold/arrow-down$$
-    TAB: $$phosphor:bold/arrow-line-right$$
-    ESC: $$phosphor:bold/x-circle$$
-    BACKSPACE: $$phosphor:bold/backspace$$
-    DELETE: $$phosphor:fill/backspace$$
-    DEL: $$phosphor:fill/backspace$$
-    RET: $$phosphor:bold/key-return$$
+    LEFT_ARROW: ←
+    LEFT: ←
+    RIGHT_ARROW: →
+    RIGHT: →
+    UP_ARROW: ↑
+    UP: ↑
+    DOWN_ARROW: ↓
+    DOWN: ↓
+    TAB: ⇥
+    ESC: $$fa:solid/circle-xmark$$
+    BACKSPACE: $fa:regular/delete-right$$
+    BSPC: $fa:regular/delete-right$$
+    DELETE: $$fa:solid/delete-left$$
+    DEL: $$fa:solid/delete-left$$
+    RET: ⮐
+    RETURN: ⮐
+    ENTER: ⮐
     C_MUTE: $$phosphor:bold/speaker-slash$$
     C_VOL_UP: $$phosphor:bold/speaker-high$$
     C_VOL_DN: $$phosphor:bold/speaker-low$$
@@ -162,10 +169,10 @@ parse_config:
     C_STOP: $$phosphor:bold/stop$$
     LALT: Alt
     RALT: AltGr
-    RCMD: GUI
-    LCMD: GUI
-    LGUI: GUI
-    RGUI: GUI
+    RCMD: ▧
+    LCMD: ▧
+    LGUI: ▧
+    RGUI: ▧
     EXCLAMATION: '!'
     EXCL: '!'
     AT_SIGN: '@'
@@ -232,12 +239,12 @@ parse_config:
     TILDE2: '~'
   zmk_combos:
     c_cut:
-      k: $$phosphor:bold/file-x$$
+      k: $$fa:solid/scissors$$
       a: bottom
       o: 0.1
     c_paste:
-      k: $$phosphor:bold/file-plus$$
+      k: $$fa:regular/paste$$
     c_cpy:
-      k: $$phosphor:bold/files$$
+      k: $$fa:regular/copy$$
   zmk_preamble: '#define KEYMAP_DRAWER'
   zmk_additional_includes: []
