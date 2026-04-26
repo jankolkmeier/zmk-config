@@ -150,6 +150,7 @@ parse_config:
     ESC: $$phosphor:bold/x-circle$$
     BACKSPACE: $$phosphor:bold/backspace$$
     DELETE: $$phosphor:fill/backspace$$
+    DEL: $$phosphor:fill/backspace$$
     RET: $$phosphor:bold/key-return$$
     C_MUTE: $$phosphor:bold/speaker-slash$$
     C_VOL_UP: $$phosphor:bold/speaker-high$$
