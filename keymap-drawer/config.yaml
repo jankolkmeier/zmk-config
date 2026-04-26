@@ -117,16 +117,16 @@ parse_config:
   layer_legend_map: {}
   mark_alternate_layer_activators: false
   modifier_fn_map:
-    left_ctrl: ▴
-    right_ctrl: ▴
+    left_ctrl: ▲
+    right_ctrl: ▲
     left_shift: ⇧
     right_shift: ⇧
     left_alt: Alt
     right_alt: AltGr
     left_gui: ▧
     right_gui: ▧
-    keycode_combiner: '{mods}+{key}'
-    mod_combiner: '{mod_1}+{mod_2}'
+    keycode_combiner: '{mods} {key}'
+    mod_combiner: '{mod_1}{mod_2}'
   zmk_remove_keycode_prefix: []
   zmk_keycode_map:
     PRINTSCREEN: PRNT
@@ -134,8 +134,8 @@ parse_config:
     LSHFT: ⇧
     RSHIFT: ⇧
     RSHFT: ⇧
-    RCTRL: ▴
-    LCTRL: ▴
+    RCTRL: ▲
+    LCTRL: ▲
     SPACE: $$mdi:keyboard-space$$
     LEFT_ARROW: ←
     LEFT: ←
