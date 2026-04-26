@@ -20,17 +20,17 @@
 ---
 include:
   - board: xiao_ble//zmk
-    shield: betem_left
-    artifact-name: betem_left
-  - board: xiao_ble//zmk
-    shield: betem_right
-    artifact-name: betem_right
-  - board: xiao_ble//zmk
-    shield: settings_reset
-    artifact-name: betem_reset
+    shield: betem_dongle battery_dongle_display
+    artifact-name: betem_dongle_display
+#  - board: xiao_ble//zmk
+#    shield: betem_left
+#    artifact-name: betem_left
+#  - board: xiao_ble//zmk
+#    shield: betem_right
+#    artifact-name: betem_right
+#  - board: xiao_ble//zmk
+#    shield: settings_reset
+#    artifact-name: betem_reset
 #  - board: xiao_ble//zmk
 #    shield: betem_dongle
 #    artifact-name: betem_dongle
-  - board: xiao_ble//zmk
-    shield: betem_dongle battery_dongle_display
-    artifact-name: betem_dongle_display

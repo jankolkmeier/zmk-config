@@ -19,32 +19,6 @@ static struct zmk_widget_dongle_battery_status dongle_battery_status_widget;
 lv_style_t global_style;
 
 lv_obj_t *zmk_display_status_screen() {
-    lv_obj_t *screen = lv_obj_create(NULL);
-
-    // Bright background (hard to miss)
-    lv_obj_set_style_bg_color(screen, lv_color_black(), LV_PART_MAIN);
-    lv_obj_set_style_bg_opa(screen, LV_OPA_COVER, LV_PART_MAIN);
-
-    // Create a huge white rectangle covering most of screen
-    lv_obj_t *rect = lv_obj_create(screen);
-    lv_obj_set_size(rect, LV_PCT(100), LV_PCT(100));
-    lv_obj_center(rect);
-
-    lv_obj_set_style_bg_color(rect, lv_color_white(), LV_PART_MAIN);
-    lv_obj_set_style_border_width(rect, 0, LV_PART_MAIN);
-
-    // Add a giant label on top
-    lv_obj_t *label = lv_label_create(screen);
-    lv_label_set_text(label, "TEST");
-    lv_obj_set_style_text_color(label, lv_color_black(), 0);
-    lv_obj_set_style_text_font(label, &lv_font_montserrat_28, 0); // big font if available
-    lv_obj_center(label);
-
-    return screen;
-}
-
-/*
-lv_obj_t *zmk_display_status_screen() {
     lv_obj_t *screen;
 
     screen = lv_obj_create(NULL);
@@ -71,4 +45,3 @@ lv_obj_t *zmk_display_status_screen() {
 
     return screen;
 }
-*/
