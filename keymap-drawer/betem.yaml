@@ -17,10 +17,10 @@ layers:
   - A
   - {t: S, h: AltGr}
   - {t: D, h: Alt}
-  - {t: F, h: ^}
+  - {t: F, h: ▴}
   - {t: G, h: ▧}
   - {t: H, h: ▧}
-  - {t: J, h: ^}
+  - {t: J, h: ▴}
   - {t: K, h: Alt}
   - {t: L, h: AltGr}
   - ;
@@ -47,7 +47,7 @@ layers:
   - F9
   - F8
   - F7
-  - SH+▧+S
+  - ⇧+▧+S
   - ','
   - '7'
   - '8'
@@ -58,10 +58,10 @@ layers:
   - F11
   - {t: F6, h: AltGr}
   - {t: F5, h: Alt}
-  - {t: F4, h: ^}
+  - {t: F4, h: ▴}
   - {t: Alt+PRNT, h: LEFT COMMAND}
   - {t: ., h: ▧}
-  - {t: '4', h: ^}
+  - {t: '4', h: ▴}
   - {t: '5', h: Alt}
   - {t: '6', h: AltGr}
   - {t: '$$phosphor:bold/triangle$$', type: trans}
@@ -85,10 +85,10 @@ layers:
   NAV:
   - ''
   - ''
-  - ^+▧+←
-  - ^+▧+F4
-  - ^+▧+D
-  - ▧+^+→
+  - ▴+▧+←
+  - ▴+▧+F4
+  - ▴+▧+D
+  - ▧+▴+→
   - HOME
   - PG DN
   - PG UP
@@ -99,7 +99,7 @@ layers:
   - ''
   - AltGr
   - Alt
-  - ^
+  - ▴
   - ▧
   - ←
   - ↓
