@@ -150,10 +150,10 @@ parse_config:
     DOWN: ↓
     TAB: ⇥
     ESC: $$fa:solid/circle-xmark$$
-    BACKSPACE: $$fa:regular/delete-left$$
-    BSPC: $$fa:regular/delete-left$$
-    DELETE: $$fa:solid/delete-left$$
-    DEL: $$fa:solid/delete-left$$
+    BACKSPACE: $$phosphor:regular/backspace$$
+    BSPC: $$phosphor:regular/backspace$$
+    DELETE: $$phosphor:fill/backspace$$
+    DEL: $$phosphor:fill/backspace$$
     RET: ⮐
     RETURN: ⮐
     ENTER: ⮐
