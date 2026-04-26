@@ -117,21 +117,16 @@ parse_config:
   layer_legend_map: {}
   mark_alternate_layer_activators: false
   modifier_fn_map:
-    left_ctrl: ^
-    right_ctrl: ^
-    left_shift: SH 
-    right_shift: SH 
+    left_ctrl: ▴
+    right_ctrl: ▴
+    left_shift: ⇧
+    right_shift: ⇧
     left_alt: Alt
     right_alt: AltGr
     left_gui: ▧
     right_gui: ▧
     keycode_combiner: '{mods}+{key}'
     mod_combiner: '{mod_1}+{mod_2}'
-    special_combinations:
-      left_gui+left_ctrl+left_arrow: XYZ
-      left_ctrl+left_gui+left_arrow: YZZ
-      left_ctrl+left_alt+left_gui+left_shift: Hyper
-      left_ctrl+left_alt+left_shift: Meh
   zmk_remove_keycode_prefix: []
   zmk_keycode_map:
     PRINTSCREEN: PRNT
@@ -139,8 +134,8 @@ parse_config:
     LSHFT: ⇧
     RSHIFT: ⇧
     RSHFT: ⇧
-    RCTRL: ^
-    LCTRL: ^
+    RCTRL: ▴
+    LCTRL: ▴
     SPACE: $$mdi:keyboard-space$$
     LEFT_ARROW: ←
     LEFT: ←
@@ -153,7 +148,7 @@ parse_config:
     TAB: ⇥
     ESC: $$fa:solid/circle-xmark$$
     BACKSPACE: $fa:regular/delete-right$$
-    BSPC: $fa:regular/delete-right$$
+    BSPC: $$fa:regular/delete-right$$
     DELETE: $$fa:solid/delete-left$$
     DEL: $$fa:solid/delete-left$$
     RET: ⮐
