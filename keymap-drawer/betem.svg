@@ -1,43 +1,22 @@
 <svg width="896" height="1038" viewBox="0 0 896 1038" class="keymap" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
 <defs>/* start glyphs */
+<svg id="fa:regular/copy">
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512"><!--! Font Awesome Free 7.2.0 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free (Icons: CC BY 4.0, Fonts: SIL OFL 1.1, Code: MIT License) Copyright 2026 Fonticons, Inc. --><path fill="currentColor" d="M384 336l-192 0c-8.8 0-16-7.2-16-16l0-256c0-8.8 7.2-16 16-16l133.5 0c4.2 0 8.3 1.7 11.3 4.7l58.5 58.5c3 3 4.7 7.1 4.7 11.3L400 320c0 8.8-7.2 16-16 16zM192 384l192 0c35.3 0 64-28.7 64-64l0-197.5c0-17-6.7-33.3-18.7-45.3L370.7 18.7C358.7 6.7 342.5 0 325.5 0L192 0c-35.3 0-64 28.7-64 64l0 256c0 35.3 28.7 64 64 64zM64 128c-35.3 0-64 28.7-64 64L0 448c0 35.3 28.7 64 64 64l192 0c35.3 0 64-28.7 64-64l0-16-48 0 0 16c0 8.8-7.2 16-16 16L64 464c-8.8 0-16-7.2-16-16l0-256c0-8.8 7.2-16 16-16l16 0 0-48-16 0z"/></svg>
+</svg>
+<svg id="fa:regular/paste">
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512"><!--! Font Awesome Free 7.2.0 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free (Icons: CC BY 4.0, Fonts: SIL OFL 1.1, Code: MIT License) Copyright 2026 Fonticons, Inc. --><path fill="currentColor" d="M64 48l224 0c8.8 0 16 7.2 16 16l0 48 48 0 0-48c0-35.3-28.7-64-64-64L64 0C28.7 0 0 28.7 0 64L0 384c0 35.3 28.7 64 64 64l112 0 0-48-112 0c-8.8 0-16-7.2-16-16L48 64c0-8.8 7.2-16 16-16zm176 72c0-13.3-10.7-24-24-24L104 96c-13.3 0-24 10.7-24 24s10.7 24 24 24l105.6 0c8.8-8.6 19-15.8 30.2-21.1 .1-.9 .2-1.9 .2-2.9zM448 464l-160 0c-8.8 0-16-7.2-16-16l0-224c0-8.8 7.2-16 16-16l101.5 0c4.2 0 8.3 1.7 11.3 4.7l58.5 58.5c3 3 4.7 7.1 4.7 11.3L464 448c0 8.8-7.2 16-16 16zM224 224l0 224c0 35.3 28.7 64 64 64l160 0c35.3 0 64-28.7 64-64l0-165.5c0-17-6.7-33.3-18.7-45.3l-58.5-58.5c-12-12-28.3-18.7-45.3-18.7L288 160c-35.3 0-64 28.7-64 64z"/></svg>
+</svg>
+<svg id="fa:solid/circle-xmark">
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512"><!--! Font Awesome Free 7.2.0 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free (Icons: CC BY 4.0, Fonts: SIL OFL 1.1, Code: MIT License) Copyright 2026 Fonticons, Inc. --><path fill="currentColor" d="M256 512a256 256 0 1 0 0-512 256 256 0 1 0 0 512zM167 167c9.4-9.4 24.6-9.4 33.9 0l55 55 55-55c9.4-9.4 24.6-9.4 33.9 0s9.4 24.6 0 33.9l-55 55 55 55c9.4 9.4 9.4 24.6 0 33.9s-24.6 9.4-33.9 0l-55-55-55 55c-9.4 9.4-24.6 9.4-33.9 0s-9.4-24.6 0-33.9l55-55-55-55c-9.4-9.4-9.4-24.6 0-33.9z"/></svg>
+</svg>
+<svg id="fa:solid/delete-left">
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 640 512"><!--! Font Awesome Free 7.2.0 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free (Icons: CC BY 4.0, Fonts: SIL OFL 1.1, Code: MIT License) Copyright 2026 Fonticons, Inc. --><path fill="currentColor" d="M576 128c0-35.3-28.7-64-64-64L205.3 64c-17 0-33.3 6.7-45.3 18.7L9.4 233.4c-6 6-9.4 14.1-9.4 22.6s3.4 16.6 9.4 22.6L160 429.3c12 12 28.3 18.7 45.3 18.7L512 448c35.3 0 64-28.7 64-64l0-256zM284.1 188.1c9.4-9.4 24.6-9.4 33.9 0l33.9 33.9 33.9-33.9c9.4-9.4 24.6-9.4 33.9 0s9.4 24.6 0 33.9l-33.9 33.9 33.9 33.9c9.4 9.4 9.4 24.6 0 33.9s-24.6 9.4-33.9 0l-33.9-33.9-33.9 33.9c-9.4 9.4-24.6 9.4-33.9 0s-9.4-24.6 0-33.9l33.9-33.9-33.9-33.9c-9.4-9.4-9.4-24.6 0-33.9z"/></svg>
+</svg>
+<svg id="fa:solid/scissors">
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512"><!--! Font Awesome Free 7.2.0 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free (Icons: CC BY 4.0, Fonts: SIL OFL 1.1, Code: MIT License) Copyright 2026 Fonticons, Inc. --><path fill="currentColor" d="M192 256l-39.5 39.5c-12.6-4.9-26.2-7.5-40.5-7.5-61.9 0-112 50.1-112 112s50.1 112 112 112 112-50.1 112-112c0-14.3-2.7-27.9-7.5-40.5L499.2 76.8c7.1-7.1 7.1-18.5 0-25.6-28.3-28.3-74.1-28.3-102.4 0L256 192 216.5 152.5c4.9-12.6 7.5-26.2 7.5-40.5 0-61.9-50.1-112-112-112S0 50.1 0 112 50.1 224 112 224c14.3 0 27.9-2.7 40.5-7.5L192 256zm97.9 97.9L396.8 460.8c28.3 28.3 74.1 28.3 102.4 0 7.1-7.1 7.1-18.5 0-25.6l-145.3-145.3-64 64zM64 112a48 48 0 1 1 96 0 48 48 0 1 1 -96 0zm48 240a48 48 0 1 1 0 96 48 48 0 1 1 0-96z"/></svg>
+</svg>
 <svg id="mdi:keyboard-space">
 <svg xmlns="http://www.w3.org/2000/svg" id="mdi-keyboard-space" viewBox="0 0 24 24"><path d="M3 15H5V19H19V15H21V19C21 20.1 20.1 21 19 21H5C3.9 21 3 20.1 3 19V15Z" /></svg>
-</svg>
-<svg id="phosphor:bold/arrow-down">
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 256 256" fill="currentColor"><path d="M208.49,152.49l-72,72a12,12,0,0,1-17,0l-72-72a12,12,0,0,1,17-17L116,187V40a12,12,0,0,1,24,0V187l51.51-51.52a12,12,0,0,1,17,17Z"/></svg>
-</svg>
-<svg id="phosphor:bold/arrow-fat-up">
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 256 256" fill="currentColor"><path d="M232.48,111.51l-96-96a12,12,0,0,0-17,0l-96,96A12,12,0,0,0,32,132H68v76a20,20,0,0,0,20,20h80a20,20,0,0,0,20-20V132h36a12,12,0,0,0,8.48-20.49ZM176,108a12,12,0,0,0-12,12v84H92V120a12,12,0,0,0-12-12H61l67-67,67,67Z"/></svg>
-</svg>
-<svg id="phosphor:bold/arrow-left">
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 256 256" fill="currentColor"><path d="M228,128a12,12,0,0,1-12,12H69l51.52,51.51a12,12,0,0,1-17,17l-72-72a12,12,0,0,1,0-17l72-72a12,12,0,0,1,17,17L69,116H216A12,12,0,0,1,228,128Z"/></svg>
-</svg>
-<svg id="phosphor:bold/arrow-line-right">
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 256 256" fill="currentColor"><path d="M184.49,119.51a12,12,0,0,1,0,17l-72,72a12,12,0,0,1-17-17L147,140H32a12,12,0,0,1,0-24H147L95.51,64.49a12,12,0,0,1,17-17ZM216,28a12,12,0,0,0-12,12V216a12,12,0,0,0,24,0V40A12,12,0,0,0,216,28Z"/></svg>
-</svg>
-<svg id="phosphor:bold/arrow-right">
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 256 256" fill="currentColor"><path d="M224.49,136.49l-72,72a12,12,0,0,1-17-17L187,140H40a12,12,0,0,1,0-24H187L135.51,64.48a12,12,0,0,1,17-17l72,72A12,12,0,0,1,224.49,136.49Z"/></svg>
-</svg>
-<svg id="phosphor:bold/arrow-up">
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 256 256" fill="currentColor"><path d="M208.49,120.49a12,12,0,0,1-17,0L140,69V216a12,12,0,0,1-24,0V69L64.49,120.49a12,12,0,0,1-17-17l72-72a12,12,0,0,1,17,0l72,72A12,12,0,0,1,208.49,120.49Z"/></svg>
-</svg>
-<svg id="phosphor:bold/backspace">
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 256 256" fill="currentColor"><path d="M216,36H68.53a20.09,20.09,0,0,0-17.15,9.71L5.71,121.83a12,12,0,0,0,0,12.34l45.67,76.12A20.09,20.09,0,0,0,68.53,220H216a20,20,0,0,0,20-20V56A20,20,0,0,0,216,36Zm-4,160H70.8L30,128,70.8,60H212ZM103.51,143.51,119,128l-15.52-15.51a12,12,0,0,1,17-17L136,111l15.51-15.52a12,12,0,0,1,17,17L153,128l15.52,15.51a12,12,0,0,1-17,17L136,145l-15.51,15.52a12,12,0,0,1-17-17Z"/></svg>
-</svg>
-<svg id="phosphor:bold/control">
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 256 256" fill="currentColor"><path d="M208.49,128.49a12,12,0,0,1-17,0L128,65,64.49,128.49a12,12,0,0,1-17-17l72-72a12,12,0,0,1,17,0l72,72A12,12,0,0,1,208.49,128.49Z"/></svg>
-</svg>
-<svg id="phosphor:bold/file-plus">
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 256 256" fill="currentColor"><path d="M216.49,79.51l-56-56A12,12,0,0,0,152,20H56A20,20,0,0,0,36,40V216a20,20,0,0,0,20,20H200a20,20,0,0,0,20-20V88A12,12,0,0,0,216.49,79.51ZM160,57l23,23H160ZM60,212V44h76V92a12,12,0,0,0,12,12h48V212Zm104-60a12,12,0,0,1-12,12H140v12a12,12,0,0,1-24,0V164H104a12,12,0,0,1,0-24h12V128a12,12,0,0,1,24,0v12h12A12,12,0,0,1,164,152Z"/></svg>
-</svg>
-<svg id="phosphor:bold/file-x">
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 256 256" fill="currentColor"><path d="M216.49,79.52l-56-56A12,12,0,0,0,152,20H56A20,20,0,0,0,36,40V216a20,20,0,0,0,20,20H200a20,20,0,0,0,20-20V88A12,12,0,0,0,216.49,79.52ZM183,80H160V57ZM60,212V44h76V92a12,12,0,0,0,12,12h48V212Zm100.49-75.51L145,152l15.52,15.51a12,12,0,0,1-17,17L128,169l-15.51,15.52a12,12,0,0,1-17-17L111,152,95.51,136.49a12,12,0,1,1,17-17L128,135l15.51-15.52a12,12,0,1,1,17,17Z"/></svg>
-</svg>
-<svg id="phosphor:bold/files">
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 256 256" fill="currentColor"><path d="M220.49,59.51l-40-40A12,12,0,0,0,172,16H92A20,20,0,0,0,72,36V56H56A20,20,0,0,0,36,76V216a20,20,0,0,0,20,20H164a20,20,0,0,0,20-20V196h20a20,20,0,0,0,20-20V68A12,12,0,0,0,220.49,59.51ZM160,212H60V80h67l33,33Zm40-40H184V108a12,12,0,0,0-3.51-8.49l-40-40A12,12,0,0,0,132,56H96V40h71l33,33Zm-56-28a12,12,0,0,1-12,12H88a12,12,0,0,1,0-24h44A12,12,0,0,1,144,144Zm0,40a12,12,0,0,1-12,12H88a12,12,0,0,1,0-24h44A12,12,0,0,1,144,184Z"/></svg>
-</svg>
-<svg id="phosphor:bold/key-return">
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 256 256" fill="currentColor"><path d="M71.51,144.49a12,12,0,0,1,0-17l24-24a12,12,0,0,1,17,17L109,124h55V104a12,12,0,0,1,24,0v32a12,12,0,0,1-12,12H109l3.52,3.51a12,12,0,0,1-17,17ZM236,56V200a20,20,0,0,1-20,20H40a20,20,0,0,1-20-20V56A20,20,0,0,1,40,36H216A20,20,0,0,1,236,56Zm-24,4H44V196H212Z"/></svg>
 </svg>
 <svg id="phosphor:bold/play-pause">
 <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 256 256" fill="currentColor"><path d="M188,64V192a12,12,0,0,1-24,0V64a12,12,0,0,1,24,0Zm36-12a12,12,0,0,0-12,12V192a12,12,0,0,0,24,0V64A12,12,0,0,0,224,52Zm-76,76a19.71,19.71,0,0,1-9.19,16.71L50.63,200.87A19.91,19.91,0,0,1,20,184.15V71.85A19.91,19.91,0,0,1,50.63,55.13l88.18,56.16A19.71,19.71,0,0,1,148,128Zm-27.62,0L44,79.37v97.26Z"/></svg>
@@ -62,12 +41,6 @@
 </svg>
 <svg id="phosphor:bold/triangle">
 <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 256 256" fill="currentColor"><path d="M240.26,186.1,152.81,34.23h0a28.74,28.74,0,0,0-49.62,0L15.74,186.1a27.45,27.45,0,0,0,0,27.71A28.31,28.31,0,0,0,40.55,228h174.9a28.31,28.31,0,0,0,24.79-14.19A27.45,27.45,0,0,0,240.26,186.1Zm-20.8,15.7a4.46,4.46,0,0,1-4,2.2H40.55a4.46,4.46,0,0,1-4-2.2,3.56,3.56,0,0,1,0-3.73L124,46.2a4.75,4.75,0,0,1,8,0l87.45,151.87A3.56,3.56,0,0,1,219.46,201.8Z"/></svg>
-</svg>
-<svg id="phosphor:bold/x-circle">
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 256 256" fill="currentColor"><path d="M168.49,104.49,145,128l23.52,23.51a12,12,0,0,1-17,17L128,145l-23.51,23.52a12,12,0,0,1-17-17L111,128,87.51,104.49a12,12,0,0,1,17-17L128,111l23.51-23.52a12,12,0,0,1,17,17ZM236,128A108,108,0,1,1,128,20,108.12,108.12,0,0,1,236,128Zm-24,0a84,84,0,1,0-84,84A84.09,84.09,0,0,0,212,128Z"/></svg>
-</svg>
-<svg id="phosphor:fill/backspace">
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 256 256" fill="currentColor"><path d="M216,40H68.53a16.12,16.12,0,0,0-13.72,7.77L9.14,123.88a8,8,0,0,0,0,8.24l45.67,76.11h0A16.11,16.11,0,0,0,68.53,216H216a16,16,0,0,0,16-16V56A16,16,0,0,0,216,40ZM165.66,146.34a8,8,0,0,1-11.32,11.32L136,139.31l-18.35,18.35a8,8,0,0,1-11.31-11.32L124.69,128l-18.35-18.34a8,8,0,1,1,11.31-11.32L136,116.69l18.34-18.35a8,8,0,0,1,11.32,11.32L147.31,128Z"/></svg>
 </svg>
 </defs>/* end glyphs */
 <style>/* inherit to force styles through use tags */
@@ -335,22 +308,22 @@ svg.keymap {
 <g transform="translate(264, 98)" class="key keypos-16">
 <rect rx="6" ry="6" x="-26" y="-26" width="52" height="52" class="key"/>
 <text x="0" y="0" class="key tap">F</text>
-<use href="#phosphor:bold/control" xlink:href="#phosphor:bold/control" x="-6" y="12" height="12" width="12.0" class="key hold glyph phosphor:bold/control"/>
+<text x="0" y="24" class="key hold">^</text>
 </g>
 <g transform="translate(320, 104)" class="key keypos-17">
 <rect rx="6" ry="6" x="-26" y="-26" width="52" height="52" class="key"/>
 <text x="0" y="0" class="key tap">G</text>
-<text x="0" y="24" class="key hold">GUI</text>
+<text x="0" y="24" class="key hold">▧</text>
 </g>
 <g transform="translate(516, 104)" class="key keypos-18">
 <rect rx="6" ry="6" x="-26" y="-26" width="52" height="52" class="key"/>
 <text x="0" y="0" class="key tap">H</text>
-<text x="0" y="24" class="key hold">GUI</text>
+<text x="0" y="24" class="key hold">▧</text>
 </g>
 <g transform="translate(572, 98)" class="key keypos-19">
 <rect rx="6" ry="6" x="-26" y="-26" width="52" height="52" class="key"/>
 <text x="0" y="0" class="key tap">J</text>
-<use href="#phosphor:bold/control" xlink:href="#phosphor:bold/control" x="-6" y="12" height="12" width="12.0" class="key hold glyph phosphor:bold/control"/>
+<text x="0" y="24" class="key hold">^</text>
 </g>
 <g transform="translate(628, 84)" class="key keypos-20">
 <rect rx="6" ry="6" x="-26" y="-26" width="52" height="52" class="key"/>
@@ -368,7 +341,7 @@ svg.keymap {
 </g>
 <g transform="translate(800, 174) rotate(5.0)" class="key keypos-23">
 <rect rx="6" ry="6" x="-26" y="-26" width="52" height="52" class="key"/>
-<use href="#phosphor:bold/key-return" xlink:href="#phosphor:bold/key-return" x="-7" y="-7" height="14" width="14.0" class="key tap glyph phosphor:bold/key-return"/>
+<text x="0" y="0" class="key tap">⮐</text>
 </g>
 <g transform="translate(93, 199) rotate(-5.0)" class="key keypos-24">
 <rect rx="6" ry="6" x="-26" y="-26" width="52" height="52" class="key"/>
@@ -416,7 +389,7 @@ svg.keymap {
 </g>
 <g transform="translate(311, 228) rotate(6.0)" class="key keypos-35">
 <rect rx="6" ry="6" x="-26" y="-26" width="52" height="52" class="key"/>
-<use href="#phosphor:bold/arrow-fat-up" xlink:href="#phosphor:bold/arrow-fat-up" x="-7" y="-7" height="14" width="14.0" class="key tap glyph phosphor:bold/arrow-fat-up"/>
+<text x="0" y="0" class="key tap">⇧</text>
 </g>
 <g transform="translate(371, 238) rotate(12.0)" class="key keypos-36">
 <rect rx="6" ry="6" x="-26" y="-26" width="52" height="52" class="key"/>
@@ -432,7 +405,7 @@ svg.keymap {
 </a></g>
 <g transform="translate(525, 228) rotate(-6.0)" class="key keypos-38">
 <rect rx="6" ry="6" x="-26" y="-26" width="52" height="52" class="key"/>
-<use href="#phosphor:bold/arrow-fat-up" xlink:href="#phosphor:bold/arrow-fat-up" x="-7" y="-7" height="14" width="14.0" class="key tap glyph phosphor:bold/arrow-fat-up"/>
+<text x="0" y="0" class="key tap">⇧</text>
 </g>
 <g transform="translate(586, 224)" class="key keypos-39">
 <rect rx="6" ry="6" x="-26" y="-26" width="52" height="52" class="key"/>
@@ -448,7 +421,7 @@ svg.keymap {
 </g>
 <g class="combo combopos-2">
 <rect rx="6" ry="6" x="162" y="23" width="26" height="26" class="combo"/>
-<use href="#phosphor:bold/x-circle" xlink:href="#phosphor:bold/x-circle" x="168" y="29" height="14" width="14.0" class="combo tap glyph phosphor:bold/x-circle"/>
+<use href="#fa:solid/circle-xmark" xlink:href="#fa:solid/circle-xmark" x="168" y="29" height="14" width="14.0" class="combo tap glyph fa:solid/circle-xmark"/>
 </g>
 <g class="combo combopos-3">
 <rect rx="6" ry="6" x="251" y="113" width="26" height="26" class="combo"/>
@@ -460,17 +433,17 @@ svg.keymap {
 </g>
 <g class="combo combopos-5">
 <rect rx="6" ry="6" x="165" y="135" width="26" height="26" class="combo"/>
-<use href="#phosphor:bold/files" xlink:href="#phosphor:bold/files" x="171" y="141" height="14" width="14.0" class="combo tap glyph phosphor:bold/files"/>
+<use href="#fa:regular/copy" xlink:href="#fa:regular/copy" x="172" y="141" height="14" width="12.25" class="combo tap glyph fa:regular/copy"/>
 </g>
 <g class="combo combopos-6">
 <rect rx="6" ry="6" x="223" y="134" width="26" height="26" class="combo"/>
-<use href="#phosphor:bold/file-plus" xlink:href="#phosphor:bold/file-plus" x="229" y="140" height="14" width="14.0" class="combo tap glyph phosphor:bold/file-plus"/>
+<use href="#fa:regular/paste" xlink:href="#fa:regular/paste" x="229" y="140" height="14" width="14.0" class="combo tap glyph fa:regular/paste"/>
 </g>
 <g class="combo combopos-7">
 <path d="M206,190 h51 a6.0,6.0 0 0 0 6.0,-6.0 v-11" class="combo"/>
 <path d="M206,190 h-51 a6.0,6.0 0 0 1 -6.0,-6.0 v-10" class="combo"/>
 <rect rx="6" ry="6" x="193" y="177" width="26" height="26" class="combo"/>
-<use href="#phosphor:bold/file-x" xlink:href="#phosphor:bold/file-x" x="199" y="183" height="14" width="14.0" class="combo tap glyph phosphor:bold/file-x"/>
+<use href="#fa:solid/scissors" xlink:href="#fa:solid/scissors" x="199" y="183" height="14" width="14.0" class="combo tap glyph fa:solid/scissors"/>
 </g>
 <g class="combo combopos-8">
 <rect rx="6" ry="6" x="503" y="63" width="26" height="26" class="combo"/>
@@ -506,7 +479,9 @@ svg.keymap {
 </g>
 <g class="combo combopos-16">
 <rect rx="6" ry="6" x="587" y="22" width="26" height="26" class="combo"/>
-<use href="#phosphor:bold/backspace" xlink:href="#phosphor:bold/backspace" x="593" y="28" height="14" width="14.0" class="combo tap glyph phosphor:bold/backspace"/>
+<text x="600" y="35" class="combo tap">
+<tspan x="600" dy="-0.6em" style="font-size: 62%">$fa:</tspan><tspan x="600" dy="1.2em" style="font-size: 62%">regular…</tspan>
+</text>
 </g>
 <g class="combo combopos-17">
 <rect rx="6" ry="6" x="615" y="43" width="26" height="26" class="combo"/>
@@ -542,7 +517,7 @@ svg.keymap {
 </g>
 <g class="combo combopos-25">
 <rect rx="6" ry="6" x="223" y="22" width="26" height="26" class="combo"/>
-<use href="#phosphor:bold/arrow-line-right" xlink:href="#phosphor:bold/arrow-line-right" x="229" y="28" height="14" width="14.0" class="combo tap glyph phosphor:bold/arrow-line-right"/>
+<text x="236" y="35" class="combo tap">⇥</text>
 </g>
 <g class="combo combopos-26">
 <rect rx="6" ry="6" x="531" y="32" width="26" height="26" class="combo"/>
@@ -550,7 +525,7 @@ svg.keymap {
 </g>
 <g class="combo combopos-27">
 <rect rx="6" ry="6" x="647" y="23" width="26" height="26" class="combo"/>
-<use href="#phosphor:fill/backspace" xlink:href="#phosphor:fill/backspace" x="653" y="29" height="14" width="14.0" class="combo tap glyph phosphor:fill/backspace"/>
+<use href="#fa:solid/delete-left" xlink:href="#fa:solid/delete-left" x="651" y="29" height="14" width="17.5" class="combo tap glyph fa:solid/delete-left"/>
 </g>
 <g class="combo combopos-28">
 <rect rx="6" ry="6" x="164" y="79" width="26" height="26" class="combo"/>
@@ -583,7 +558,7 @@ svg.keymap {
 <g transform="translate(320, 48)" class="key keypos-5">
 <rect rx="6" ry="6" x="-26" y="-26" width="52" height="52" class="key"/>
 <text x="0" y="0" class="key tap">
-<tspan x="0" dy="-1.2em">SH</tspan><tspan x="0" dy="1.2em">GUI</tspan><tspan x="0" dy="1.2em">S</tspan>
+<tspan x="0" dy="-0.6em">SH+▧+</tspan><tspan x="0" dy="1.2em">S</tspan>
 </text>
 </g>
 <g transform="translate(516, 48)" class="key keypos-6">
@@ -628,24 +603,24 @@ svg.keymap {
 <g transform="translate(264, 98)" class="key keypos-16">
 <rect rx="6" ry="6" x="-26" y="-26" width="52" height="52" class="key"/>
 <text x="0" y="0" class="key tap">F4</text>
-<use href="#phosphor:bold/control" xlink:href="#phosphor:bold/control" x="-6" y="12" height="12" width="12.0" class="key hold glyph phosphor:bold/control"/>
+<text x="0" y="24" class="key hold">^</text>
 </g>
 <g transform="translate(320, 104)" class="key keypos-17">
 <rect rx="6" ry="6" x="-26" y="-26" width="52" height="52" class="key"/>
 <text x="0" y="0" class="key tap">
-<tspan x="0" dy="-0.9em">Alt</tspan><tspan x="0" dy="1.2em">PRNT</tspan>
+<tspan x="0" dy="-0.9em">Alt+</tspan><tspan x="0" dy="1.2em">PRNT</tspan>
 </text>
 <text x="0" y="24" class="key hold"><tspan style="font-size: 62%">LEFT CO…</tspan></text>
 </g>
 <g transform="translate(516, 104)" class="key keypos-18">
 <rect rx="6" ry="6" x="-26" y="-26" width="52" height="52" class="key"/>
 <text x="0" y="0" class="key tap">.</text>
-<text x="0" y="24" class="key hold">GUI</text>
+<text x="0" y="24" class="key hold">▧</text>
 </g>
 <g transform="translate(572, 98)" class="key keypos-19">
 <rect rx="6" ry="6" x="-26" y="-26" width="52" height="52" class="key"/>
 <text x="0" y="0" class="key tap">4</text>
-<use href="#phosphor:bold/control" xlink:href="#phosphor:bold/control" x="-6" y="12" height="12" width="12.0" class="key hold glyph phosphor:bold/control"/>
+<text x="0" y="24" class="key hold">^</text>
 </g>
 <g transform="translate(628, 84)" class="key keypos-20">
 <rect rx="6" ry="6" x="-26" y="-26" width="52" height="52" class="key"/>
@@ -740,7 +715,7 @@ svg.keymap {
 </g>
 <g class="combo combopos-2">
 <rect rx="6" ry="6" x="162" y="23" width="26" height="26" class="combo"/>
-<use href="#phosphor:bold/x-circle" xlink:href="#phosphor:bold/x-circle" x="168" y="29" height="14" width="14.0" class="combo tap glyph phosphor:bold/x-circle"/>
+<use href="#fa:solid/circle-xmark" xlink:href="#fa:solid/circle-xmark" x="168" y="29" height="14" width="14.0" class="combo tap glyph fa:solid/circle-xmark"/>
 </g>
 <g class="combo combopos-3">
 <rect rx="6" ry="6" x="251" y="113" width="26" height="26" class="combo"/>
@@ -752,17 +727,17 @@ svg.keymap {
 </g>
 <g class="combo combopos-5">
 <rect rx="6" ry="6" x="165" y="135" width="26" height="26" class="combo"/>
-<use href="#phosphor:bold/files" xlink:href="#phosphor:bold/files" x="171" y="141" height="14" width="14.0" class="combo tap glyph phosphor:bold/files"/>
+<use href="#fa:regular/copy" xlink:href="#fa:regular/copy" x="172" y="141" height="14" width="12.25" class="combo tap glyph fa:regular/copy"/>
 </g>
 <g class="combo combopos-6">
 <rect rx="6" ry="6" x="223" y="134" width="26" height="26" class="combo"/>
-<use href="#phosphor:bold/file-plus" xlink:href="#phosphor:bold/file-plus" x="229" y="140" height="14" width="14.0" class="combo tap glyph phosphor:bold/file-plus"/>
+<use href="#fa:regular/paste" xlink:href="#fa:regular/paste" x="229" y="140" height="14" width="14.0" class="combo tap glyph fa:regular/paste"/>
 </g>
 <g class="combo combopos-7">
 <path d="M206,190 h51 a6.0,6.0 0 0 0 6.0,-6.0 v-11" class="combo"/>
 <path d="M206,190 h-51 a6.0,6.0 0 0 1 -6.0,-6.0 v-10" class="combo"/>
 <rect rx="6" ry="6" x="193" y="177" width="26" height="26" class="combo"/>
-<use href="#phosphor:bold/file-x" xlink:href="#phosphor:bold/file-x" x="199" y="183" height="14" width="14.0" class="combo tap glyph phosphor:bold/file-x"/>
+<use href="#fa:solid/scissors" xlink:href="#fa:solid/scissors" x="199" y="183" height="14" width="14.0" class="combo tap glyph fa:solid/scissors"/>
 </g>
 <g class="combo combopos-8">
 <rect rx="6" ry="6" x="503" y="63" width="26" height="26" class="combo"/>
@@ -798,7 +773,9 @@ svg.keymap {
 </g>
 <g class="combo combopos-16">
 <rect rx="6" ry="6" x="587" y="22" width="26" height="26" class="combo"/>
-<use href="#phosphor:bold/backspace" xlink:href="#phosphor:bold/backspace" x="593" y="28" height="14" width="14.0" class="combo tap glyph phosphor:bold/backspace"/>
+<text x="600" y="35" class="combo tap">
+<tspan x="600" dy="-0.6em" style="font-size: 62%">$fa:</tspan><tspan x="600" dy="1.2em" style="font-size: 62%">regular…</tspan>
+</text>
 </g>
 <g class="combo combopos-17">
 <rect rx="6" ry="6" x="615" y="43" width="26" height="26" class="combo"/>
@@ -834,7 +811,7 @@ svg.keymap {
 </g>
 <g class="combo combopos-25">
 <rect rx="6" ry="6" x="223" y="22" width="26" height="26" class="combo"/>
-<use href="#phosphor:bold/arrow-line-right" xlink:href="#phosphor:bold/arrow-line-right" x="229" y="28" height="14" width="14.0" class="combo tap glyph phosphor:bold/arrow-line-right"/>
+<text x="236" y="35" class="combo tap">⇥</text>
 </g>
 <g class="combo combopos-26">
 <rect rx="6" ry="6" x="531" y="32" width="26" height="26" class="combo"/>
@@ -842,7 +819,7 @@ svg.keymap {
 </g>
 <g class="combo combopos-27">
 <rect rx="6" ry="6" x="647" y="23" width="26" height="26" class="combo"/>
-<use href="#phosphor:fill/backspace" xlink:href="#phosphor:fill/backspace" x="653" y="29" height="14" width="14.0" class="combo tap glyph phosphor:fill/backspace"/>
+<use href="#fa:solid/delete-left" xlink:href="#fa:solid/delete-left" x="651" y="29" height="14" width="17.5" class="combo tap glyph fa:solid/delete-left"/>
 </g>
 <g class="combo combopos-28">
 <rect rx="6" ry="6" x="164" y="79" width="26" height="26" class="combo"/>
@@ -861,27 +838,21 @@ svg.keymap {
 </g>
 <g transform="translate(143, 44) rotate(-3.0)" class="key keypos-2">
 <rect rx="6" ry="6" x="-26" y="-26" width="52" height="52" class="key"/>
-<text x="0" y="0" class="key tap">
-<tspan x="0" dy="-1.2em">^</tspan><tspan x="0" dy="1.2em">GUI</tspan><tspan x="0" dy="1.2em">LEFT</tspan>
-</text>
+<text x="0" y="0" class="key tap">^+▧+←</text>
 </g>
 <g transform="translate(208, 28)" class="key keypos-3">
 <rect rx="6" ry="6" x="-26" y="-26" width="52" height="52" class="key"/>
 <text x="0" y="0" class="key tap">
-<tspan x="0" dy="-1.2em">^</tspan><tspan x="0" dy="1.2em">GUI</tspan><tspan x="0" dy="1.2em">F4</tspan>
+<tspan x="0" dy="-0.6em">^+▧+</tspan><tspan x="0" dy="1.2em">F4</tspan>
 </text>
 </g>
 <g transform="translate(264, 42)" class="key keypos-4">
 <rect rx="6" ry="6" x="-26" y="-26" width="52" height="52" class="key"/>
-<text x="0" y="0" class="key tap">
-<tspan x="0" dy="-1.2em">^</tspan><tspan x="0" dy="1.2em">GUI</tspan><tspan x="0" dy="1.2em">D</tspan>
-</text>
+<text x="0" y="0" class="key tap">^+▧+D</text>
 </g>
 <g transform="translate(320, 48)" class="key keypos-5">
 <rect rx="6" ry="6" x="-26" y="-26" width="52" height="52" class="key"/>
-<text x="0" y="0" class="key tap">
-<tspan x="0" dy="-1.2em">GUI</tspan><tspan x="0" dy="1.2em">^</tspan><tspan x="0" dy="1.2em">RIGHT</tspan>
-</text>
+<text x="0" y="0" class="key tap">▧+^+→</text>
 </g>
 <g transform="translate(516, 48)" class="key keypos-6">
 <rect rx="6" ry="6" x="-26" y="-26" width="52" height="52" class="key"/>
@@ -926,27 +897,27 @@ svg.keymap {
 </g>
 <g transform="translate(264, 98)" class="key keypos-16">
 <rect rx="6" ry="6" x="-26" y="-26" width="52" height="52" class="key"/>
-<use href="#phosphor:bold/control" xlink:href="#phosphor:bold/control" x="-7" y="-7" height="14" width="14.0" class="key tap glyph phosphor:bold/control"/>
+<text x="0" y="0" class="key tap">^</text>
 </g>
 <g transform="translate(320, 104)" class="key keypos-17">
 <rect rx="6" ry="6" x="-26" y="-26" width="52" height="52" class="key"/>
-<text x="0" y="0" class="key tap">GUI</text>
+<text x="0" y="0" class="key tap">▧</text>
 </g>
 <g transform="translate(516, 104)" class="key keypos-18">
 <rect rx="6" ry="6" x="-26" y="-26" width="52" height="52" class="key"/>
-<use href="#phosphor:bold/arrow-left" xlink:href="#phosphor:bold/arrow-left" x="-7" y="-7" height="14" width="14.0" class="key tap glyph phosphor:bold/arrow-left"/>
+<text x="0" y="0" class="key tap">←</text>
 </g>
 <g transform="translate(572, 98)" class="key keypos-19">
 <rect rx="6" ry="6" x="-26" y="-26" width="52" height="52" class="key"/>
-<use href="#phosphor:bold/arrow-down" xlink:href="#phosphor:bold/arrow-down" x="-7" y="-7" height="14" width="14.0" class="key tap glyph phosphor:bold/arrow-down"/>
+<text x="0" y="0" class="key tap">↓</text>
 </g>
 <g transform="translate(628, 84)" class="key keypos-20">
 <rect rx="6" ry="6" x="-26" y="-26" width="52" height="52" class="key"/>
-<use href="#phosphor:bold/arrow-up" xlink:href="#phosphor:bold/arrow-up" x="-7" y="-7" height="14" width="14.0" class="key tap glyph phosphor:bold/arrow-up"/>
+<text x="0" y="0" class="key tap">↑</text>
 </g>
 <g transform="translate(690, 100) rotate(3.0)" class="key keypos-21">
 <rect rx="6" ry="6" x="-26" y="-26" width="52" height="52" class="key"/>
-<use href="#phosphor:bold/arrow-right" xlink:href="#phosphor:bold/arrow-right" x="-7" y="-7" height="14" width="14.0" class="key tap glyph phosphor:bold/arrow-right"/>
+<text x="0" y="0" class="key tap">→</text>
 </g>
 <g transform="translate(747, 142) rotate(5.0)" class="key keypos-22">
 <rect rx="6" ry="6" x="-26" y="-26" width="52" height="52" class="key"/>
@@ -961,27 +932,19 @@ svg.keymap {
 </g>
 <g transform="translate(149, 156) rotate(-3.0)" class="key keypos-25">
 <rect rx="6" ry="6" x="-26" y="-26" width="52" height="52" class="key"/>
-<text x="0" y="0" class="key tap">
-<tspan x="0" dy="-0.6em">GUI</tspan><tspan x="0" dy="1.2em">LEFT</tspan>
-</text>
+<text x="0" y="0" class="key tap">▧+←</text>
 </g>
 <g transform="translate(208, 140)" class="key keypos-26">
 <rect rx="6" ry="6" x="-26" y="-26" width="52" height="52" class="key"/>
-<text x="0" y="0" class="key tap">
-<tspan x="0" dy="-0.6em">GUI</tspan><tspan x="0" dy="1.2em">UP</tspan>
-</text>
+<text x="0" y="0" class="key tap">▧+↑</text>
 </g>
 <g transform="translate(264, 154)" class="key keypos-27">
 <rect rx="6" ry="6" x="-26" y="-26" width="52" height="52" class="key"/>
-<text x="0" y="0" class="key tap">
-<tspan x="0" dy="-0.6em">GUI</tspan><tspan x="0" dy="1.2em">DOWN</tspan>
-</text>
+<text x="0" y="0" class="key tap">▧+↓</text>
 </g>
 <g transform="translate(320, 160)" class="key keypos-28">
 <rect rx="6" ry="6" x="-26" y="-26" width="52" height="52" class="key"/>
-<text x="0" y="0" class="key tap">
-<tspan x="0" dy="-0.6em">GUI</tspan><tspan x="0" dy="1.2em">RIGHT</tspan>
-</text>
+<text x="0" y="0" class="key tap">▧+→</text>
 </g>
 <g transform="translate(516, 160)" class="key keypos-29">
 <rect rx="6" ry="6" x="-26" y="-26" width="52" height="52" class="key"/>
@@ -1036,7 +999,7 @@ svg.keymap {
 </g>
 <g class="combo combopos-2">
 <rect rx="6" ry="6" x="162" y="23" width="26" height="26" class="combo"/>
-<use href="#phosphor:bold/x-circle" xlink:href="#phosphor:bold/x-circle" x="168" y="29" height="14" width="14.0" class="combo tap glyph phosphor:bold/x-circle"/>
+<use href="#fa:solid/circle-xmark" xlink:href="#fa:solid/circle-xmark" x="168" y="29" height="14" width="14.0" class="combo tap glyph fa:solid/circle-xmark"/>
 </g>
 <g class="combo combopos-3">
 <rect rx="6" ry="6" x="251" y="113" width="26" height="26" class="combo"/>
@@ -1048,17 +1011,17 @@ svg.keymap {
 </g>
 <g class="combo combopos-5">
 <rect rx="6" ry="6" x="165" y="135" width="26" height="26" class="combo"/>
-<use href="#phosphor:bold/files" xlink:href="#phosphor:bold/files" x="171" y="141" height="14" width="14.0" class="combo tap glyph phosphor:bold/files"/>
+<use href="#fa:regular/copy" xlink:href="#fa:regular/copy" x="172" y="141" height="14" width="12.25" class="combo tap glyph fa:regular/copy"/>
 </g>
 <g class="combo combopos-6">
 <rect rx="6" ry="6" x="223" y="134" width="26" height="26" class="combo"/>
-<use href="#phosphor:bold/file-plus" xlink:href="#phosphor:bold/file-plus" x="229" y="140" height="14" width="14.0" class="combo tap glyph phosphor:bold/file-plus"/>
+<use href="#fa:regular/paste" xlink:href="#fa:regular/paste" x="229" y="140" height="14" width="14.0" class="combo tap glyph fa:regular/paste"/>
 </g>
 <g class="combo combopos-7">
 <path d="M206,190 h51 a6.0,6.0 0 0 0 6.0,-6.0 v-11" class="combo"/>
 <path d="M206,190 h-51 a6.0,6.0 0 0 1 -6.0,-6.0 v-10" class="combo"/>
 <rect rx="6" ry="6" x="193" y="177" width="26" height="26" class="combo"/>
-<use href="#phosphor:bold/file-x" xlink:href="#phosphor:bold/file-x" x="199" y="183" height="14" width="14.0" class="combo tap glyph phosphor:bold/file-x"/>
+<use href="#fa:solid/scissors" xlink:href="#fa:solid/scissors" x="199" y="183" height="14" width="14.0" class="combo tap glyph fa:solid/scissors"/>
 </g>
 <g class="combo combopos-8">
 <rect rx="6" ry="6" x="503" y="63" width="26" height="26" class="combo"/>
@@ -1094,7 +1057,9 @@ svg.keymap {
 </g>
 <g class="combo combopos-16">
 <rect rx="6" ry="6" x="587" y="22" width="26" height="26" class="combo"/>
-<use href="#phosphor:bold/backspace" xlink:href="#phosphor:bold/backspace" x="593" y="28" height="14" width="14.0" class="combo tap glyph phosphor:bold/backspace"/>
+<text x="600" y="35" class="combo tap">
+<tspan x="600" dy="-0.6em" style="font-size: 62%">$fa:</tspan><tspan x="600" dy="1.2em" style="font-size: 62%">regular…</tspan>
+</text>
 </g>
 <g class="combo combopos-17">
 <rect rx="6" ry="6" x="615" y="43" width="26" height="26" class="combo"/>
@@ -1130,7 +1095,7 @@ svg.keymap {
 </g>
 <g class="combo combopos-25">
 <rect rx="6" ry="6" x="223" y="22" width="26" height="26" class="combo"/>
-<use href="#phosphor:bold/arrow-line-right" xlink:href="#phosphor:bold/arrow-line-right" x="229" y="28" height="14" width="14.0" class="combo tap glyph phosphor:bold/arrow-line-right"/>
+<text x="236" y="35" class="combo tap">⇥</text>
 </g>
 <g class="combo combopos-26">
 <rect rx="6" ry="6" x="531" y="32" width="26" height="26" class="combo"/>
@@ -1138,7 +1103,7 @@ svg.keymap {
 </g>
 <g class="combo combopos-27">
 <rect rx="6" ry="6" x="647" y="23" width="26" height="26" class="combo"/>
-<use href="#phosphor:fill/backspace" xlink:href="#phosphor:fill/backspace" x="653" y="29" height="14" width="14.0" class="combo tap glyph phosphor:fill/backspace"/>
+<use href="#fa:solid/delete-left" xlink:href="#fa:solid/delete-left" x="651" y="29" height="14" width="17.5" class="combo tap glyph fa:solid/delete-left"/>
 </g>
 <g class="combo combopos-28">
 <rect rx="6" ry="6" x="164" y="79" width="26" height="26" class="combo"/>

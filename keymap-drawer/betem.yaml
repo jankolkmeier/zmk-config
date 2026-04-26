@@ -17,14 +17,14 @@ layers:
   - A
   - {t: S, h: AltGr}
   - {t: D, h: Alt}
-  - {t: F, h: '$$phosphor:bold/control$$'}
-  - {t: G, h: GUI}
-  - {t: H, h: GUI}
-  - {t: J, h: '$$phosphor:bold/control$$'}
+  - {t: F, h: ^}
+  - {t: G, h: ▧}
+  - {t: H, h: ▧}
+  - {t: J, h: ^}
   - {t: K, h: Alt}
   - {t: L, h: AltGr}
   - ;
-  - $$phosphor:bold/key-return$$
+  - ⮐
   - Z
   - X
   - C
@@ -36,10 +36,10 @@ layers:
   - .
   - ''''
   - F17
-  - $$phosphor:bold/arrow-fat-up$$
+  - ⇧
   - {t: '$$mdi:keyboard-space$$', h: NUM}
   - {t: '$$mdi:keyboard-space$$', h: NAV}
-  - $$phosphor:bold/arrow-fat-up$$
+  - ⇧
   - F18
   NUM:
   - ''
@@ -47,7 +47,7 @@ layers:
   - F9
   - F8
   - F7
-  - SH GUI S
+  - SH+▧+S
   - ','
   - '7'
   - '8'
@@ -58,10 +58,10 @@ layers:
   - F11
   - {t: F6, h: AltGr}
   - {t: F5, h: Alt}
-  - {t: F4, h: '$$phosphor:bold/control$$'}
-  - {t: Alt PRNT, h: LEFT COMMAND}
-  - {t: ., h: GUI}
-  - {t: '4', h: '$$phosphor:bold/control$$'}
+  - {t: F4, h: ^}
+  - {t: Alt+PRNT, h: LEFT COMMAND}
+  - {t: ., h: ▧}
+  - {t: '4', h: ^}
   - {t: '5', h: Alt}
   - {t: '6', h: AltGr}
   - {t: '$$phosphor:bold/triangle$$', type: trans}
@@ -85,10 +85,10 @@ layers:
   NAV:
   - ''
   - ''
-  - ^ GUI LEFT
-  - ^ GUI F4
-  - ^ GUI D
-  - GUI ^ RIGHT
+  - ^+▧+←
+  - ^+▧+F4
+  - ^+▧+D
+  - ▧+^+→
   - HOME
   - PG DN
   - PG UP
@@ -99,19 +99,19 @@ layers:
   - ''
   - AltGr
   - Alt
-  - $$phosphor:bold/control$$
-  - GUI
-  - $$phosphor:bold/arrow-left$$
-  - $$phosphor:bold/arrow-down$$
-  - $$phosphor:bold/arrow-up$$
-  - $$phosphor:bold/arrow-right$$
+  - ^
+  - ▧
+  - ←
+  - ↓
+  - ↑
+  - →
   - $$phosphor:bold/speaker-slash$$
   - {t: '$$phosphor:bold/triangle$$', type: trans}
   - ''
-  - GUI LEFT
-  - GUI UP
-  - GUI DOWN
-  - GUI RIGHT
+  - ▧+←
+  - ▧+↑
+  - ▧+↓
+  - ▧+→
   - $$phosphor:bold/skip-back$$
   - $$phosphor:bold/play-pause$$
   - $$phosphor:bold/stop$$
@@ -129,17 +129,17 @@ combos:
 - p: [14, 2]
   k: '`'
 - p: [2, 3]
-  k: $$phosphor:bold/x-circle$$
+  k: $$fa:solid/circle-xmark$$
 - p: [16, 27]
   k: '#'
 - p: [15, 26]
   k: \
 - p: [26, 25]
-  k: $$phosphor:bold/files$$
+  k: $$fa:regular/copy$$
 - p: [26, 27]
-  k: $$phosphor:bold/file-plus$$
+  k: $$fa:regular/paste$$
 - p: [27, 25]
-  k: $$phosphor:bold/file-x$$
+  k: $$fa:solid/scissors$$
   a: bottom
   o: 0.1
 - p: [6, 18]
@@ -159,7 +159,7 @@ combos:
 - p: [19, 30]
   k: '-'
 - p: [8, 7]
-  k: $$phosphor:bold/backspace$$
+  k: $fa:regular/delete-right$$
 - p: [8, 20]
   k: '*'
 - p: [20, 31]
@@ -177,10 +177,10 @@ combos:
 - p: [15, 16]
   k: '!'
 - p: [3, 4]
-  k: $$phosphor:bold/arrow-line-right$$
+  k: ⇥
 - p: [7, 6]
   k: '&'
 - p: [8, 9]
-  k: $$phosphor:fill/backspace$$
+  k: $$fa:solid/delete-left$$
 - p: [14, 15]
   k: '?'
