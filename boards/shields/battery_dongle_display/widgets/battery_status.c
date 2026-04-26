@@ -22,15 +22,42 @@ LOG_MODULE_DECLARE(zmk, CONFIG_ZMK_LOG_LEVEL);
 
 #define SOURCE_OFFSET 0
 
-#define BAR_WIDTH 14
-#define BAR_HEIGHT 64
+#define BAR_HEIGHT 16
+#define BAR_WIDTH 128
 
 #ifndef ZMK_SPLIT_BLE_PERIPHERAL_COUNT
 #  define ZMK_SPLIT_BLE_PERIPHERAL_COUNT 0
 #endif
 
+static struct k_timer demo_timer;
+static uint8_t demo_level = 0;
+static void demo_timer_handler(struct k_timer *timer) {
+    demo_level += 5;
+    if (demo_level > 100) {
+        demo_level = 0;
+    }
+
+    struct battery_state state = {
+        .source = 0,          // first bar
+        .level = demo_level,
+        .usb_present = false,
+    };
+    battery_status_update_cb(state);
+
+#if ZMK_SPLIT_BLE_PERIPHERAL_COUNT > 1
+    // second bar (optional: offset or invert to see both clearly)
+    struct battery_state state2 = {
+        .source = 1,
+        .level = 100 - demo_level,
+        .usb_present = false,
+    };
+    battery_status_update_cb(state2);
+#endif
+}
+
+
 //#define BUFFER_SIZE LV_CANVAS_BUF_SIZE(5, 8, LV_COLOR_FORMAT_GET_BPP(LV_COLOR_FORMAT_L8), LV_DRAW_BUF_STRIDE_ALIGN)
-#define BUFFER_SIZE LV_CANVAS_BUF_SIZE(BAR_HEIGHT, BAR_WIDTH, LV_COLOR_FORMAT_GET_BPP(LV_COLOR_FORMAT_L8), LV_DRAW_BUF_STRIDE_ALIGN)
+#define BUFFER_SIZE LV_CANVAS_BUF_SIZE(BAR_WIDTH, BAR_HEIGHT, LV_COLOR_FORMAT_GET_BPP(LV_COLOR_FORMAT_L8), LV_DRAW_BUF_STRIDE_ALIGN)
 
 static sys_slist_t widgets = SYS_SLIST_STATIC_INIT(&widgets);
 
@@ -66,13 +93,13 @@ static void draw_battery(lv_obj_t *canvas, uint8_t level, bool usb_present) {
     }
 
     // Calculate fill height
-    int fill_height = (BAR_HEIGHT * level) / 100;
+    int fill_width = (BAR_WIDTH * level) / 100;
 
     lv_area_t fill_area = {
-        .x1 = BAR_HEIGHT - fill_height,
-        .y1 = 0,
-        .x2 = BAR_HEIGHT - 1,
-        .y2 = BAR_WIDTH - 1
+        .x1 = 2,
+        .y1 = 2,
+        .x2 = (BAR_WIDTH-2) - fill_width,
+        .y2 = BAR_HEIGHT - 4
     };
 
     lv_draw_rect(&layer, &dsc, &fill_area);
@@ -152,6 +179,9 @@ int zmk_widget_dongle_battery_status_init(struct zmk_widget_dongle_battery_statu
     sys_slist_append(&widgets, &widget->node);
 
     widget_dongle_battery_status_init();
+
+    k_timer_init(&demo_timer, demo_timer_handler, NULL);
+    k_timer_start(&demo_timer, K_MSEC(100), K_MSEC(100));
 
     return 0;
 }
