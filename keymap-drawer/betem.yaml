@@ -159,7 +159,7 @@ combos:
 - p: [19, 30]
   k: '-'
 - p: [8, 7]
-  k: $fa:regular/delete-right$$
+  k: $$fa:regular/delete-right$$
 - p: [8, 20]
   k: '*'
 - p: [20, 31]
