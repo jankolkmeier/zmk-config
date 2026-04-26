@@ -468,8 +468,8 @@ rect.key:only-child {
 <text x="320" y="132" class="combo tap">~</text>
 </g>
 <g class="combo combopos-12">
-<rect rx="6" ry="6" x="279" y="32" width="26" height="26" class="combo"/>
-<text x="292" y="45" class="combo tap">^</text>
+<rect rx="6" ry="6" x="531" y="88" width="26" height="26" class="combo"/>
+<text x="544" y="101" class="combo tap">^</text>
 </g>
 <g class="combo combopos-13">
 <rect rx="6" ry="6" x="503" y="119" width="26" height="26" class="combo"/>
@@ -484,8 +484,8 @@ rect.key:only-child {
 <text x="572" y="126" class="combo tap">-</text>
 </g>
 <g class="combo combopos-16">
-<rect rx="6" ry="6" x="587" y="22" width="26" height="26" class="combo"/>
-<use href="#phosphor:regular/backspace" xlink:href="#phosphor:regular/backspace" x="593" y="28" height="14" width="14.0" class="combo tap glyph phosphor:regular/backspace"/>
+<rect rx="6" ry="6" x="647" y="23" width="26" height="26" class="combo"/>
+<use href="#phosphor:regular/backspace" xlink:href="#phosphor:regular/backspace" x="653" y="29" height="14" width="14.0" class="combo tap glyph phosphor:regular/backspace"/>
 </g>
 <g class="combo combopos-17">
 <rect rx="6" ry="6" x="615" y="43" width="26" height="26" class="combo"/>
@@ -524,16 +524,20 @@ rect.key:only-child {
 <text x="236" y="35" class="combo tap">⇥</text>
 </g>
 <g class="combo combopos-26">
-<rect rx="6" ry="6" x="531" y="32" width="26" height="26" class="combo"/>
-<text x="544" y="45" class="combo tap">&amp;</text>
+<rect rx="6" ry="6" x="279" y="88" width="26" height="26" class="combo"/>
+<text x="292" y="101" class="combo tap">&amp;</text>
 </g>
 <g class="combo combopos-27">
-<rect rx="6" ry="6" x="647" y="23" width="26" height="26" class="combo"/>
-<use href="#phosphor:fill/backspace" xlink:href="#phosphor:fill/backspace" x="653" y="29" height="14" width="14.0" class="combo tap glyph phosphor:fill/backspace"/>
+<rect rx="6" ry="6" x="709" y="52" width="26" height="26" class="combo"/>
+<use href="#phosphor:fill/backspace" xlink:href="#phosphor:fill/backspace" x="715" y="58" height="14" width="14.0" class="combo tap glyph phosphor:fill/backspace"/>
 </g>
 <g class="combo combopos-28">
 <rect rx="6" ry="6" x="164" y="79" width="26" height="26" class="combo"/>
 <text x="177" y="92" class="combo tap">?</text>
+</g>
+<g class="combo combopos-29">
+<rect rx="6" ry="6" x="587" y="22" width="26" height="26" class="combo"/>
+<use href="#mdi:keyboard-space" xlink:href="#mdi:keyboard-space" x="593" y="28" height="14" width="14.0" class="combo tap glyph mdi:keyboard-space"/>
 </g>
 </g>
 </g>
@@ -757,8 +761,8 @@ rect.key:only-child {
 <text x="320" y="132" class="combo tap">~</text>
 </g>
 <g class="combo combopos-12">
-<rect rx="6" ry="6" x="279" y="32" width="26" height="26" class="combo"/>
-<text x="292" y="45" class="combo tap">^</text>
+<rect rx="6" ry="6" x="531" y="88" width="26" height="26" class="combo"/>
+<text x="544" y="101" class="combo tap">^</text>
 </g>
 <g class="combo combopos-13">
 <rect rx="6" ry="6" x="503" y="119" width="26" height="26" class="combo"/>
@@ -773,8 +777,8 @@ rect.key:only-child {
 <text x="572" y="126" class="combo tap">-</text>
 </g>
 <g class="combo combopos-16">
-<rect rx="6" ry="6" x="587" y="22" width="26" height="26" class="combo"/>
-<use href="#phosphor:regular/backspace" xlink:href="#phosphor:regular/backspace" x="593" y="28" height="14" width="14.0" class="combo tap glyph phosphor:regular/backspace"/>
+<rect rx="6" ry="6" x="647" y="23" width="26" height="26" class="combo"/>
+<use href="#phosphor:regular/backspace" xlink:href="#phosphor:regular/backspace" x="653" y="29" height="14" width="14.0" class="combo tap glyph phosphor:regular/backspace"/>
 </g>
 <g class="combo combopos-17">
 <rect rx="6" ry="6" x="615" y="43" width="26" height="26" class="combo"/>
@@ -813,16 +817,20 @@ rect.key:only-child {
 <text x="236" y="35" class="combo tap">⇥</text>
 </g>
 <g class="combo combopos-26">
-<rect rx="6" ry="6" x="531" y="32" width="26" height="26" class="combo"/>
-<text x="544" y="45" class="combo tap">&amp;</text>
+<rect rx="6" ry="6" x="279" y="88" width="26" height="26" class="combo"/>
+<text x="292" y="101" class="combo tap">&amp;</text>
 </g>
 <g class="combo combopos-27">
-<rect rx="6" ry="6" x="647" y="23" width="26" height="26" class="combo"/>
-<use href="#phosphor:fill/backspace" xlink:href="#phosphor:fill/backspace" x="653" y="29" height="14" width="14.0" class="combo tap glyph phosphor:fill/backspace"/>
+<rect rx="6" ry="6" x="709" y="52" width="26" height="26" class="combo"/>
+<use href="#phosphor:fill/backspace" xlink:href="#phosphor:fill/backspace" x="715" y="58" height="14" width="14.0" class="combo tap glyph phosphor:fill/backspace"/>
 </g>
 <g class="combo combopos-28">
 <rect rx="6" ry="6" x="164" y="79" width="26" height="26" class="combo"/>
 <text x="177" y="92" class="combo tap">?</text>
+</g>
+<g class="combo combopos-29">
+<rect rx="6" ry="6" x="587" y="22" width="26" height="26" class="combo"/>
+<use href="#mdi:keyboard-space" xlink:href="#mdi:keyboard-space" x="593" y="28" height="14" width="14.0" class="combo tap glyph mdi:keyboard-space"/>
 </g>
 </g>
 </g>
@@ -1053,8 +1061,8 @@ rect.key:only-child {
 <text x="320" y="132" class="combo tap">~</text>
 </g>
 <g class="combo combopos-12">
-<rect rx="6" ry="6" x="279" y="32" width="26" height="26" class="combo"/>
-<text x="292" y="45" class="combo tap">^</text>
+<rect rx="6" ry="6" x="531" y="88" width="26" height="26" class="combo"/>
+<text x="544" y="101" class="combo tap">^</text>
 </g>
 <g class="combo combopos-13">
 <rect rx="6" ry="6" x="503" y="119" width="26" height="26" class="combo"/>
@@ -1069,8 +1077,8 @@ rect.key:only-child {
 <text x="572" y="126" class="combo tap">-</text>
 </g>
 <g class="combo combopos-16">
-<rect rx="6" ry="6" x="587" y="22" width="26" height="26" class="combo"/>
-<use href="#phosphor:regular/backspace" xlink:href="#phosphor:regular/backspace" x="593" y="28" height="14" width="14.0" class="combo tap glyph phosphor:regular/backspace"/>
+<rect rx="6" ry="6" x="647" y="23" width="26" height="26" class="combo"/>
+<use href="#phosphor:regular/backspace" xlink:href="#phosphor:regular/backspace" x="653" y="29" height="14" width="14.0" class="combo tap glyph phosphor:regular/backspace"/>
 </g>
 <g class="combo combopos-17">
 <rect rx="6" ry="6" x="615" y="43" width="26" height="26" class="combo"/>
@@ -1109,16 +1117,20 @@ rect.key:only-child {
 <text x="236" y="35" class="combo tap">⇥</text>
 </g>
 <g class="combo combopos-26">
-<rect rx="6" ry="6" x="531" y="32" width="26" height="26" class="combo"/>
-<text x="544" y="45" class="combo tap">&amp;</text>
+<rect rx="6" ry="6" x="279" y="88" width="26" height="26" class="combo"/>
+<text x="292" y="101" class="combo tap">&amp;</text>
 </g>
 <g class="combo combopos-27">
-<rect rx="6" ry="6" x="647" y="23" width="26" height="26" class="combo"/>
-<use href="#phosphor:fill/backspace" xlink:href="#phosphor:fill/backspace" x="653" y="29" height="14" width="14.0" class="combo tap glyph phosphor:fill/backspace"/>
+<rect rx="6" ry="6" x="709" y="52" width="26" height="26" class="combo"/>
+<use href="#phosphor:fill/backspace" xlink:href="#phosphor:fill/backspace" x="715" y="58" height="14" width="14.0" class="combo tap glyph phosphor:fill/backspace"/>
 </g>
 <g class="combo combopos-28">
 <rect rx="6" ry="6" x="164" y="79" width="26" height="26" class="combo"/>
 <text x="177" y="92" class="combo tap">?</text>
+</g>
+<g class="combo combopos-29">
+<rect rx="6" ry="6" x="587" y="22" width="26" height="26" class="combo"/>
+<use href="#mdi:keyboard-space" xlink:href="#mdi:keyboard-space" x="593" y="28" height="14" width="14.0" class="combo tap glyph mdi:keyboard-space"/>
 </g>
 </g>
 </g>
