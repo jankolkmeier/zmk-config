@@ -134,7 +134,7 @@ int zmk_widget_dongle_battery_status_init(struct zmk_widget_dongle_battery_statu
         lv_obj_t *image_canvas = lv_canvas_create(widget->obj);
         //lv_obj_t *battery_label = lv_label_create(widget->obj);
 
-        lv_canvas_set_buffer(image_canvas, battery_image_buffer[i], BAR_HEIGHT, BAR_WIDTH, LV_COLOR_FORMAT_L8);
+        lv_canvas_set_buffer(image_canvas, battery_image_buffer[i], BAR_WIDTH, BAR_HEIGHT, LV_COLOR_FORMAT_L8);
 
         //lv_obj_align(image_canvas, LV_ALIGN_TOP_RIGHT, 0, i * 10);
         lv_obj_align(image_canvas, LV_ALIGN_TOP_LEFT, 0, i * BAR_HEIGHT);
