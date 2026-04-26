@@ -137,7 +137,7 @@ int zmk_widget_dongle_battery_status_init(struct zmk_widget_dongle_battery_statu
         lv_canvas_set_buffer(image_canvas, battery_image_buffer[i], BAR_HEIGHT, BAR_WIDTH, LV_COLOR_FORMAT_L8);
 
         //lv_obj_align(image_canvas, LV_ALIGN_TOP_RIGHT, 0, i * 10);
-        lv_obj_align(image_canvas, LV_ALIGN_TOP_LEFT, i * (BAR_HEIGHT + 4), 0);
+        lv_obj_align(image_canvas, LV_ALIGN_TOP_LEFT, 0, i * BAR_HEIGHT);
         //lv_obj_align_to(battery_label, image_canvas, LV_ALIGN_OUT_LEFT_MID, 0, 0);
 
         //lv_obj_add_flag(image_canvas, LV_OBJ_FLAG_HIDDEN);
