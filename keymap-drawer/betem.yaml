@@ -35,12 +35,12 @@ layers:
   - ','
   - .
   - ''''
-  - F17
+  - Alt
   - ⇧
   - {t: '$$mdi:keyboard-space$$', h: NUM}
   - {t: '$$mdi:keyboard-space$$', h: NAV}
   - ⇧
-  - F18
+  - ▴
   NUM:
   - ''
   - F10

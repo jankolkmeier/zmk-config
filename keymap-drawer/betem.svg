@@ -385,7 +385,7 @@ svg.keymap {
 </g>
 <g transform="translate(250, 224)" class="key keypos-34">
 <rect rx="6" ry="6" x="-26" y="-26" width="52" height="52" class="key"/>
-<text x="0" y="0" class="key tap">F17</text>
+<text x="0" y="0" class="key tap">Alt</text>
 </g>
 <g transform="translate(311, 228) rotate(6.0)" class="key keypos-35">
 <rect rx="6" ry="6" x="-26" y="-26" width="52" height="52" class="key"/>
@@ -409,7 +409,7 @@ svg.keymap {
 </g>
 <g transform="translate(586, 224)" class="key keypos-39">
 <rect rx="6" ry="6" x="-26" y="-26" width="52" height="52" class="key"/>
-<text x="0" y="0" class="key tap">F18</text>
+<text x="0" y="0" class="key tap">▴</text>
 </g>
 <g class="combo combopos-0">
 <rect rx="6" ry="6" x="195" y="43" width="26" height="26" class="combo"/>
