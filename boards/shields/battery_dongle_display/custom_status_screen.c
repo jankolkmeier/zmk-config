@@ -34,7 +34,7 @@ lv_obj_t *zmk_display_status_screen() {
     zmk_widget_dongle_battery_status_init(&dongle_battery_status_widget, screen);
     lv_obj_t *bat = zmk_widget_dongle_battery_status_obj(&dongle_battery_status_widget);
     lv_obj_set_size(bat, LV_PCT(100), LV_PCT(100));
-    lv_obj_align(bat, LV_ALIGN_LEFT, 0, 0);
+    //lv_obj_align(bat, LV_ALIGN_CENTER, 0, 0);
 #endif
 
     return screen;
