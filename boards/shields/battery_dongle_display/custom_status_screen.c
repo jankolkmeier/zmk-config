@@ -6,12 +6,6 @@
 
 #include "custom_status_screen.h"
 #include "widgets/battery_status.h"
-#include "widgets/modifiers.h"
-#include "widgets/bongo_cat.h"
-#include "widgets/layer_status.h"
-#include "widgets/output_status.h"
-#include "widgets/hid_indicators.h"
-#include "widgets/wpm_status.h"
 
 #include <zephyr/logging/log.h>
 LOG_MODULE_DECLARE(zmk, CONFIG_ZMK_LOG_LEVEL);
@@ -24,6 +18,32 @@ static struct zmk_widget_dongle_battery_status dongle_battery_status_widget;
 
 lv_style_t global_style;
 
+lv_obj_t *zmk_display_status_screen() {
+    lv_obj_t *screen = lv_obj_create(NULL);
+
+    // Bright background (hard to miss)
+    lv_obj_set_style_bg_color(screen, lv_color_black(), LV_PART_MAIN);
+    lv_obj_set_style_bg_opa(screen, LV_OPA_COVER, LV_PART_MAIN);
+
+    // Create a huge white rectangle covering most of screen
+    lv_obj_t *rect = lv_obj_create(screen);
+    lv_obj_set_size(rect, LV_PCT(100), LV_PCT(100));
+    lv_obj_center(rect);
+
+    lv_obj_set_style_bg_color(rect, lv_color_white(), LV_PART_MAIN);
+    lv_obj_set_style_border_width(rect, 0, LV_PART_MAIN);
+
+    // Add a giant label on top
+    lv_obj_t *label = lv_label_create(screen);
+    lv_label_set_text(label, "TEST");
+    lv_obj_set_style_text_color(label, lv_color_black(), 0);
+    lv_obj_set_style_text_font(label, &lv_font_montserrat_28, 0); // big font if available
+    lv_obj_center(label);
+
+    return screen;
+}
+
+/*
 lv_obj_t *zmk_display_status_screen() {
     lv_obj_t *screen;
 
@@ -43,8 +63,12 @@ lv_obj_t *zmk_display_status_screen() {
 
 #if IS_ENABLED(CONFIG_ZMK_BATTERY)
     zmk_widget_dongle_battery_status_init(&dongle_battery_status_widget, screen);
-    lv_obj_align(zmk_widget_dongle_battery_status_obj(&dongle_battery_status_widget), LV_ALIGN_TOP_RIGHT, 0, 0);
+
+    lv_obj_t *bat = zmk_widget_dongle_battery_status_obj(&dongle_battery_status_widget);
+    lv_obj_set_size(bat, LV_PCT(100), LV_PCT(100));
+    lv_obj_align(bat, LV_ALIGN_CENTER, 0, 0);
 #endif
 
     return screen;
 }
+*/

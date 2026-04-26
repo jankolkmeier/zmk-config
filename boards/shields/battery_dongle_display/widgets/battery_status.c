@@ -22,7 +22,7 @@ LOG_MODULE_DECLARE(zmk, CONFIG_ZMK_LOG_LEVEL);
 
 #define SOURCE_OFFSET 0
 
-#define BAR_WIDTH 16
+#define BAR_WIDTH 14
 #define BAR_HEIGHT 64
 
 #ifndef ZMK_SPLIT_BLE_PERIPHERAL_COUNT
@@ -30,7 +30,7 @@ LOG_MODULE_DECLARE(zmk, CONFIG_ZMK_LOG_LEVEL);
 #endif
 
 //#define BUFFER_SIZE LV_CANVAS_BUF_SIZE(5, 8, LV_COLOR_FORMAT_GET_BPP(LV_COLOR_FORMAT_L8), LV_DRAW_BUF_STRIDE_ALIGN)
-#define BUFFER_SIZE LV_CANVAS_BUF_SIZE(BAR_WIDTH, BAR_HEIGHT, LV_COLOR_FORMAT_GET_BPP(LV_COLOR_FORMAT_L8), LV_DRAW_BUF_STRIDE_ALIGN)
+#define BUFFER_SIZE LV_CANVAS_BUF_SIZE(BAR_HEIGHT, BAR_WIDTH, LV_COLOR_FORMAT_GET_BPP(LV_COLOR_FORMAT_L8), LV_DRAW_BUF_STRIDE_ALIGN)
 
 static sys_slist_t widgets = SYS_SLIST_STATIC_INIT(&widgets);
 
@@ -69,10 +69,10 @@ static void draw_battery(lv_obj_t *canvas, uint8_t level, bool usb_present) {
     int fill_height = (BAR_HEIGHT * level) / 100;
 
     lv_area_t fill_area = {
-        .x1 = 0,
-        .y1 = BAR_HEIGHT - fill_height,
-        .x2 = BAR_WIDTH - 1,
-        .y2 = BAR_HEIGHT - 1
+        .x1 = BAR_HEIGHT - fill_height,
+        .y1 = 0,
+        .x2 = BAR_HEIGHT - 1,
+        .y2 = BAR_WIDTH - 1
     };
 
     lv_draw_rect(&layer, &dsc, &fill_area);
@@ -132,15 +132,16 @@ int zmk_widget_dongle_battery_status_init(struct zmk_widget_dongle_battery_statu
 
     for (int i = 0; i < ZMK_SPLIT_BLE_PERIPHERAL_COUNT + SOURCE_OFFSET; i++) {
         lv_obj_t *image_canvas = lv_canvas_create(widget->obj);
-        lv_obj_t *battery_label = lv_label_create(widget->obj);
+        //lv_obj_t *battery_label = lv_label_create(widget->obj);
 
-        lv_canvas_set_buffer(image_canvas, battery_image_buffer[i], BAR_WIDTH, BAR_HEIGHT, LV_COLOR_FORMAT_L8);
+        lv_canvas_set_buffer(image_canvas, battery_image_buffer[i], BAR_HEIGHT, BAR_WIDTH, LV_COLOR_FORMAT_L8);
 
-        lv_obj_align(image_canvas, LV_ALIGN_TOP_RIGHT, 0, i * 10);
-        lv_obj_align_to(battery_label, image_canvas, LV_ALIGN_OUT_LEFT_MID, 0, 0);
+        //lv_obj_align(image_canvas, LV_ALIGN_TOP_RIGHT, 0, i * 10);
+        lv_obj_align(image_canvas, LV_ALIGN_TOP_RIGHT, i * (BAR_HEIGHT + 4), 0);
+        //lv_obj_align_to(battery_label, image_canvas, LV_ALIGN_OUT_LEFT_MID, 0, 0);
 
         lv_obj_add_flag(image_canvas, LV_OBJ_FLAG_HIDDEN);
-        lv_obj_add_flag(battery_label, LV_OBJ_FLAG_HIDDEN);
+        //lv_obj_add_flag(battery_label, LV_OBJ_FLAG_HIDDEN);
         
         battery_objects[i] = (struct battery_object){
             .symbol = image_canvas,
