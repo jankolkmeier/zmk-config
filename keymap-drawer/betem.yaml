@@ -1,7 +1,7 @@
 layout: {zmk_keyboard: betem}
 layers:
   BAS:
-  - F13
+  - ▲
   - Q
   - W
   - E
@@ -12,7 +12,7 @@ layers:
   - I
   - O
   - P
-  - F14
+  - $$phosphor:regular/backspace$$
   - ⇧
   - A
   - {t: S, h: AltGr}
