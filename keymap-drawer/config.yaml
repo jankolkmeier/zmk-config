@@ -97,6 +97,9 @@ draw_config:
     .layer-NUM .combo, .layer-NAV .combo {
       display: none;
     }
+    rect.key:only-child {
+      opacity: 0.5;
+    }
   footer_text: ""
   shrink_wide_legends: 5
   style_layer_activators: true
