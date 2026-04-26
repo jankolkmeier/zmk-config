@@ -150,8 +150,8 @@ parse_config:
     DOWN: ↓
     TAB: ⇥
     ESC: $$fa:solid/circle-xmark$$
-    BACKSPACE: $$fa:regular/delete-right$$
-    BSPC: $$fa:regular/delete-right$$
+    BACKSPACE: $$fa:regular/delete-left$$
+    BSPC: $$fa:regular/delete-left$$
     DELETE: $$fa:solid/delete-left$$
     DEL: $$fa:solid/delete-left$$
     RET: ⮐
