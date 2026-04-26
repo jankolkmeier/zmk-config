@@ -32,5 +32,5 @@ include:
 #    shield: betem_dongle
 #    artifact-name: betem_dongle
   - board: xiao_ble//zmk
-    shield: betem_dongle dongle_display
+    shield: betem_dongle battery_dongle_display
     artifact-name: betem_dongle_display

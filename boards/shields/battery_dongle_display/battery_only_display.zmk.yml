@@ -1,0 +1,7 @@
+file_format: "1"
+id: battery_dongle_display
+name: battery_dongle_display
+type: shield
+url: https://github.com/englmaxi/zmk-dongle-display
+requires: 
+  - i2c_oled
