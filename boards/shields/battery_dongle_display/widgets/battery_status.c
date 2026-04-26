@@ -66,13 +66,14 @@ static void draw_battery(lv_obj_t *canvas, uint8_t level, bool usb_present) {
     }
 
     // Calculate fill height
-    int fill_width = ((BAR_WIDTH-4) * level) / 100;
+    //int fill_width = ((BAR_WIDTH-4) * level) / 100;
+    int fill_width = ((BAR_WIDTH-4) * 100) / 100;
 
     lv_area_t fill_area = {
         .x1 = 2,
         .y1 = 2,
         .x2 = fill_width,
-        .y2 = BAR_HEIGHT - 4
+        .y2 = BAR_HEIGHT - 3
     };
 
     lv_draw_rect(&layer, &dsc, &fill_area);
@@ -134,7 +135,7 @@ int zmk_widget_dongle_battery_status_init(struct zmk_widget_dongle_battery_statu
         lv_obj_t *image_canvas = lv_canvas_create(widget->obj);
         //lv_obj_t *battery_label = lv_label_create(widget->obj);
 
-        lv_canvas_set_buffer(image_canvas, battery_image_buffer[i], BAR_WIDTH, BAR_HEIGHT, LV_COLOR_FORMAT_L8);
+        lv_canvas_set_buffer(image_canvas, battery_image_buffer[i], BAR_WIDTH, BAR_HEIGHTu, LV_COLOR_FORMAT_L8);
 
         //lv_obj_align(image_canvas, LV_ALIGN_TOP_RIGHT, 0, i * 10);
         lv_obj_align(image_canvas, LV_ALIGN_TOP_LEFT, 0, i * BAR_HEIGHT);
