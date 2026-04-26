@@ -29,9 +29,6 @@ LOG_MODULE_DECLARE(zmk, CONFIG_ZMK_LOG_LEVEL);
 #  define ZMK_SPLIT_BLE_PERIPHERAL_COUNT 0
 #endif
 
-static struct k_timer demo_timer;
-static uint8_t demo_level = 0;
-
 //#define BUFFER_SIZE LV_CANVAS_BUF_SIZE(5, 8, LV_COLOR_FORMAT_GET_BPP(LV_COLOR_FORMAT_L8), LV_DRAW_BUF_STRIDE_ALIGN)
 #define BUFFER_SIZE LV_CANVAS_BUF_SIZE(BAR_WIDTH, BAR_HEIGHT, LV_COLOR_FORMAT_GET_BPP(LV_COLOR_FORMAT_L8), LV_DRAW_BUF_STRIDE_ALIGN)
 
@@ -49,31 +46,6 @@ struct battery_object {
 } battery_objects[ZMK_SPLIT_BLE_PERIPHERAL_COUNT + SOURCE_OFFSET];
     
 static lv_color_t battery_image_buffer[ZMK_SPLIT_BLE_PERIPHERAL_COUNT + SOURCE_OFFSET][BUFFER_SIZE];
-
-static void demo_timer_handler(struct k_timer *timer) {
-    demo_level += 5;
-    if (demo_level > 100) {
-        demo_level = 0;
-    }
-
-    struct battery_state state = {
-        .source = 0,          // first bar
-        .level = demo_level,
-        .usb_present = false,
-    };
-    battery_status_update_cb(state);
-
-#if ZMK_SPLIT_BLE_PERIPHERAL_COUNT > 1
-    // second bar (optional: offset or invert to see both clearly)
-    struct battery_state state2 = {
-        .source = 1,
-        .level = 100 - demo_level,
-        .usb_present = false,
-    };
-    battery_status_update_cb(state2);
-#endif
-}
-
 
 static void draw_battery(lv_obj_t *canvas, uint8_t level, bool usb_present) {
     lv_canvas_fill_bg(canvas, lv_color_black(), LV_OPA_COVER);
@@ -94,12 +66,12 @@ static void draw_battery(lv_obj_t *canvas, uint8_t level, bool usb_present) {
     }
 
     // Calculate fill height
-    int fill_width = (BAR_WIDTH * level) / 100;
+    int fill_width = ((BAR_WIDTH-4) * level) / 100;
 
     lv_area_t fill_area = {
         .x1 = 2,
         .y1 = 2,
-        .x2 = (BAR_WIDTH-2) - fill_width,
+        .x2 = fill_width,
         .y2 = BAR_HEIGHT - 4
     };
 
@@ -180,9 +152,6 @@ int zmk_widget_dongle_battery_status_init(struct zmk_widget_dongle_battery_statu
     sys_slist_append(&widgets, &widget->node);
 
     widget_dongle_battery_status_init();
-
-    k_timer_init(&demo_timer, demo_timer_handler, NULL);
-    k_timer_start(&demo_timer, K_MSEC(100), K_MSEC(100));
 
     return 0;
 }
