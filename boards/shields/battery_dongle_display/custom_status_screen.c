@@ -10,8 +10,6 @@
 #include <zephyr/logging/log.h>
 LOG_MODULE_DECLARE(zmk, CONFIG_ZMK_LOG_LEVEL);
 
-static struct zmk_widget_output_status output_status_widget;
-
 #if IS_ENABLED(CONFIG_ZMK_BATTERY)
 static struct zmk_widget_dongle_battery_status dongle_battery_status_widget;
 #endif
