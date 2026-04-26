@@ -12,8 +12,8 @@ layers:
   - I
   - O
   - P
-  - F15
   - F14
+  - ⇧
   - A
   - {t: S, h: AltGr}
   - {t: D, h: Alt}
