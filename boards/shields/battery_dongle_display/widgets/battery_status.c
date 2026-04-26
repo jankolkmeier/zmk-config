@@ -67,12 +67,12 @@ static void draw_battery(lv_obj_t *canvas, uint8_t level, bool usb_present) {
 
     // Calculate fill height
     //int fill_width = ((BAR_WIDTH-4) * level) / 100;
-    int fill_width = ((BAR_WIDTH-4) * 100) / 100;
+    int fill_width = ((BAR_WIDTH-3) * 100) / 100;
 
     lv_area_t fill_area = {
-        .x1 = 2,
+        .x1 = 2 + fill_width,
         .y1 = 2,
-        .x2 = fill_width,
+        .x2 = BAR_WIDTH - 3,
         .y2 = BAR_HEIGHT - 3
     };
 
