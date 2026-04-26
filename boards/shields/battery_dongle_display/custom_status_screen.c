@@ -22,26 +22,6 @@ static struct zmk_widget_output_status output_status_widget;
 static struct zmk_widget_dongle_battery_status dongle_battery_status_widget;
 #endif
 
-#if IS_ENABLED(CONFIG_ZMK_DONGLE_DISPLAY_LAYER)
-static struct zmk_widget_layer_status layer_status_widget;
-#endif
-
-#if IS_ENABLED(CONFIG_ZMK_DONGLE_DISPLAY_MODIFIERS)
-static struct zmk_widget_modifiers modifiers_widget;
-#if IS_ENABLED(CONFIG_ZMK_HID_INDICATORS)
-static struct zmk_widget_hid_indicators hid_indicators_widget;
-#endif
-
-#endif
-
-#if IS_ENABLED(CONFIG_ZMK_DONGLE_DISPLAY_BONGO_CAT)
-static struct zmk_widget_bongo_cat bongo_cat_widget;
-#endif
-
-#if IS_ENABLED(CONFIG_ZMK_DONGLE_DISPLAY_WPM)
-static struct zmk_widget_wpm_status wpm_status_widget;
-#endif
-
 lv_style_t global_style;
 
 lv_obj_t *zmk_display_status_screen() {
