@@ -145,7 +145,7 @@
 
         c_caret {
             bindings = <&kp CARET>;
-            key-positions = <4 5>;
+            key-positions = <18 19>;
         };
 
         c_under {
@@ -165,7 +165,7 @@
 
         c_bspc {
             bindings = <&kp BACKSPACE>;
-            key-positions = <8 7>;
+            key-positions = <8 9>;
         };
 
         c_star {
@@ -215,17 +215,22 @@
 
         c_amp {
             bindings = <&kp AMPS>;
-            key-positions = <7 6>;
+            key-positions = <16 17>;
         };
 
         c_del {
             bindings = <&kp DEL>;
-            key-positions = <8 9>;
+            key-positions = <9 10>;
         };
 
         c_question {
             bindings = <&kp QUESTION>;
             key-positions = <14 15>;
+        };
+
+        c_space {
+            bindings = <&kp SPACE>;
+            key-positions = <7 8>;
         };
     };
 
