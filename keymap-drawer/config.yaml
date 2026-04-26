@@ -149,6 +149,7 @@ parse_config:
     TAB: $$phosphor:bold/arrow-line-right$$
     ESC: $$phosphor:bold/x-circle$$
     BACKSPACE: $$phosphor:bold/backspace$$
+    DELETE: $$phosphor:fill/backspace$$
     RET: $$phosphor:bold/key-return$$
     C_MUTE: $$phosphor:bold/speaker-slash$$
     C_VOL_UP: $$phosphor:bold/speaker-high$$
@@ -229,10 +230,6 @@ parse_config:
     NUHS: '#'
     TILDE2: '~'
   zmk_combos:
-    c_bspc:
-      k: $$phosphor:bold/backspace$$
-    c_esc:
-      k: $$phosphor:bold/x-circle$$
     c_cut:
       k: $$phosphor:bold/file-x$$
       a: bottom
@@ -241,7 +238,5 @@ parse_config:
       k: $$phosphor:bold/file-plus$$
     c_cpy:
       k: $$phosphor:bold/files$$
-    c_tab:
-      k: $$phosphor:bold/arrow-line-right$$
   zmk_preamble: '#define KEYMAP_DRAWER'
   zmk_additional_includes: []
